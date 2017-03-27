@@ -36,7 +36,7 @@ selecionar o período que pretende consultar e clicar no botão **CONSULTAR**;
 | b) | 	Exames                                           |
 | b) |  Total dias espera                                |
 
-<p id="tERealizacaoExames"></p>
+<p id="tEAlteraExames"></p>
 
 ## 11.2. Preencher/Alterar Tempos de Espera
 O utilizador pode preencher ou alterar o *Total dias de espera* após navegar para o separador **Tempos de Espera**  ([](#figTempoEspera)), selecionar o período que pretende preencher ou alterar e clicar no botão **PREENCHER/ALTERAR**.

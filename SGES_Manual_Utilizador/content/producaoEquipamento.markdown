@@ -16,7 +16,7 @@ O utilizador pode consultar a produção interna e para exterior dos equipamento
 
 <p class="caption" id="figProdEquipamento"> Fig. 24 -Produção Equipamentos</p>
 
-<p id="producaoEquipamento"></p>
+<p id="consultaProdEquipamento"></p>
 
 ## 9.1.Consultar Produção Equipamentos
 O utilizador pode consultar a produção dos equipamentos após navegar para o subseparador de produção *Interna* ou *Para Exterior* do separador **Produção Equipamentos** ([](#figProdEquipamento)), selecionar o ano que pretende consultar e clicar no botão **CONSULTAR**.
@@ -34,7 +34,7 @@ Na consulta será apresentada uma página separada por áreas de afetação dos 
 | c) | Indicador                                            |
 | d) | Total Exames                                         |
 
-<p id="producaoEquipamento"></p>
+<p id="alteraProdEquipamento"></p>
 
 ## 9.2.Preencher/Alterar Produção Equipamentos
 

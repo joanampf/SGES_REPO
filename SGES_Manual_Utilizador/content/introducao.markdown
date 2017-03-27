@@ -114,9 +114,9 @@ Caso o utilizador saiba as suas credenciais, inserir os campos obrigatórios, e 
 
 Caso contrário, deverá clicar em **Recuperar Senha**, inserir os campos obrigatórios, e clicar em **Enviar**.
 
-|    |  Campos Obrigatórios [](#figLoginRecuperacao).  |           
-|----|----------------------------------------|
-| a) | e-mail associado á conta da aplicação  |  
+|    |  Campos Obrigatórios [](#figLoginRecuperacao).     |           
+|----|----------------------------------------------------|
+| a) | nome de utilizador associado á aplicação  |  
 
 ![figLoginRecuperacao](img/pages/5_1_2.jpg)
 
@@ -154,7 +154,7 @@ Após o preenchimento dos campos, o utilizador deverá finalizar a alteração c
 
 ## 5.3. Página de Pesquisa
 
-A aplicação tem uma página onde podem ser efetuadas pesquisa de entidades ou estabelecimentos, que será a página de entrada de alguns perfis.
+A aplicação tem uma página onde podem ser efetuadas pesquisas de entidades ou estabelecimentos, que será a página de entrada de alguns perfis.
 Caso pretenda pesquisar por entidades, o utilizador deverá selecionar **Entidade** no campo *Pesquisar por:* presente no formulário e preencher pelo menos 3 campos de pesquisa. Em seguida clicar em **Pesquisar** para executar a pesquisa.
 
 |   |  Campos Obrigatórios [](#figPesquisaEntidade)  |           
@@ -180,12 +180,13 @@ Na próxima imagem ([](#figPesquisaExEntidade)) podemos observar o resultado da 
 Clicando num dos registos da lista, o utilizador pode clicar nas opções que se encontram no final da tabela.
 Se a lista de resultados for superior a 10 registos, surgirá no canto superior da tabela a navegação para a(s) próxima(s) página(s);
 
-
-## 5.4. Gestão de utilizadores
 <p id="gestaoUtilizadores"></p>
 
-O utilizador, se tiver permissões, pode criar/gerir utilizadores para atualizarem os diferentes paineis no SGES na entidade respectiva.
-Será possivel criar utilizadores com os seguintes perfis:
+## 5.4. Gestão de utilizadores
+
+O utilizador Administrador de Entidade, pode criar/gerir utilizadores para atualizarem os diferentes paineis no SGES na entidade respectiva.
+
+* **ADMIN_ENTIDADE** - Este tipo de utilizador apenas poderá consultar os dados no SGES. Caberá a ele validar os dados existentes referentes à Entidade, Estabelecimentos e Equipamentos (consultar secção de Validações). Será tambem o responsável pela criação de utilizadores com os seguintes perfis:
 
 * **SGES_ENTIDADE** - Os utilizadores poderão executar as operações sobre a *entidade* assim como criar e alterar *estabelecimentos*.
 
@@ -215,8 +216,8 @@ Para a criação de utilizador deve ser preenchido os seguintes campos obrigató
 | c) |  Data de nascimento              ||
 | d) |  Sexo                            ||
 | e) |  E-mail                          ||
-| f) |  Perfil                          | SGES_ENTIDADE|
-| |                                     | SGES_EQUIPAMENTOS|
+| f) |  Perfil                          |SGES_ENTIDADE|
+| |                                     |SGES_EQUIPAMENTOS|
 
 No final da edição o utilizador para gravar as alterações deve clicar no botão **GUARDAR**. Após clicar irá ser notificado com o resultado da operação.
 
