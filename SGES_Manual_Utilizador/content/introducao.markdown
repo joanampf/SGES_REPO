@@ -5,13 +5,13 @@ title: "Introdução"
 
 
 # 1.Sobre este Manual
-Este manual descreve o modo de funcionamento do sistema, apresentando os respectivos ecrãs, sua sequência, modo de preenchimento e as regras de negócio que lhe estão subjacentes. 
+Este manual descreve o modo de funcionamento do sistema, apresentando os respetivos ecrãs, sua sequência, modo de preenchimento e as regras de negócio que lhe estão subjacentes. 
 Será organizado:
 
  - “Sobre este Manual”, o capítulo atual que descreve o conteúdo do
    manual, qual a sua organização e como pode ser consultado; 
- - “Tabela de  Acrónimos”, que contêm todos os acrónimos usados ao longo deste manual e que permitirá familiarizar desde já o utilizador com determinadas abreviaturas apresentadas na aplicação; 
- - “Introdução”,   onde é apresentado o sistema SGES, qual o seu contexto e propósito,  incluindo os seguintes subcapítulos:
+ - “Tabela de Acrónimos”, que contêm todos os acrónimos usados ao longo deste manual e que permitirá familiarizar desde já o utilizador com determinadas abreviaturas apresentadas na aplicação; 
+ - “Introdução”,  onde é apresentado o sistema SGES, qual o seu contexto e propósito,  incluindo os seguintes subcapítulos:
 	 * “Objetivos do Sistema” onde se descrevem os propósitos da utilização da aplicação informática;
 	 * “Conceitos básicos” onde se explicam os principais conceitos que suportam a aplicação, concretamente conceitos tipo “navegação" no sistema, explicando o que se entende por isso;
  	 * “Instruções de acesso”, onde é descrito como o utilizador pode aceder ao sistema
@@ -86,7 +86,7 @@ Para auxiliar as validações existem 4 tipos de mensagens:
 
 No cabeçalho das páginas do **SGES** existe um conjunto de dados que serve para informação/contextualização do utilizador. 
 
-Aparece na 1ªlinha o perfil do utilizador e caso este pertenca a uma entidade, o nome dessa. Na 2ª linha aparece o nome do utilizador.
+Aparece na 1ªlinha o perfil do utilizador e caso este pertença a uma entidade, o nome dessa. Na 2ª linha aparece o nome do utilizador.
 
 
 Ao lado do nome de utilizador, encontra-se o botão das opções avançadas ![logo](img/definicao.png). 
@@ -142,9 +142,9 @@ Após clicar em **Alterar Password** é lhe apresentada uma página de alteraç�
 
 |    |  Campos Obrigatórios [](#figAlteracaoSenha)  |           
 |----|----------------------------------------|
-| a) |  senha utilizada atualmente            | 
-| b) |  nova senha pretendida                 |  
-| c) |  repetição da senha pretendida         |
+| a) |  Senha utilizada atualmente            | 
+| b) |  Nova senha pretendida                 |  
+| c) |  Repetição da senha pretendida         |
 
 Após o preenchimento dos campos, o utilizador deverá finalizar a alteração clicando em **Alterar**.
 
@@ -186,7 +186,7 @@ Se a lista de resultados for superior a 10 registos, surgirá no canto superior 
 
 O utilizador Administrador de Entidade, pode criar/gerir utilizadores para atualizarem os diferentes paineis no SGES na entidade respectiva.
 
-* **ADMIN_ENTIDADE** - Este tipo de utilizador apenas poderá consultar os dados no SGES. Caberá a ele validar os dados existentes referentes à Entidade, Estabelecimentos e Equipamentos (consultar secção de Validações). Será tambem o responsável pela criação de utilizadores com os seguintes perfis:
+* **ADMIN_ENTIDADE** - Este tipo de utilizador apenas poderá consultar os dados no SGES. Caberá a ele validar os dados existentes referentes à Entidade, Estabelecimentos e Equipamentos (consultar secção [13. Validações](#validacao)). Será também o responsável pela criação de utilizadores com os seguintes perfis:
 
 * **SGES_ENTIDADE** - Os utilizadores poderão executar as operações sobre a *entidade* assim como criar e alterar *estabelecimentos*.
 
