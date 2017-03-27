@@ -54,8 +54,8 @@ font-family:"Calibri","sans-serif";line-height:  150%;text-align:  justify;}
  * Also: hot pink! (or customize the background color to match your design)
  */
 
-::-moz-selection { background: #fe57a1; color: #fff; text-shadow: none; }
-::selection { background: #fe57a1; color: #fff; text-shadow: none; }
+::-moz-selection { background: #808080; color: #fff; text-shadow: none; }
+::selection { background: #808080; color: #fff; text-shadow: none; }
 
 
 
@@ -316,7 +316,8 @@ text-align: center;
 display:block;
  margin-left: auto;
  margin-right: auto;
- margin-top: 10;
+ margin-top: 10px;
+ margin-bottom: 20px;
  width:80%
 }
 
