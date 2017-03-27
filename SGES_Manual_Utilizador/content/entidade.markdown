@@ -17,7 +17,7 @@ Para poder criar uma entidade o utilizador deve preencher,pelo menos, os campos 
 |  | Campos Obrigatórios ([](#figCamposPesquisaEntidade))               |   |   |   |
 |----|--------------------------------------------|---|---|---|
 | a) | Campo de identificação do tipo de pesquisa |   |   |   |
-| b) | NIPC da entidade a criar |   |   |   |
+| b) | NIPC da entidade a criar |   |    |   |
 
 
 
