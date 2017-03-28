@@ -5,17 +5,16 @@ title: "Introdução"
 
 
 # 1.Sobre este Manual
-Este manual descreve o modo de funcionamento do sistema, apresentando os respetivos ecrãs, sua sequência, modo de preenchimento e as regras de negócio que lhe estão subjacentes. 
+Este manual descreve o modo de funcionamento do sistema, apresentando os respetivos ecrãs, a sua sequência, o modo de preenchimento e as regras de negócio que lhe estão subjacentes. 
 Será organizado:
 
- - “Sobre este Manual”, o capítulo atual que descreve o conteúdo do
-   manual, qual a sua organização e como pode ser consultado; 
- - “Tabela de Acrónimos”, que contêm todos os acrónimos usados ao longo deste manual e que permitirá familiarizar desde já o utilizador com determinadas abreviaturas apresentadas na aplicação; 
- - “Introdução”,  onde é apresentado o sistema SGES, qual o seu contexto e propósito,  incluindo os seguintes subcapítulos:
+ - *Sobre este Manual*, o capítulo atual que descreve o conteúdo do manual, qual a sua organização e como pode ser consultado; 
+ - *Tabela de Acrónimos*, que contêm todos os acrónimos usados ao longo deste manual e que permitirá familiarizar desde já o utilizador com determinadas abreviaturas apresentadas na aplicação; 
+ - *Introdução*,  onde é apresentado o sistema SGES, qual o seu contexto e propósito,  incluindo os seguintes subcapítulos:
 	 * “Objetivos do Sistema” onde se descrevem os propósitos da utilização da aplicação informática;
 	 * “Conceitos básicos” onde se explicam os principais conceitos que suportam a aplicação, concretamente conceitos tipo “navegação" no sistema, explicando o que se entende por isso;
  	 * “Instruções de acesso”, onde é descrito como o utilizador pode aceder ao sistema
-- “Sequências de menus”
+ - *Sequências de menus* onde o utilizador é guiado pelas funcionalidades da aplicação de modo a facilitar a sua utilização.
  
 
 # 2.Tabela de Acrónimos
@@ -42,10 +41,13 @@ A tabela seguinte está ordenada por ordem alfabética segundo os termos.
 
 |  Termo          |  Definição             |           
 |-----------------|------------------------|
-| Entidade        |   |  
-| Equipamento     |   |  
-| Estabelecimento |   |  
-| Instalações     |   |  
+| Entidade        |  Prestador de cuidados de saúde composto por um ou mais estabelecimentos. Este tem alguns conceitos importantes associados como a *Natureza Jurídica*, o *Tipo de Entidade* e o *Tipo de Entidade Jurídica* |  
+| Equipamento     |  Mecanismo de grande porte usado para realização de exames variados  |  
+| Estabelecimento | Parte integrante de uma entidade. Pode consistir num Consultório, um Hospital, um Laboratório ou numa Unidade Funcional|  
+| Instalações  | Espaço físico na qual a entidade exerce funções   |
+|Natureza Jurídica| Determina  regime jurídico em que a entidade se enquadra,  isto é a relação da entidade com o sistema de saúde (privada, publica, cooperativa, IPSS) |
+|Tipo Entidade Jurídica| Tipo de contrato celebrado entre a entidade e a Administração Publica (EPE, PPP, IP,SPA)||
+
 
 # 4.Introdução
 O Sistema de Gestão de Entidades de Saúde (*SGES*) é um projeto estruturante para o sistema de informação de saúde, promovendo a criação de um repositório central de Entidades de Saúde, fiável e permanentemente atualizado, a partilhar com todos os SI, eliminando a redundância de informação e promovendo a melhoria da qualidade dos dados.
