@@ -8,13 +8,13 @@ title: "Introdução"
 Este manual descreve o modo de funcionamento do sistema, apresentando os respetivos ecrãs, a sua sequência, o modo de preenchimento e as regras de negócio que lhe estão subjacentes. 
 Será organizado:
 
- - *Sobre este Manual*, o capítulo atual que descreve o conteúdo do manual, qual a sua organização e como pode ser consultado; 
- - *Tabela de Acrónimos*, que contêm todos os acrónimos usados ao longo deste manual e que permitirá familiarizar desde já o utilizador com determinadas abreviaturas apresentadas na aplicação; 
- - *Introdução*,  onde é apresentado o sistema SGES, qual o seu contexto e propósito,  incluindo os seguintes subcapítulos:
+ - **Sobre este Manual**, o capítulo atual que descreve o conteúdo do manual, qual a sua organização e como pode ser consultado; 
+ - **Tabela de Acrónimos**, que contêm todos os acrónimos usados ao longo deste manual e que permitirá familiarizar desde já o utilizador com determinadas abreviaturas apresentadas na aplicação; 
+ - **Introdução**,  onde é apresentado o sistema SGES, qual o seu contexto e propósito,  incluindo os seguintes subcapítulos:
 	 * “Objetivos do Sistema” onde se descrevem os propósitos da utilização da aplicação informática;
 	 * “Conceitos básicos” onde se explicam os principais conceitos que suportam a aplicação, concretamente conceitos tipo “navegação" no sistema, explicando o que se entende por isso;
  	 * “Instruções de acesso”, onde é descrito como o utilizador pode aceder ao sistema
- - *Sequências de menus* onde o utilizador é guiado pelas funcionalidades da aplicação de modo a facilitar a sua utilização.
+ - **Sequências de menus** onde o utilizador é guiado pelas funcionalidades da aplicação de modo a facilitar a sua utilização.
  
 
 # 2.Tabela de Acrónimos
