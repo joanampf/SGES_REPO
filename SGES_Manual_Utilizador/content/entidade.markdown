@@ -3,7 +3,6 @@ layout: default
 title: "Entidade"
 ---
 
-
 # 6.Entidades
 
 Este módulo permite a manipulação das entidades de acordo com as permissões de cada utilizador.
@@ -11,6 +10,7 @@ Este módulo permite a manipulação das entidades de acordo com as permissões 
 |  | Permissões               | 
 |----|--------------------------------------------|
 |**Funcionalidade** |**Perfil**|
+
 | Criar Entidade | ACSS |
 | Editar Entidade | ACSS, SGES_ENTIDADE |
 | Consultar Entidade | ACSS, SGES_ENTIDADE, SGES_EQUIPAMENTOS |
@@ -93,9 +93,9 @@ Após o registo dos dados deve clicar em **GUARDAR** para gravar a entidade. Ap�
 
 Existem duas possibilidades de Editar uma entidade no SGES:
 
-	* Na página de Consulta de Entidade/Página Inicial do SGES ([](#figPaginaEntradaEnt)):  que aparece nA página de edição de uma entidade está disponível através da consulta de entidade clicando no botão **EDITAR ENTIDADE**  
+ - Na página de Consulta de Entidade/Página Inicial do SGES ([](#figPaginaEntradaEnt)):  que aparece nA página de edição de uma entidade está disponível através da consulta de entidade clicando no botão **EDITAR ENTIDADE**  
 	
-	* Na página de Pesquisa de Entidade ([](#figPesquisaExEntidade)): se tiver acesso à pesquisa de entidades pode navegar diretamente para a edição após selecionar uma entidade da lista de resultados e clicar no botão **EDITAR**.
+ - Na página de Pesquisa de Entidade ([](#figPesquisaExEntidade)): se tiver acesso à pesquisa de entidades pode navegar diretamente para a edição após selecionar uma entidade da lista de resultados e clicar no botão **EDITAR**.
 
 A edição deve respeitar o preenchimento dos campos obrigatórios identificados no ponto [6.1 Criar Entidade](#criar-entidade).
 No final da edição o utilizador para gravar as alterações deve clicar no botão **GUARDAR**. Após clicar irá ser notificado com o resultado da operação.
@@ -106,9 +106,9 @@ No final da edição o utilizador para gravar as alterações deve clicar no bot
 
 A consulta de Entidades pode ser feita de duas formas:
 
-	* Na página de Consulta de Entidade/Página Inicial do SGES ([](#figPaginaEntradaEnt)).
+ - Na página de Consulta de Entidade/Página Inicial do SGES ([](#figPaginaEntradaEnt)).
 	
-	* Na página de Pesquisa de Entidade ([](#figPesquisaExEntidade)): Se tiver acesso à pesquisa de entidades pode navegar diretamente para a consulta após selecionar uma entidade da lista de resultados e clicar no botão **CONSULTAR**.
+ - Na página de Pesquisa de Entidade ([](#figPesquisaExEntidade)): Se tiver acesso à pesquisa de entidades pode navegar diretamente para a consulta após selecionar uma entidade da lista de resultados e clicar no botão **CONSULTAR**.
 
 <p id="encerrarEntidade"></p>
 
