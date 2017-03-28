@@ -10,7 +10,6 @@ Este módulo permite a manipulação das entidades de acordo com as permissões 
 |  | Permissões               | 
 |----|--------------------------------------------|
 |**Funcionalidade** |**Perfil**|
-
 | Criar Entidade | ACSS |
 | Editar Entidade | ACSS, SGES_ENTIDADE |
 | Consultar Entidade | ACSS, SGES_ENTIDADE, SGES_EQUIPAMENTOS |
@@ -125,6 +124,7 @@ Após se clicar no botão surge alerta a questionar se pretende mesmo encerrar a
 <p id="historicoEntidade"></p>
 
 ## 6.5.Histórico Entidade
+
 A página de histórico de uma entidade pode ser acedida se houver permissões para aceder à página de Pesquisa de Entidade. Quando selecionada uma entidade da lista de resultados deverá ser selecionado o botão **HISTÓRICO**  ([](#figPesquisaExEntidade) ).
 Uma vez na página de histórico ([](#figHistoricoEntidade)) poderá visualizar todas as versões resultantes da edição da entidade, bem como a identificação dos campos alterados.
 

@@ -17,19 +17,34 @@ O utilizador pode consultar a lista de estabelecimentos associados a uma entidad
 
 <p class="caption" id="figEstEntidade"> Estabelecimentos da Entidade</p>
 
+|  | Permissões               | 
+|----|--------------------------------------------|
+|**Funcionalidade** |**Perfil**|
+| Criar Estabelecimento | ACSS, SGES_ENTIDADE |
+| Editar Estabelecimento | ACSS, SGES_ENTIDADE |
+| Consultar Estabelecimento | ACSS, SGES_ENTIDADE, SGES_EQUIPAMENTOS |
+| Transferir Estabelecimento| ACSS |
+| Encerrar Estabelecimento | ACSS |
+| Histórico Estabelecimento | ACSS |
+
 <p id="criarEstabelecimento"></p>
 
 ## 7.1.Criar Estabelecimento
 
 Para criar um novo estabelecimento, o utilizador deve clicar em **CRIAR** na página de estabelecimentos associados a uma entidade  ([](#figEstEntidade)). De seguida, será encaminhado para a página de criação de estabelecimento, onde deverá preencher os campos obrigatórios para poder efetuar o registo do estabelecimento.
 
-|    | Campos Obrigatórios da ([](#figCriarEstabelecimento))         |      |
+<p id="painelIdEstabelecimento"></p>
+### 7.1.1. Painel de Identificação do Estabelecimento
+
+Neste painel identificam-se os dados básicos da entidade. O utilizador deverá preencher os campos obrigatórios para concluir a acção:
+
+|    | Campos Obrigatórios ([](#figCriarEstabelecimento))         |      |
 |----|---------------------------------------------------|----------|
 | a) | Tipo de Estabelecimento                          |  Hospital | 
 ||                                                      |  Unidade funcional| 
 ||                                                      |  Consultório| 
 ||                                                      |  Laboratório| 
-| b) |Tipo de Unidade Funcional (se Tipo de Estabelecimento = Unidade Funcional)                                                                                                                                                    |UCC| 
+| b) |Tipo de Unidade Funcional (se Tipo de Estabelecimento = Unidade Funcional)|UCC| 
 ||                                                      |  UCSP| 
 ||                                                      |  USF| 
 ||                                                      |  USP| 
@@ -49,41 +64,54 @@ Para criar um novo estabelecimento, o utilizador deve clicar em **CRIAR** na pá
 | l) |Email                                        | |
 | m) |Site                                         | |
 
-|    | Campos Obrigatórios do painel do gabinete do cidadão, se aplicável([](#figPainelGabCidadao))  |      |
+![figCriarEstabelecimento](img/pages/7_1_1.jpg)
+
+<p class="caption" id="figCriarEstabelecimento"> Criar Estabelecimento</p>
+
+Após o preenchimento da identificação do estabelecimento, dependendo do tipo deste, será necessário o preenchimento dos módulos adicionais.
+
+|  Tipo de Estabelecimento | Módulos de preenchimento  | 
+|------------------------------------|
+| **Hospital**          |Urgências ([7.1.3. Painel de Urgências](#painelUrgencia)) |
+|                       |Especialidades ([7.1.4. Painel de Especialidades](#painelEspecialidades)) |
+|                       |Capacidade ([7.1.5. Painel de Capacidade](#painelCapacidade)) - Se Entidade Pública |
+| **Consultório**       |Especialidades ([7.1.4. Painel de Especialidades](#painelEspecialidades)) |
+| **Laboratório**        |Especialidades ([7.1.4. Painel de Especialidades](#painelEspecialidades)) |
+|                       |Postos de colheita ([7.1.6. Painel de Postos de Colheita](#painelPostoColheita))|
+| **Unidade Funcional** |Unidade Funcional ([7.1.6. Painel de Unidade Funcional](#painelUnidadeFuncional)) |
+
+<p id="painelApoioCidadão"></p>
+### 7.1.2. Painel de Balcão de Apoio ao Cidadão
+
+Este painel ([](#figPainelGabCidadao)) apenas deve ser preenchido se aplicável à entidade em questão. O utilizador deverá preencher os campos obrigatórios para concluir a acção:
+
+|    | Campos Obrigatórios |      |
 |----|---------------------------------------------------|----------|
 | m) |E-mail do Gabinete Cidadão ||
 | n) |Telefone do Gabinete Cidadão ||
 | m) |Site Tabela Preços em vigor (É uma tabela de preços em vigor para os cuidados a prestar pelo hospital. (São os preços a pagar por um utente independente, sem qualquer sistema de saúde) )||
 
 
-![figCriarEstabelecimento](img/pages/7_1_1.jpg)
-
-<p class="caption" id="figCriarEstabelecimento"> Criar Estabelecimento</p>
-
 ![figPainelGabCidadao](img/pages/7_1_2.jpg)
 
 <p class="caption" id="figPainelGabCidadao"> Painel Gabinete ao cidadão</p>
 
-Após o preenchimento da identificação do estabelecimento, dependendo do tipo deste, será necessário o preenchimento dos módulos adicionais.
-
-|  Tipo de Estabelecimento | Módulos de preenchimento  | 
-|------------------------------------|
-| **Hospital**          |Urgências ([](#figUrgencias)) |
-|                       |Especialidade ([](#figEspecialidade)) |
-|                       |Capacidade ([](#figCapacidade)) - Se Entidade Pública |
-| **Consultório**       |Especialidade ([](#figEspecialidade)) |
-| **Laboratório**        |Especialidade ([](#figEspecialidade)) |
-|                       |Postos de colheita ([](#figPostosColheita))|
-| **Unidade Funcional** |Unidade Funcional ([](#figUnidadeFunc)) |
-
-
+<p id="painelUrgencia"></p>
+### 7.1.3. Painel de Urgências
 
 |    | Campos Obrigatórios – Urgências - ([](#figUrgencias))    |      |
 |----|--------------------------------------------------------|------|
 | a) | Urgências                         |  Sim| 
-| |                                       |  Não| 
+| |                                      |  Não| 
 | b) | 	Se urgências                     |  Tipo de urgência| 
 ||                                       |Classificação do Serviço de Urgência| 
+
+![figUrgencias](img/pages/7_1_3.jpg)
+
+<p class="caption" id="figUrgencias"> Estabelecimento do tipo Hospital - Urgências</p>
+
+<p id="painelEspecialidades"></p>
+### 7.1.4. Painel de Especialidades
 
 |    | Campos Obrigatórios –  Especialidade -([](#figEspecialidade))   |      |
 |----|--------------------------------------------------------|------|
@@ -91,7 +119,12 @@ Após o preenchimento da identificação do estabelecimento, dependendo do tipo 
 || 	                                     | Especialidade|
 || 	                                     | Adultos e/ou Pediátricos|
 
+![figEspecialidade](img/pages/7_1_4.jpg)
 
+<p class="caption" id="figEspecialidade"> Painel das Especialidades </p>
+
+<p id="painelCapacidade"></p>
+### 7.1.5. Painel de Capacidade
 
 |    | Campos Obrigatórios – Capacidade - ([](#figCapacidade))    |      |
 |----|--------------------------------------------------------|------|
@@ -100,17 +133,6 @@ Após o preenchimento da identificação do estabelecimento, dependendo do tipo 
 ||                                       |  Área Capacidade| 
 ||                                       |  Tipo Capacidade| 
 ||                                       |  Capacidade Lotação| 
-
-
-![figUrgencias](img/pages/7_1_3.jpg)
-
-<p class="caption" id="figUrgencias"> Estabelecimento do tipo Hospital - Urgências</p>
-
-
-![figEspecialidade](img/pages/7_1_4.jpg)
-
-<p class="caption" id="figEspecialidade"> Painel das Especialidades </p>
-
 
 ![figCapacidade](img/pages/7_1_5.jpg)
 
@@ -124,10 +146,10 @@ Explicação dos valores possíveis para os quartos de isolamento:
 
    Quarto de Isolamento de GRAU VI  –     Quarto individual com porta dupla e pressão negativa. 
 
+<p id="painelUnidadeFuncional"></p>
+### 7.1.6. Painel de Unidade Funcional
 
-
-
-|    | Campos Obrigatórios – Unidade Funcional - ([](#figPostosColheita))  | |
+|    | Campos Obrigatórios – Unidade Funcional - ([](#figUnidadeFunc))  | |
 |----|--------------------------------------------------------|------|
 | a) | Centro de Saúde                                        | | 
 | b) |População Abrangida                          | Distrito |
@@ -138,12 +160,14 @@ Explicação dos valores possíveis para os quartos de isolamento:
 | d) | Se Unidade Funcional = USF                  | Modelo USF| 
 
 
-![figPostosColheita](img/pages/7_1_6.jpg)
+![figUnidadeFunc](img/pages/7_1_6.jpg)
 
-<p class="caption" id="figPostosColheita"> Estabelecimento do tipo Unidade Funcional</p>
+<p class="caption" id="figUnidadeFunc"> Estabelecimento do tipo Unidade Funcional</p>
  
+<p id="painelPostoColheita"></p>
+### 7.1.6. Painel de Postos de Colheita
  
-|    | Campos Obrigatórios – Postos de Colheita -  ([](#figUnidadeFunc))  | 
+|    | Campos Obrigatórios – Postos de Colheita -  ([](#figPostosColheita))  | 
 |----|--------------------------------------------------------|
 | a) | Nome                                                   |
 | b) | Morada                                                 |
@@ -152,9 +176,9 @@ Explicação dos valores possíveis para os quartos de isolamento:
 | e) | Concelho                                               |
 | f) | Freguesia                                              |
 
-![figUnidadeFunc](img/pages/7_1_7.jpg)
+![figPostosColheita](img/pages/7_1_7.jpg)
 
-<p class="caption" id="figUnidadeFunc"> Estabelecimento do tipo Laboratório - Postos de Colheita</p>
+<p class="caption" id="figPostosColheita"> Estabelecimento do tipo Laboratório - Postos de Colheita</p>
 
 Após o registo dos dados em cada módulo, deve clicar em **GUARDAR** para gravar o estabelecimento. Após clicar irá ser notificado com o resultado da operação.
 
@@ -162,13 +186,19 @@ Após o registo dos dados em cada módulo, deve clicar em **GUARDAR** para grava
 
 ## 7.2. Editar Estabelecimento
 
-A página de edição de um estabelecimento está disponível através da consulta de estabelecimento clicando no botão **EDITAR ESTABELECIMENTO**. Se tiver acesso à pesquisa de estabelecimentos ([Fig. 8](#fig8)) ou à página de estabelecimentos associados a uma entidade ([](#figEstEntidade)) pode navegar diretamente para a edição após selecionar um estabelecimento da lista de resultados e clicar no botão **EDITAR**.
+ Existem duas possibilidades de editar um estabelecimento no SGES:
+ 
+ - Na página de Pesquisa de Estabelecimentos ([](#figPesquisaExEstabelecimento)): a página de edição de um estabelecimento está disponível através da consulta de estabelecimento clicando no botão **EDITAR ESTABELECIMENTO**.
+ 
+ - Na página de estabelecimentos associados a uma entidade ([](#figEstEntidade)): pode navegar diretamente para a edição após selecionar um estabelecimento da lista de resultados e clicar no botão **EDITAR**.
+
 A edição deve respeitar o preenchimento dos campos obrigatórios identificados no ponto [7.1 Criar Estabelecimento](#criar-estabelecimento).
 No final da edição o utilizador para gravar as alterações deve clicar no botão **GUARDAR**. Após clicar irá ser notificado com o resultado da operação.
 
 <p id="consultarEstabelecimento"></p>
 
 ## 7.3. Consultar Estabelecimento
+
 Se o utilizador tiver acesso à pesquisa de estabelecimentos ([](#figPesquisaEstabelecimento)) ou à página de estabelecimentos associados a uma entidade ([](#figEstEntidade)) pode navegar diretamente para a consulta após selecionar um estabelecimento da lista de resultados e clicar no botão **CONSULTAR**. 
 
 <p id="transfereEstabelecimento"></p>
@@ -190,6 +220,7 @@ Após clicar no botão surge alerta a questionar se pretende mesmo encerrar o es
 <p id="encerrarEstabelecimento"></p>
 
 ## 7.5. Encerrar Estabelecimento 
+
 Para encerrar um estabelecimento tem de pesquisar pelo mesmo ([](#figPesquisaEstabelecimento)) e depois de o selecionar na lista de resultados deve clicar no botão **ENCERRAR**.
 Uma vez na página de **Encerrar Estabelecimento** ([](#figEncerraEstabelecimento)) deve preencher os campos *Mês*, *Ano*, *Motivo*, *Observação* se for necessário e depois clicar no botão “Encerrar”. Após clicar no botão surge alerta a questionar se pretende mesmo encerrar o estabelecimento, se confirmar irá ser notificado com o resultado da operação.
 
