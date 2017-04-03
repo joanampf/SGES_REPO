@@ -17,6 +17,14 @@ O utilizador pode consultar a lista dos recursos humanos afetos a serviços numa
 
 <p class="caption" id="figRhAfetosEntidade"> Recursos Humanos afetos a serviços numa Entidade</p>
 
+|  | Permissões               | 
+|----|--------------------------------------------|
+|**Funcionalidade** |**Perfil**|
+| Criar RH Serviço | ACSS, SGES_EQUIPAMENTOS|
+| Editar RH Serviço | ACSS, SGES_EQUIPAMENTOS |
+| Consultar RH Serviço | ACSS, SGES_EQUIPAMENTOS |
+| Apagar RH Serviço| ACSS, SGES_EQUIPAMENTOS|
+
 <p id="criaRhEquipamento"></p>
 
 ## 8.1. Criar RH Serviço

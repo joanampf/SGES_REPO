@@ -116,6 +116,7 @@ Este painel permite ao utilizador identificar as urgências da entidade de acord
 ### 7.1.4. Painel de Especialidades
 
 O painel de especialidades permite ao utilizador indicar as especialidades com que a entidade lida através dos seguintes campos obrigatórios:
+
 |    | Campos Obrigatórios –  Especialidade -([](#figEspecialidade))   |      |
 |----|--------------------------------------------------------|------|
 | a) | 	Especialidades e Exames          | Área |
@@ -133,6 +134,7 @@ Na lista o utilizador deverá indicar quais os exames que o hospital realiza par
 <p id="painelCapacidade"></p>
 ### 7.1.5. Separador de Capacidade
 No painel de capacidade, deve ser indicada a lotação do hospital relativamente aos vários tipos de áreas existentes na entidade.
+
 |    | Campos Obrigatórios – Capacidade - ([](#figCapacidade))    |      |
 |----|--------------------------------------------------------|------|
 | a) | 	Ano                       								| |
@@ -156,6 +158,7 @@ Quando o utilizador regista a capacidade dos quartos de isolamento, deverá indi
 <p id="painelUnidadeFuncional"></p>
 ### 7.1.6. Painel de Unidade Funcional
 No caso da entidade em que se está a criar o estabelecimento ser um ACES, então apresenta-se o seguinte painel:
+
 |    | Campos Obrigatórios – Unidade Funcional  | |
 |----|--------------------------------------------------------|------|
 | a) | Centro de Saúde                                        | | 

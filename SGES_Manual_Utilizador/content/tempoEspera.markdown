@@ -19,6 +19,14 @@ O utilizador pode consultar os tempos de espera numa entidade no separador **Tem
 
 <p class="caption" id="figTempoEspera"> Tempos de Espera</p>
 
+|  | Permissões               | 
+|----|--------------------------------------------|
+|**Funcionalidade** |**Perfil**|
+| Criar RH Serviço | ACSS, SGES_EQUIPAMENTOS|
+| Editar RH Serviço | ACSS, SGES_EQUIPAMENTOS |
+| Consultar RH Serviço | ACSS, SGES_EQUIPAMENTOS |
+| Apagar RH Serviço| ACSS, SGES_EQUIPAMENTOS|
+
 <p id="tERealizacaoExames"></p>
 
 ## 11.1.Consultar Tempos de Espera
