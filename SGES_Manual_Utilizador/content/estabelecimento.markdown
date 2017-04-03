@@ -31,12 +31,13 @@ O utilizador pode consultar a lista de estabelecimentos associados a uma entidad
 
 ## 7.1.Criar Estabelecimento
 
-Para criar um novo estabelecimento, o utilizador deve clicar em **CRIAR** na página de estabelecimentos associados a uma entidade  ([](#figEstEntidade)). De seguida, será encaminhado para a página de criação de estabelecimento, onde deverá preencher os campos obrigatórios para poder efetuar o registo do estabelecimento.
+Para criar um novo estabelecimento, o utilizador deve clicar em **CRIAR** na página de estabelecimentos associados a uma entidade ([](#figEstEntidade)). De seguida, será encaminhado para a página de criação de estabelecimento, onde deverá preencher os campos obrigatórios para cada **painel** de modo a poder efetuar o registo do estabelecimento.
+Após o registo dos dados em cada Painel, deve clicar em **GUARDAR** para gravar o estabelecimento. Após clicar irá ser notificado com o resultado da operação.
+
 
 <p id="painelIdEstabelecimento"></p>
 ### 7.1.1. Painel de Identificação do Estabelecimento
-
-Neste painel identificam-se os dados básicos da entidade. O utilizador deverá preencher os campos obrigatórios para concluir a acção:
+Neste painel identificam-se os dados básicos da entidade. O utilizador deverá preencher os campos obrigatórios para concluir a ação:
 
 |    | Campos Obrigatórios ([](#figCriarEstabelecimento))         |      |
 |----|---------------------------------------------------|----------|
@@ -83,13 +84,13 @@ Após o preenchimento da identificação do estabelecimento, dependendo do tipo 
 <p id="painelApoioCidadão"></p>
 ### 7.1.2. Painel de Balcão de Apoio ao Cidadão
 
-Este painel ([](#figPainelGabCidadao)) apenas deve ser preenchido se aplicável à entidade em questão. O utilizador deverá preencher os campos obrigatórios para concluir a acção:
+Este painel ([](#figPainelGabCidadao)) apenas deve ser preenchido se aplicável à entidade em questão. O utilizador deverá preencher os campos obrigatórios para concluir a ação:
 
 |    | Campos Obrigatórios |      |
 |----|---------------------------------------------------|----------|
 | m) |E-mail do Gabinete Cidadão ||
 | n) |Telefone do Gabinete Cidadão ||
-| m) |Site Tabela Preços em vigor (É uma tabela de preços em vigor para os cuidados a prestar pelo hospital. (São os preços a pagar por um utente independente, sem qualquer sistema de saúde) )||
+| m) |Site Tabela Preços em vigor (É uma tabela de preços em vigor para os cuidados a prestar pelo hospital. (São os preços a pagar por um utente independente, sem qualquer sistema de saúde))||
 
 
 ![figPainelGabCidadao](img/pages/7_1_2.jpg)
@@ -98,8 +99,9 @@ Este painel ([](#figPainelGabCidadao)) apenas deve ser preenchido se aplicável 
 
 <p id="painelUrgencia"></p>
 ### 7.1.3. Painel de Urgências
+Este painel permite ao utilizador identificar as urgências da entidade de acordo com os seguintes campos obrigatórios:
 
-|    | Campos Obrigatórios – Urgências - ([](#figUrgencias))    |      |
+|    | Campos Obrigatórios    |      |
 |----|--------------------------------------------------------|------|
 | a) | Urgências                         |  Sim| 
 | |                                      |  Não| 
@@ -113,19 +115,24 @@ Este painel ([](#figPainelGabCidadao)) apenas deve ser preenchido se aplicável 
 <p id="painelEspecialidades"></p>
 ### 7.1.4. Painel de Especialidades
 
+O painel de especialidades permite ao utilizador indicar as especialidades com que a entidade lida através dos seguintes campos obrigatórios:
 |    | Campos Obrigatórios –  Especialidade -([](#figEspecialidade))   |      |
 |----|--------------------------------------------------------|------|
 | a) | 	Especialidades e Exames          | Área |
 || 	                                     | Especialidade|
 || 	                                     | Adultos e/ou Pediátricos|
-
+Para adicionar uma nova especialidade o utilizador deverá pressionar **Adicionar Linha**
 ![figEspecialidade](img/pages/7_1_4.jpg)
 
-<p class="caption" id="figEspecialidade"> Painel das Especialidades </p>
+<p class="caption" id="figEspecialidade"> Painel das Especialidades s/ Exames</p>
+Se a especialidade de uma determinada entidade puder ter acesso a exames, o painel apresentar-se-á ao utilizador como se segue:
+![figEspecialidade2](img/pages/7_1_4_1.jpg)
 
+<p class="caption" id="figEspecialidade2"> Painel das Especialidades c/ Exames</p>
+Na lista o utilizador deverá indicar quais os exames que o hospital realiza para aquela especialidade.
 <p id="painelCapacidade"></p>
-### 7.1.5. Painel de Capacidade
-
+### 7.1.5. Separador de Capacidade
+No painel de capacidade, deve ser indicada a lotação do hospital relativamente aos vários tipos de áreas existentes na entidade.
 |    | Campos Obrigatórios – Capacidade - ([](#figCapacidade))    |      |
 |----|--------------------------------------------------------|------|
 | a) | 	Ano                       								| |
@@ -138,18 +145,18 @@ Este painel ([](#figPainelGabCidadao)) apenas deve ser preenchido se aplicável 
 
 <p class="caption" id="figCapacidade"> Painel das Capacidades </p>
 
-Explicação dos valores possíveis para os quartos de isolamento:
+Quando o utilizador regista a capacidade dos quartos de isolamento, deverá indicar o nível de isolamento do quarto como especificado de seguida no campo **Área de Capacidade**:
 
-   Quarto de Isolamento de GRAU III –     Quarto individual fechado, bem ventilado
+•	**Quarto de Isolamento de GRAU III** – Quarto individual fechado, bem ventilado
 
-   Quarto de Isolamento de GRAU IV  –     Quarto individual fechado, bem ventilado, com desinfeção da ventilação e pressão negativa
+•	** Quarto de Isolamento de GRAU IV**  – Quarto individual fechado, bem ventilado, com desinfeção da ventilação e pressão negativa
 
-   Quarto de Isolamento de GRAU VI  –     Quarto individual com porta dupla e pressão negativa. 
+•	**Quarto de Isolamento de GRAU VI**  – Quarto individual com porta dupla e pressão negativa. 
 
 <p id="painelUnidadeFuncional"></p>
 ### 7.1.6. Painel de Unidade Funcional
-
-|    | Campos Obrigatórios – Unidade Funcional - ([](#figUnidadeFunc))  | |
+No caso da entidade em que se está a criar o estabelecimento ser um ACES, então apresenta-se o seguinte painel:
+|    | Campos Obrigatórios – Unidade Funcional  | |
 |----|--------------------------------------------------------|------|
 | a) | Centro de Saúde                                        | | 
 | b) |População Abrangida                          | Distrito |
@@ -166,8 +173,9 @@ Explicação dos valores possíveis para os quartos de isolamento:
  
 <p id="painelPostoColheita"></p>
 ### 7.1.6. Painel de Postos de Colheita
- 
-|    | Campos Obrigatórios – Postos de Colheita -  ([](#figPostosColheita))  | 
+No caso do estabelecimento a criar ser um laboratório , terá de ser preenchido o seguinte painel:
+
+|    | Campos Obrigatórios - Posto Colheita  | 
 |----|--------------------------------------------------------|
 | a) | Nome                                                   |
 | b) | Morada                                                 |
@@ -180,15 +188,13 @@ Explicação dos valores possíveis para os quartos de isolamento:
 
 <p class="caption" id="figPostosColheita"> Estabelecimento do tipo Laboratório - Postos de Colheita</p>
 
-Após o registo dos dados em cada módulo, deve clicar em **GUARDAR** para gravar o estabelecimento. Após clicar irá ser notificado com o resultado da operação.
-
 <p id="alteraEstabelecimento"></p>
 
 ## 7.2. Editar Estabelecimento
 
  Existem duas possibilidades de editar um estabelecimento no SGES:
  
- - Na página de Pesquisa de Estabelecimentos ([](#figPesquisaExEstabelecimento)): a página de edição de um estabelecimento está disponível através da consulta de estabelecimento clicando no botão **EDITAR ESTABELECIMENTO**.
+ - Na página de Pesquisa de Estabelecimentos ([](#figPesquisaExEntidade)): a página de edição de um estabelecimento está disponível através da consulta de estabelecimento clicando no botão **EDITAR ESTABELECIMENTO**.
  
  - Na página de estabelecimentos associados a uma entidade ([](#figEstEntidade)): pode navegar diretamente para a edição após selecionar um estabelecimento da lista de resultados e clicar no botão **EDITAR**.
 
