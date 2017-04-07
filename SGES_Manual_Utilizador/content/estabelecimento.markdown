@@ -122,6 +122,7 @@ O painel de especialidades permite ao utilizador indicar as especialidades com q
 | a) | 	Especialidades e Exames          | Área |
 || 	                                     | Especialidade|
 || 	                                     | Adultos e/ou Pediátricos|
+
 Para adicionar uma nova especialidade o utilizador deverá pressionar **Adicionar Linha**
 ![figEspecialidade](img/pages/7_1_4.jpg)
 
