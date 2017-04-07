@@ -118,7 +118,7 @@ Este painel permite ao utilizador identificar as urgências da entidade de acord
 
 O painel de especialidades permite ao utilizador indicar as especialidades com que a entidade lida através dos seguintes campos obrigatórios:
 
-|    | Campos Obrigatórios –  Especialidade  |                         |
+|    | Campos Obrigatórios   |                         |
 |----|---------------------------------------|-------------------------|
 | a) | 	Especialidades e Exames              | Área                    |
 |    | 	                                     | Especialidade           |
@@ -137,7 +137,7 @@ Na lista o utilizador deverá indicar quais os exames que o hospital realiza par
 ### 7.1.5. Separador de Capacidade
 No painel de capacidade, deve ser indicada a lotação do hospital relativamente aos vários tipos de áreas existentes na entidade.
 
-|    | Campos Obrigatórios – Capacidade - ([](#figCapacidade))    |      |
+|    | Campos Obrigatórios   |      |
 |----|--------------------------------------------------------|------|
 | a) | 	Ano                       								| |
 | b) | 	Capacidade                       |Tipo Área Capacidade |
@@ -153,7 +153,7 @@ Quando o utilizador regista a capacidade dos quartos de isolamento, deverá indi
 
 •	**Quarto de Isolamento de GRAU III** – Quarto individual fechado, bem ventilado
 
-•	** Quarto de Isolamento de GRAU IV**  – Quarto individual fechado, bem ventilado, com desinfeção da ventilação e pressão negativa
+•	**Quarto de Isolamento de GRAU IV**  – Quarto individual fechado, bem ventilado, com desinfeção da ventilação e pressão negativa
 
 •	**Quarto de Isolamento de GRAU VI**  – Quarto individual com porta dupla e pressão negativa. 
 
