@@ -112,16 +112,17 @@ Este painel permite ao utilizador identificar as urgências da entidade de acord
 
 <p class="caption" id="figUrgencias"> Estabelecimento do tipo Hospital - Urgências</p>
 
+
 <p id="painelEspecialidades"></p>
 ### 7.1.4. Painel de Especialidades
 
 O painel de especialidades permite ao utilizador indicar as especialidades com que a entidade lida através dos seguintes campos obrigatórios:
 
-|    | Campos Obrigatórios –  Especialidade -([](#figEspecialidade))   |      |
-|----|--------------------------------------------------------|------|
-| a) | 	Especialidades e Exames          | Área |
-|| 	                                     | Especialidade|
-|| 	                                     | Adultos e/ou Pediátricos|
+|    | Campos Obrigatórios –  Especialidade  |                         |
+|----|---------------------------------------|-------------------------|
+| a) | 	Especialidades e Exames              | Área                    |
+|    | 	                                     | Especialidade           |
+|    | 	                                     | Adultos e/ou Pediátricos|
 
 Para adicionar uma nova especialidade o utilizador deverá pressionar **Adicionar Linha**
 ![figEspecialidade](img/pages/7_1_4.jpg)
