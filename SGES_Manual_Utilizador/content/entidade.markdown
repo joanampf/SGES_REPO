@@ -57,7 +57,7 @@ Após o registo dos dados deve clicar em **GUARDAR** para gravar a entidade. Ap�
 | g) | Matricula                                           |    Privada      |                  |   |
 |    |                                                     |    IPSS         |                  |   |
 |    |                                                     |  Cooperativa    |                  |   |
-| h) | Volume de negócios global                           |    Privada      |                  |   |
+| h) | Volume de negócios global (€)                           |    Privada      |                  |   |
 |    |                                                     |    IPSS         |                  |   |
 |    |                                                     |  Cooperativa    |                  |   |
 | i) | Tipo de Atividade Principal (CAE)                   |    Privada      |                  |   |
@@ -75,7 +75,7 @@ Após o registo dos dados deve clicar em **GUARDAR** para gravar a entidade. Ap�
 | q) | Fax                                                 |                 |             |   |
 | r) | E-mail                                              |                 |             |   |
 | s) | Site                                                |                 |             |   |
-| t) | Capital estatuário ou social € (Exceto natureza jurídica = Pública e tipo de entidade = ACES)|         |             |   |
+| t) | Capital estatuário ou social (€) (Exceto natureza jurídica = Pública e tipo de entidade = ACES)|         |             |   |
 | u) | Fonte de informação                                 |                 |             |   |
 | v) | existe Equipamento Pesado?                          |                 |             |   |
 | x) | Identificação dos corpos Gerentes/ Conselho de administração    |     |             |   |
@@ -92,7 +92,7 @@ Após o registo dos dados deve clicar em **GUARDAR** para gravar a entidade. Ap�
 
 Existem duas possibilidades de Editar uma entidade no SGES:
 
- - Na página de Consulta de Entidade/Página Inicial do SGES ([](#figPaginaEntradaEnt)):  que aparece nA página de edição de uma entidade está disponível através da consulta de entidade clicando no botão **EDITAR ENTIDADE**  
+ - Na página de Consulta de Entidade/Página Inicial do SGES ([](#figPaginaEntradaEnt)):  que aparece na página de edição de uma entidade está disponível através da consulta de entidade clicando no botão **EDITAR ENTIDADE**  
 	
  - Na página de Pesquisa de Entidade ([](#figPesquisaExEntidade)): se tiver acesso à pesquisa de entidades pode navegar diretamente para a edição após selecionar uma entidade da lista de resultados e clicar no botão **EDITAR**.
 
