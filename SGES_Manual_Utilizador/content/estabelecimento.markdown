@@ -88,9 +88,9 @@ Este painel ([](#figPainelGabCidadao)) apenas deve ser preenchido se aplicável 
 
 |    | Campos Obrigatórios |      |
 |----|---------------------------------------------------|----------|
-| m) |E-mail do Gabinete Cidadão ||
-| n) |Telefone do Gabinete Cidadão ||
-| m) |Site Tabela Preços em vigor (É uma tabela de preços em vigor para os cuidados a prestar pelo hospital. (São os preços a pagar por um utente independente, sem qualquer sistema de saúde))||
+| a) |E-mail do Gabinete Cidadão ||
+| b) |Telefone do Gabinete Cidadão ||
+| c) |Site Tabela Preços em vigor (É uma tabela de preços em vigor para os cuidados a prestar pelo hospital. (São os preços a pagar por um utente independente, sem qualquer sistema de saúde))||
 
 
 ![figPainelGabCidadao](img/pages/7_1_2.jpg)
@@ -161,7 +161,7 @@ Quando o utilizador regista a capacidade dos quartos de isolamento, deverá indi
 ### 7.1.6. Painel de Unidade Funcional
 No caso da entidade em que se está a criar o estabelecimento ser um ACES, então apresenta-se o seguinte painel:
 
-|    | Campos Obrigatórios – Unidade Funcional  | |
+|    | Campos Obrigatórios | |
 |----|--------------------------------------------------------|------|
 | a) | Centro de Saúde                                        | | 
 | b) |População Abrangida                          | Distrito |
@@ -180,7 +180,7 @@ No caso da entidade em que se está a criar o estabelecimento ser um ACES, entã
 ### 7.1.6. Painel de Postos de Colheita
 No caso do estabelecimento a criar ser um laboratório , terá de ser preenchido o seguinte painel:
 
-|    | Campos Obrigatórios - Posto Colheita  | 
+|    | Campos Obrigatórios  | 
 |----|--------------------------------------------------------|
 | a) | Nome                                                   |
 | b) | Morada                                                 |
