@@ -40,10 +40,9 @@ Após o registo dos dados deve clicar em **GUARDAR** para gravar a entidade. Ap�
 
 |    | Campos Obrigatórios da ([](#figCriarEntidade))      |                     |                 |   |
 |----|-----------------------------------------------------|---------------------|-----------------|---|
-
-| Denominação                                         |                     |                 |   |
+| Denominação                                         |    Nome identificativo da Entidade    |    |   |
 | Natureza Jurídica                                   |                     |                 |   |
-| Tipo Entidade (só se natureza jurídica = Pública)   |                     |                 |   |
+| Tipo Entidade |Indicar o tipo de entidade (Hospital, Centro Hospitalar, ACES, ULS). Apenas preencher só se natureza jurídica = Pública                   |                 |   |
 |                                                     |**Natureza Juridica**|**Tipo Entidade**|   |
 |-----------------------------------------------------|---------------------|-----------------|---|
 | ARS                                                 |    Pública          |ACES             |   |
@@ -67,7 +66,7 @@ Após o registo dos dados deve clicar em **GUARDAR** para gravar a entidade. Ap�
 | Tipo de Atividade Secundária (CAE)                  |    Privada      |                  |   |
 |                                                     |    IPSS         |                  |   |
 |                                                     |    Cooperativa  |                  |   |
-| Morada                                              |                 |             |   |
+| Morada                                              |       Informação da localização da Entidade          |             |   |
 | Código Postal                                       |                 |             |   |
 | Distrito                                            |                 |             |   |
 | Concelho                                            |                 |             |   |
