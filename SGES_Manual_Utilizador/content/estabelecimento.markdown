@@ -42,7 +42,7 @@ Neste painel identificam-se os dados básicos da entidade. O utilizador deverá 
 |    | Campos Obrigatórios ([](#figCriarEstabelecimento))         |      |
 |----|---------------------------------------------------|----------|
 | a) | Tipo de Estabelecimento                          |  Hospital | 
-||                                                      |  Unidade funcional| 
+||                                                      |  Unidade funcional (se for um ACES)| 
 ||                                                      |  Consultório| 
 ||                                                      |  Laboratório| 
 | b) |Tipo de Unidade Funcional (se Tipo de Estabelecimento = Unidade Funcional)|UCC| 
@@ -163,11 +163,11 @@ No caso da entidade em que se está a criar o estabelecimento ser um ACES, entã
 
 |    | Campos Obrigatórios | |
 |----|--------------------------------------------------------|------|
-| a) | Centro de Saúde                                        | | 
+| a) | Centro de Saúde (se diferente de USP)                                    | | 
 | b) |População Abrangida                          | Distrito |
 ||                                                 | Concelho | 
 ||                                                 | Freguesias| 
-| c) | Se Unidade Funcional = USF, UCSP            | Nº de Gabinetes Médicos| 
+| c) | Se Unidade Funcional = USF, UCSP, UCC, USP            | Nº de Gabinetes Médicos| 
 ||                                                 | Nº de Gabinetes Tratamento| 
 | d) | Se Unidade Funcional = USF                  | Modelo USF| 
 

@@ -10,7 +10,9 @@ order: 3
 
 # 12. Equipamentos
 
-É neste módulo que são feitas ações sobre os equipamentos. O utilizador pode consultar a lista de equipamentos associados a um estabelecimento através do separador Equipamentos ([](#figEqpEstabelecimento))
+É neste módulo que são feitas ações sobre os equipamentos. 
+Apenas as entidades do SNS (excepto ACES) é que têm acesso a esta funcionalidade.
+O utilizador pode consultar a lista de equipamentos associados a um estabelecimento através do separador Equipamentos ([](#figEqpEstabelecimento))
 
 ![figEqpEstabelecimento](img/pages/12_1.jpg)
 
@@ -93,7 +95,6 @@ Após o registo dos dados deve clicar em **GUARDAR** para gravar o equipamento. 
 | a) | Tipo Atividade                               	| Partilhada (Programada/Urgência) |
 ||                                                      | Programada    |
 ||                                                      | Urgência ||
-||                                                      | Parado       |
 | b) | Se Estado diferente urgência				        | Carga Semanal| 
 | c) | Se Estado diferente urgência				        | Nº dias por semana| 
 | d) | Tipo de Utilização                    	        ||
