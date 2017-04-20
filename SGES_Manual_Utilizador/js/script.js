@@ -20,13 +20,15 @@
 		
 		if(($(this).html() == "&nbsp;")){
 			col++;
-			$(this).css("display","none");
+			$(this).remove();
+			cell--;
 		}
 		else if(($(this).html() == "\\")){
-			$(this).css("display","none");
-			if($('#line'+(line-1)+'cell'+cell).attr('rowspan') == undefined)
-				$('#line'+(line-1)+'cell'+cell).attr('rowspan',1);
-			$('#line'+(line-1)+'cell'+cell).attr('rowspan', ($('#line'+(line-1)+'cell'+cell).attr('rowspan') + 1) );
+			$(this).remove();
+			line--;
+			if($('#line'+(line-1)+'cell'+cell).attr('rowSpan') == undefined)
+				$('#line'+(line-1)+'cell'+cell).attr('rowSpan',1);
+			$('#line'+(line-1)+'cell'+cell).attr('rowSpan', ($('#line'+(line-1)+'cell'+cell).attr('rowspan') + 1) );
 		}
 			
 	cell++;
