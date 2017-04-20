@@ -67,10 +67,10 @@ Após o registo dos dados deve clicar em **GUARDAR** para gravar a entidade. Ap�
 |                    \\                                 | \\ |    IPSS         |                  |  
 |                    \\                                 | \\ |    Cooperativa  |                  |  
 | Morada                                              |       Informação da localização da Entidade          | |             |  
-| Código Postal                                       |               		\\								 | |             |  
-| Distrito                                            |                 \\									 | |             |  
-| Concelho                                            |        \\         									 | |             |  
-| Freguesia                                           |         \\        									 | |             |  
+| Código Postal                                       |               		\\								 | \\ |       \\      |  
+| Distrito                                            |                 \\									 | \\ |     \\        |  
+| Concelho                                            |        \\         									 | \\ |     \\        |  
+| Freguesia                                           |         \\        									 | \\ |     \\        |  
 | Telefone                                            | Nº Telefone da Entidade                |        |             | 
 | Fax                                                 | Nº Fax da Entidade                |        |             | 
 | E-mail                                              |        Endereço de contacto da Entidade     |        |             |  
