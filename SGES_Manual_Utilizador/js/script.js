@@ -12,22 +12,24 @@
 
  /**unir células (que tenham numero de linhas >1)*/
 $('tr').each(function(){
-	var n =1;
-	var anteriorvazio = 1;
+	$(this).css("border-right","solid #005082 1.0pt");
+	$(this).css("border-left","solid #005082 1.0pt");
+	var n=0;
+
 	$(this).find('td').each(function(){
- 			if($(this).text().indexOf('\\') >= 0){
-				$(this).css("border-right","solid #005082 1.0pt");
+ 			if($(this).html() == "\\"){
 				$(this).css("border-top","none");
 				$(this).css("color","white");
 				$(this).css("border-bottom","none");
-			}else {
-				anteriorvazio=0;
-				if($(this).html() != "&nbsp;")
-				$(this).css("border-left","solid #005082 1.0pt");
+				if(n==0)
+					$(this).css("border-left","solid #005082 1.0pt");
+				n++;
+			}else{
+				n=0;
 			}
-			n++;
+			
 	});
-});
+	});
  }
  
  /**preparar imagem para zoom*/
