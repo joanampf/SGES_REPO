@@ -24,14 +24,13 @@
 		}
 		else if(($(this).html() == "\\")){
 			$(this).css("display","none");
-			if($('#line'+(line-1)+'cell'+cell+'[rowSpan]') == undefined)
+			if($('#line'+(line-1)+'cell'+cell).attr('rowspan') == undefined)
 				$('#line'+(line-1)+'cell'+cell).attr('rowspan',1);
 			$('#line'+(line-1)+'cell'+cell).attr('rowspan', ($('#line'+(line-1)+'cell'+cell).attr('rowspan') + 1) );
 		}
 			
 	cell++;
 	});
-	$('#cell'+ (cell-col)).attr('colspan',col);
 	line++;
  });
  }
