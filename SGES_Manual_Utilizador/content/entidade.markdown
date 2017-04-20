@@ -43,43 +43,43 @@ Após o registo dos dados deve clicar em **GUARDAR** para gravar a entidade. Ap�
 | Denominação                                         |    Nome identificativo da Entidade    |    |   |
 | Natureza Jurídica                                   |                     |                 |   |
 | Tipo Entidade |Indicar o tipo de entidade (Hospital, Centro Hospitalar, ACES, ULS). Apenas preencher só se natureza jurídica = Pública                   |                 |   |
-| &nbsp;                                               |**Natureza Juridica**|**Tipo Entidade**|   |
-|-----------------------------------------------------|---------------------|-----------------|---|
-| ARS                                                 |    Pública          |ACES             |   |
-|                                                     |                     |Centro Hospitalar|   |
-|                                                     |                     |Hospital         |   |
-|                                                     |                     |ULS              |   |
-| Tipo Entidade                                       |    Pública          |ACES             |   |
-|                                                     |                     |Centro Hospitalar|   |
-|                                                     |                     |Hospital         |   |
-|                                                     |                 |ULS               |   |
-| Integra                                             |    Pública      |ACES              |   |
-| Matricula                                           |    Privada      |                  |   |
-|                                                     |    IPSS         |                  |   |
-|                                                     |  Cooperativa    |                  |   |
-| Volume de negócios global (€)                       |    Privada      |                  |   |
-|                                                     |    IPSS         |                  |   |
-|                                                     |  Cooperativa    |                  |   |
-| Tipo de Atividade Principal (CAE)                   |    Privada      |                  |   |
-|                                                     |    IPSS         |                  |   |
-|                                                     |    Cooperativa  |                  |   |
-| Tipo de Atividade Secundária (CAE)                  |    Privada      |                  |   |
-|                                                     |    IPSS         |                  |   |
-|                                                     |    Cooperativa  |                  |   |
-| Morada                                              |       Informação da localização da Entidade          |   &nbsp;          |   |
-| Código Postal                                       |               										 |  &nbsp;           |   |
-| Distrito                                            |                 									 |  &nbsp;           |   |
-| Concelho                                            |                 									 |   &nbsp;          |   |
-| Freguesia                                           |                 									 |  &nbsp;           |   |
-| Telefone                                            | Nº Telefone da Entidade                |             |   |
-| Fax                                                 | Nº Fax da Entidade                |             |   |
-| E-mail                                              |        Endereço de contacto da Entidade         |             |   |
-| Site                                                |        Site da Entidade         |             |   |
-| Capital estatuário ou social (€) (Exceto natureza jurídica = Pública e tipo de entidade = ACES)|         |             |   |
-| Fonte de informação                                 |                 |             |   |
-| existe Equipamento Pesado?                          |                 |             |   |
-| Identificação dos corpos Gerentes/ Conselho de administração    |     |             |   |
-| Identificação dos Sócios/Acionistas (só se natureza jurídica = Privada) |     |     |   |
+| &nbsp;                                               ||**Natureza Juridica**|**Tipo Entidade**|   |
+|-----------------------------------------------------||---------------------|-----------------|---|
+| ARS                                                 ||    Pública          |ACES             |   |
+|                                                     ||                     |Centro Hospitalar|   |
+|                                                     ||                     |Hospital         |   |
+|                                                     ||                    |ULS              |   |
+| Tipo Entidade                                       ||    Pública          |ACES             |   |
+|                                                     ||                     |Centro Hospitalar|   |
+|                                                     | |                    |Hospital         |   |
+|                                                     ||                 |ULS               |   |
+| Integra                                             ||    Pública      |ACES              |   |
+| Matricula                                           ||    Privada      |                  |   |
+|                                                     ||    IPSS         |                  |   |
+|                                                     ||  Cooperativa    |                  |   |
+| Volume de negócios global (€)                       | |   Privada      |                  |   |
+|                                                     ||    IPSS         |                  |   |
+|                                                     ||  Cooperativa    |                  |   |
+| Tipo de Atividade Principal (CAE)                   | |   Privada      |                  |   |
+|                                                     ||    IPSS         |                  |   |
+|                                                     ||    Cooperativa  |                  |   |
+| Tipo de Atividade Secundária (CAE)                  | |   Privada      |                  |   |
+|                                                     ||    IPSS         |                  |   |
+|                                                     ||    Cooperativa  |                  |   |
+| Morada                                              |       Informação da localização da Entidade  |        |             |   |
+| Código Postal                                       |               										 | |            |   |
+| Distrito                                            |                 									 ||           |   |
+| Concelho                                            |                 									 | |            |   |
+| Freguesia                                           |                 									 | |           |   |
+| Telefone                                            | Nº Telefone da Entidade                |        |             |   |
+| Fax                                                 | Nº Fax da Entidade                |        |             |   |
+| E-mail                                              |        Endereço de contacto da Entidade     |        |             |   |
+| Site                                                |        Site da Entidade       |        |             |   |
+| Capital estatuário ou social (€) (Exceto natureza jurídica = Pública e tipo de entidade = ACES)|          |        |             |   |
+| Fonte de informação                                 |         |        |             |   |
+| existe Equipamento Pesado?                          |              |        |             |   |
+| Identificação dos corpos Gerentes/ Conselho de administração    |    |        |             |   |
+| Identificação dos Sócios/Acionistas (só se natureza jurídica = Privada) |      |        |             |   |
 
 
 ![figCriarEntidade](img/pages/6_1_2.jpg)

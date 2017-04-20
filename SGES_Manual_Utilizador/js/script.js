@@ -15,7 +15,7 @@ $('tr').each(function(){
 	var n =1;
 	var anteriorvazio = 1;
 	$(this).find('td').each(function(){
- 			if(($(this).html() == "&nbsp;") && (anteriorvazio==1)){
+ 			if(($(this).html() == "&nbsp;") && ((anteriorvazio == 1) || n > 1)){
 				$(this).css("border-right","solid #005082 1.0pt");
 				$(this).css("border-top","none");
 				$(this).css("border-bottom","none");
