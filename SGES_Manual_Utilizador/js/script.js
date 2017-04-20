@@ -31,7 +31,7 @@
 			
 	cell++;
 	});
-	$('cell'+ (cell-col)).attr('colspan',col);
+	$('#cell'+ (cell-col)).attr('colspan',col);
 	line++;
  });
  }
