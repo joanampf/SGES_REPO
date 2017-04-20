@@ -1,40 +1,32 @@
 
 /**colocar tabela mais apresentavel*/
  function atualizarTabela(){
-	 
- var line=1;
- 
- $('tr').each(function(){
-	
-	var cell=1;
-	var idline= "line"+line;
-	var col=1;
-	var row=1;
-	
-	$(this).attr('id', idline);
-	
+ /**retirar borders das células vazias*/
+  $('td').each(function(){
+  if($(this).html() == "&nbsp;")
+		$(this).css("border-top","solid #005082 1.0pt");
+		$(this).css("border-bottom","none");
+		$(this).css("border-right","none");
+		$(this).css("border-left","none");
+});
+
+ /**unir células (que tenham numero de linhas >1)*/
+$('tr').each(function(){
+	var n =1;
+	var anteriorvazio = 1;
 	$(this).find('td').each(function(){
-		var idcell=idline+"cell"+cell;
-		
-		$(this).attr('id', idcell);
-		
-		if(($(this).html() == "&nbsp;")){
-			col++;
-			$(this).remove();
-			cell--;
-		}
-		else if(($(this).html() == "\\")){
-			$(this).remove();
-			line--;
-			if($('#line'+(line-1)+'cell'+cell).attr('rowSpan') == undefined)
-				$('#line'+(line-1)+'cell'+cell).attr('rowSpan',1);
-			$('#line'+(line-1)+'cell'+cell).attr('rowSpan', ($('#line'+(line-1)+'cell'+cell).attr('rowspan') + 1) );
-		}
-			
-	cell++;
+ 			if(($(this).html() == "&nbsp;") && (anteriorvazio==1)){
+				$(this).css("border-right","solid #005082 1.0pt");
+				$(this).css("border-top","none");
+				$(this).css("border-bottom","none");
+			}else {
+				anteriorvazio=0;
+				if($(this).html() != "&nbsp;")
+				$(this).css("border-left","solid #005082 1.0pt");
+			}
+			n++;
 	});
-	line++;
- });
+});
  }
  
  /**preparar imagem para zoom*/
