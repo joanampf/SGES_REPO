@@ -58,19 +58,19 @@ Após o registo dos dados deve clicar em **GUARDAR** para gravar a entidade. Ap�
 |       \\                                              | \\ |    IPSS         |                  | 
 |         \\                                            | \\ |  Cooperativa    |                  |
 | Volume de negócios global (€)                       	| Movimentos monetários anuais feitos pela entidade |   Privada      |       |
-|         \\                                            |\\|    IPSS         |                  | 
-|           \\                                          |\\|  Cooperativa    |                  | 
+|         \\                                            | \\ |    IPSS         |                  | 
+|           \\                                          | \\ |  Cooperativa    |                  | 
 | Tipo de Atividade Principal (CAE)                   	|Indicar o tipo de atividade que exerce a Entidade. Os valores vêm de acordo com a Classificação Portuguesa das Atividades Económicas (CAE) |   Privada      |                  | 
-|                   \\                                  |\\|    IPSS         |                  |   
-|                    \\                                 |\\|    Cooperativa  |                  | 
+|                   \\                                  | \\ |    IPSS         |                  |   
+|                    \\                                 | \\ |   Cooperativa  |                  | 
 | Tipo de Atividade Secundária (CAE)                  |Indicar (se existir) o tipo de atividade secundária que exerce a Entidade. Os valores vêm de acordo com a Classificação Portuguesa das Atividades Económicas (CAE) |   Privada      |                  |  
-|                    \\                                 |\\|    IPSS         |                  |  
-|                    \\                                 |\\|    Cooperativa  |                  |  
-| Morada                                              |       Informação da localização da Entidade  |        |             |  
-| Código Postal                                       |               		\\								 | |            |  
-| Distrito                                            |                 \\									 ||           |  
-| Concelho                                            |        \\         									 | |            |  
-| Freguesia                                           |         \\        									 | |           |  
+|                    \\                                 | \\ |    IPSS         |                  |  
+|                    \\                                 | \\ |    Cooperativa  |                  |  
+| Morada                                              |       Informação da localização da Entidade          | |             |  
+| Código Postal                                       |               		\\								 | |             |  
+| Distrito                                            |                 \\									 | |             |  
+| Concelho                                            |        \\         									 | |             |  
+| Freguesia                                           |         \\        									 | |             |  
 | Telefone                                            | Nº Telefone da Entidade                |        |             | 
 | Fax                                                 | Nº Fax da Entidade                |        |             | 
 | E-mail                                              |        Endereço de contacto da Entidade     |        |             |  
