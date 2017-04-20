@@ -26,6 +26,7 @@ $('tr').each(function(){
 				n++;
 			}else{
 				n=0;
+				$(this).css("border-left","solid #005082 1.0pt");
 			}
 			
 	});
