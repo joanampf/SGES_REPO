@@ -15,7 +15,7 @@ $('tr').each(function(){
 	var n =1;
 	var anteriorvazio = 1;
 	$(this).find('td').each(function(){
- 			if($(this).text().indexOf('conc') >= 0){
+ 			if($(this).text().indexOf('\\') >= 0){
 				$(this).css("border-right","solid #005082 1.0pt");
 				$(this).css("border-top","none");
 				$(this).css("color","white");
