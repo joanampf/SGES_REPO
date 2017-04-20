@@ -22,7 +22,7 @@
 			col++;
 			$(this).css("display","none");
 		}
-		else if(($(this).html() == "//")){
+		else if(($(this).html() == "\\")){
 			row++;
 			$(this).css("display","none");
 		}
