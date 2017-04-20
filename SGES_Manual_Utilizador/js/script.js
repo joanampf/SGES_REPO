@@ -1,36 +1,37 @@
 
 /**colocar tabela mais apresentavel*/
  function atualizarTabela(){
- /**retirar borders das células vazias*/
-  $('td').each(function(){
-  if($(this).html() == "&nbsp;")
-		$(this).css("border-top","solid #005082 1.0pt");
-		$(this).css("border-bottom","none");
-		$(this).css("border-right","none");
-		$(this).css("border-left","none");
-});
-
- /**unir células (que tenham numero de linhas >1)*/
-$('tr').each(function(){
-	$(this).css("border-right","solid #005082 1.0pt");
-	$(this).css("border-left","solid #005082 1.0pt");
-	var n=0;
-
+	 
+ var line=1;
+ 
+ $('tr').each(function(){
+	
+	var cell=1;
+	var idline= "line"+line;
+	var col=1;
+	var row=1;
+	
+	$(this).attr('id', idline);
+	
 	$(this).find('td').each(function(){
- 			if($(this).html() == "\\"){
-				$(this).css("border-top","none");
-				$(this).css("color","white");
-				$(this).css("border-bottom","none");
-				if(n==0)
-					$(this).css("border-left","solid #005082 1.0pt");
-				n++;
-			}else{
-				n=0;
-				$(this).css("border-left","solid #005082 1.0pt");
-			}
+		var idcell=idline+"cell"+cell;
+		
+		$(this).attr('id', idcell);
+		
+		if(($(this).html() == "&nbsp;")){
+			col++;
+			$(this).css("display","none");
+		}
+		else if(($(this).html() == "//")){
+			row++;
+			$(this).css("display","none");
+		}
 			
+	cell++;
 	});
-	});
+	
+	line++;
+ });
  }
  
  /**preparar imagem para zoom*/
