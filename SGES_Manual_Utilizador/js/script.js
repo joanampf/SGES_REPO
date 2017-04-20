@@ -18,6 +18,7 @@ $('tr').each(function(){
  			if($(this).text().indexOf('conc') >= 0){
 				$(this).css("border-right","solid #005082 1.0pt");
 				$(this).css("border-top","none");
+				$(this).css("color","white");
 				$(this).css("border-bottom","none");
 			}else {
 				anteriorvazio=0;
