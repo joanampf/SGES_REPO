@@ -58,8 +58,8 @@ Após o registo dos dados deve clicar em **GUARDAR** para gravar a entidade. Ap�
 |       \\                                              | \\ |    IPSS         |                  | 
 |         \\                                            | \\ |  Cooperativa    |                  |
 | Volume de negócios global (€)                       	| Movimentos monetários anuais feitos pela entidade |   Privada      |       |
-|         \\                                            |\\|    IPSS         |                  | 
-|           \\                                          |\\|  Cooperativa    |                  | 
+|         \\                                            | \\ |    IPSS         |                  | 
+|           \\                                          | \\ |  Cooperativa    |                  | 
 | Tipo de Atividade Principal (CAE)                   	|Indicar o tipo de atividade que exerce a Entidade. Os valores vêm de acordo com a Classificação Portuguesa das Atividades Económicas (CAE) |   Privada      |                  | 
 |                   \\                                  | \\ |    IPSS         |                  |   
 |                    \\                                 | \\ |   Cooperativa  |                  | 
