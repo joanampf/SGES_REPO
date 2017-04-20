@@ -45,41 +45,41 @@ Após o registo dos dados deve clicar em **GUARDAR** para gravar a entidade. Ap�
 | Tipo Entidade 									  |Indicar o tipo de entidade (Hospital, Centro Hospitalar, ACES, ULS). Apenas preencher só se natureza jurídica = Pública                   |                 |   |
 |		                                              ||**Natureza Jurídica**				|**Tipo Entidade**|
 |-----------------------------------------------------||-------------------------------------|-----------------|
-| ARS                                                 |ARS a que a Entidade está associada|    Pública          				|ACES             |
-|    \\                                               |\\|\\                 			|Centro Hospitalar|
-|      \\                                             |\\|\\                     		|Hospital         |
-|     \\                                              |\\|   \\                 		|ULS              |
+| ARS                                                 |ARS a que a Entidade está associada|    Pública          	    |ACES             |
+|    \\                                               |\\                                 |\\                 			|Centro Hospitalar|
+|      \\                                             |\\                                 |\\                     		|Hospital         |
+|     \\                                              |\\                                 |\\                 		    |ULS              |
 |Tipo Entidade Jurídica                               |Tipo de contrato celebrado entre a entidade e a Administração Publica (EPE, PPP, IP,SPA)	|    Pública          				|ACES             |
-|       \\                                            |\\|    \\                 |Centro Hospitalar|   |
-|      \\                                             |\\|   \\                  |Hospital         |   |
-|      \\                                             |\\|     \\                |ULS              |   |
-| Integra ULS                                        |Indicar se o ACEs a criar pertence a alguma ULS e se sim indicar a ULS|    Pública      |ACES              |   |
-| Matricula                                           	|NA|    Privada      |                  |   |
-|       \\                                              |\\|    IPSS         |                  |   |
-|         \\                                            |\\|  Cooperativa    |                  |   |
-| Volume de negócios global (€)                       	| Movimentos monetários anuais feitos pela entidade |   Privada      |                  |   |
-|         \\                                            |\\|    IPSS         |                  |   |
-|           \\                                          |\\|  Cooperativa    |                  |   |
-| Tipo de Atividade Principal (CAE)                   	|Indicar o tipo de atividade que exerce a Entidade. Os valores vêm de acordo com a Classificação Portuguesa das Atividades Económicas (CAE) |   Privada      |                  |   |
-|                   \\                                  |\\|    IPSS         |                  |   |
-|                    \\                                 |\\|    Cooperativa  |                  |   |
-| Tipo de Atividade Secundária (CAE)                  |Indicar (se existir) o tipo de atividade secundária que exerce a Entidade. Os valores vêm de acordo com a Classificação Portuguesa das Atividades Económicas (CAE) |   Privada      |                  |   |
-|                    \\                                 |\\|    IPSS         |                  |   |
-|                    \\                                 |\\|    Cooperativa  |                  |   |
-| Morada                                              |       Informação da localização da Entidade  |        |             |   |
-| Código Postal                                       |               		\\								 | |            |   |
-| Distrito                                            |                 \\									 ||           |   |
-| Concelho                                            |        \\         									 | |            |   |
-| Freguesia                                           |         \\        									 | |           |   |
-| Telefone                                            | Nº Telefone da Entidade                |        |             |   |
-| Fax                                                 | Nº Fax da Entidade                |        |             |   |
-| E-mail                                              |        Endereço de contacto da Entidade     |        |             |   |
-| Site                                                |        Site da Entidade       |        |             |   |
-| Capital estatuário ou social (€) (Exceto natureza jurídica = Pública e tipo de entidade = ACES)|          |        |             |   |
-| Fonte de informação                                 |         |        |             |   |
-| existe Equipamento Pesado?                          |              |        |             |   |
-| Identificação dos corpos Gerentes/ Conselho de administração    |    |        |             |   |
-| Identificação dos Sócios/Acionistas (só se natureza jurídica = Privada) |      |        |             |   |
+|       \\                                            |\\|    \\                 |Centro Hospitalar| 
+|      \\                                             |\\|   \\                  |Hospital         |
+|      \\                                             |\\|     \\                |ULS              |
+| Integra ULS                                        |Indicar se o ACEs a criar pertence a alguma ULS e se sim indicar a ULS|    Pública      |ACES              | 
+| Matricula                                           	|NA|    Privada      |                  | 
+|       \\                                              |\\|    IPSS         |                  | 
+|         \\                                            |\\|  Cooperativa    |                  |
+| Volume de negócios global (€)                       	| Movimentos monetários anuais feitos pela entidade |   Privada      |       |
+|         \\                                            |\\|    IPSS         |                  | 
+|           \\                                          |\\|  Cooperativa    |                  | 
+| Tipo de Atividade Principal (CAE)                   	|Indicar o tipo de atividade que exerce a Entidade. Os valores vêm de acordo com a Classificação Portuguesa das Atividades Económicas (CAE) |   Privada      |                  | 
+|                   \\                                  |\\|    IPSS         |                  |   
+|                    \\                                 |\\|    Cooperativa  |                  | 
+| Tipo de Atividade Secundária (CAE)                  |Indicar (se existir) o tipo de atividade secundária que exerce a Entidade. Os valores vêm de acordo com a Classificação Portuguesa das Atividades Económicas (CAE) |   Privada      |                  |  
+|                    \\                                 |\\|    IPSS         |                  |  
+|                    \\                                 |\\|    Cooperativa  |                  |  
+| Morada                                              |       Informação da localização da Entidade  |        |             |  
+| Código Postal                                       |               		\\								 | |            |  
+| Distrito                                            |                 \\									 ||           |  
+| Concelho                                            |        \\         									 | |            |  
+| Freguesia                                           |         \\        									 | |           |  
+| Telefone                                            | Nº Telefone da Entidade                |        |             | 
+| Fax                                                 | Nº Fax da Entidade                |        |             | 
+| E-mail                                              |        Endereço de contacto da Entidade     |        |             |  
+| Site                                                |        Site da Entidade       |        |             |  
+| Capital estatuário ou social (€) (Exceto natureza jurídica = Pública e tipo de entidade = ACES)|          |        |             |  
+| Fonte de informação                                 |         |        |             |  
+| existe Equipamento Pesado?                          |              |        |             |  
+| Identificação dos corpos Gerentes/ Conselho de administração    |    |        |             |  
+| Identificação dos Sócios/Acionistas (só se natureza jurídica = Privada) |      |        |             |  
 
 
 ![figCriarEntidade](img/pages/6_1_2.jpg)
