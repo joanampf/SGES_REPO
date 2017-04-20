@@ -43,11 +43,11 @@ Após o registo dos dados deve clicar em **GUARDAR** para gravar a entidade. Ap�
 | Denominação                                         |    Nome identificativo da Entidade    |    |   |
 | Natureza Jurídica                                   |                     |                 |   |
 | Tipo Entidade |Indicar o tipo de entidade (Hospital, Centro Hospitalar, ACES, ULS). Apenas preencher só se natureza jurídica = Pública                   |                 |   |
-| &nbsp;                                               ||**Natureza Juridica**|**Tipo Entidade**|   |
+| &nbsp;&nbsp;                                               ||**Natureza Juridica**|**Tipo Entidade**|   |
 |-----------------------------------------------------||---------------------|-----------------|---|
 | ARS                                                 ||    Pública          |ACES             |   |
-|                                                     ||                     |Centro Hospitalar|   |
-|                                                     ||                     |Hospital         |   |
+|                                                     ||conc                 |Centro Hospitalar|   |
+|                                                     ||conc                     |Hospital         |   |
 |                                                     ||                    |ULS              |   |
 | Tipo Entidade                                       ||    Pública          |ACES             |   |
 |                                                     ||                     |Centro Hospitalar|   |
