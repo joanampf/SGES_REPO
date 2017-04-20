@@ -44,19 +44,19 @@ Após o registo dos dados deve clicar em **GUARDAR** para gravar a entidade. Ap�
 | Natureza Jurídica                                   |                  NA   				|                 |   |
 | Tipo Entidade 									  |Indicar o tipo de entidade (Hospital, Centro Hospitalar, ACES, ULS). Apenas preencher só se natureza jurídica = Pública                   |                 |   |
 |		                                              ||**Natureza Jurídica**				|**Tipo Entidade**|
-|-----------------------------------------------------||-------------------------------------|-----------------|
+|-----------------------------------------------------||------------------------------------|-----------------|
 | ARS                                                 |ARS a que a Entidade está associada|    Pública          	    |ACES             |
 |    \\                                               |\\                                 |\\                 			|Centro Hospitalar|
 |      \\                                             |\\                                 |\\                     		|Hospital         |
 |     \\                                              |\\                                 |\\                 		    |ULS              |
-|Tipo Entidade Jurídica                               |Tipo de contrato celebrado entre a entidade e a Administração Publica (EPE, PPP, IP,SPA)	|    Pública          				|ACES             |
-|       \\                                            |\\|    \\                 |Centro Hospitalar| 
-|      \\                                             |\\|   \\                  |Hospital         |
-|      \\                                             |\\|     \\                |ULS              |
+|Tipo Entidade Jurídica|Tipo de contrato celebrado entre a entidade e a Administração Publica (EPE, PPP, IP,SPA)	|Pública|ACES|
+|       \\                                            | \\ |    \\                 |Centro Hospitalar| 
+|      \\                                             | \\ |   \\                  |Hospital         |
+|      \\                                             | \\ |     \\                |ULS              |
 | Integra ULS                                        |Indicar se o ACEs a criar pertence a alguma ULS e se sim indicar a ULS|    Pública      |ACES              | 
-| Matricula                                           	|NA|    Privada      |                  | 
-|       \\                                              |\\|    IPSS         |                  | 
-|         \\                                            |\\|  Cooperativa    |                  |
+| Matricula                                           	|NA  |    Privada      |                  | 
+|       \\                                              | \\ |    IPSS         |                  | 
+|         \\                                            | \\ |  Cooperativa    |                  |
 | Volume de negócios global (€)                       	| Movimentos monetários anuais feitos pela entidade |   Privada      |       |
 |         \\                                            |\\|    IPSS         |                  | 
 |           \\                                          |\\|  Cooperativa    |                  | 
