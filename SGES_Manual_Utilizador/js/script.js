@@ -23,8 +23,8 @@
 			$(this).css("display","none");
 		}
 		else if(($(this).html() == "\\")){
-			row++;
 			$(this).css("display","none");
+			$('#line'+(line-1)+'cell'+cell).attr('rowspan', ($('#line'+(line-1)+'cell'+cell).rowspan + 1) );
 		}
 			
 	cell++;
