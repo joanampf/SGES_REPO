@@ -24,9 +24,9 @@
 		}
 		else if(($(this).html() == "\\")){
 			$(this).css("display","none");
-			if($('#line'+(line-1)+'cell'+cell).rowspan == undefined)
+			if($('#line'+(line-1)+'cell'+cell+'[rowSpan]') == undefined)
 				$('#line'+(line-1)+'cell'+cell).attr('rowspan',1);
-			$('#line'+(line-1)+'cell'+cell).attr('rowspan', ($('#line'+(line-1)+'cell'+cell).rowspan + 1) );
+			$('#line'+(line-1)+'cell'+cell).attr('rowspan', ($('#line'+(line-1)+'cell'+cell).attr('rowspan') + 1) );
 		}
 			
 	cell++;
