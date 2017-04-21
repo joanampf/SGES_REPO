@@ -39,31 +39,31 @@ Após o registo dos dados em cada Painel, deve clicar em **GUARDAR** para gravar
 ### 7.1.1. Painel de Identificação do Estabelecimento
 Neste painel identificam-se os dados básicos da entidade. O utilizador deverá preencher os campos obrigatórios para concluir a ação:
 
-|    | Campos Obrigatórios ([](#figCriarEstabelecimento))         |      |
-|----|---------------------------------------------------|----------|
-| a) | Tipo de Estabelecimento                          |  Hospital | 
-||                                                      |  Unidade funcional (se for um ACES)| 
-||                                                      |  Consultório| 
-||                                                      |  Laboratório| 
-| b) |Tipo de Unidade Funcional (se Tipo de Estabelecimento = Unidade Funcional)|UCC| 
-||                                                      |  UCSP| 
-||                                                      |  USF| 
-||                                                      |  USP| 
-||                                                      |  URAP| 
-| c) |Estado                                            | Ativa|
-||                                                      | Encerrado|
-||                                                      | Suspenso|
-||                                                      | Transferido|
-| d) |Nome/Designação social                       | |
-| e) |Morada                                       | |
-| f) |Código-Postal                                | |
-| g) |Distrito                                     | |
-| h) |Concelho                                     | |
-| i) |Freguesia                                    | |
-| j) |Telefone                                     | |
-| k) |Fax                                          | |
-| l) |Email                                        | |
-| m) |Site                                         | |
+|     Campos Obrigatórios ([](#figCriarEstabelecimento))         |      |
+|-------------------------------------------------------|----------|
+|  Tipo de Estabelecimento                          |  Hospital | 
+|                                                      |  Unidade funcional (se for um ACES)| 
+|                                                      |  Consultório| 
+|                                                      |  Laboratório| 
+| Tipo de Unidade Funcional (se Tipo de Estabelecimento = Unidade Funcional)|UCC| 
+|                                                      |  UCSP| 
+|                                                      |  USF| 
+|                                                     |  USP| 
+|                                                      |  URAP| 
+| Estado                                            | Ativa|
+|                                                     | Encerrado|
+|                                                    | Suspenso|
+|                                                      | Transferido|
+| Nome/Designação social                       | |
+| Morada                                       | |
+| Código-Postal                                | |
+| Distrito                                     | |
+| Concelho                                     | |
+| Freguesia                                    | |
+|Telefone                                     | |
+|Fax                                          | |
+| Email                                        | |
+| Site                                         | |
 
 ![figCriarEstabelecimento](img/pages/7_1_1.jpg)
 
@@ -101,12 +101,12 @@ Este painel ([](#figPainelGabCidadao)) apenas deve ser preenchido se aplicável 
 ### 7.1.3. Painel de Urgências
 Este painel permite ao utilizador identificar as urgências da entidade de acordo com os seguintes campos obrigatórios:
 
-|    | Campos Obrigatórios    |      |
-|----|--------------------------------------------------------|------|
-| a) | Urgências                         |  Sim| 
-| |                                      |  Não| 
-| b) | 	Se urgências                     |  Tipo de urgência| 
-||                                       |Classificação do Serviço de Urgência| 
+|     Campos Obrigatórios    |      |
+|------------------------------------------------------------|------|
+| Urgências                         |  Sim| 
+|                                      |  Não| 
+|  	Se urgências                     |  Tipo de urgência| 
+|                                       |Classificação do Serviço de Urgência| 
 
 ![figUrgencias](img/pages/7_1_3.jpg)
 
