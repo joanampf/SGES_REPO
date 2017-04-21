@@ -92,7 +92,7 @@ Aparece na 1ªlinha o perfil do utilizador e caso este pertença a uma entidade,
 
 
 Ao lado do nome de utilizador, encontra-se o botão das opções avançadas ![logo](img/definicao.png). 
-Ao clicar neste o utilizador tem acesso a um conjunto de opções relativas ao perfil do utilizador, como o alterar password ([5.2. Alteração da senha](#alterao-da-senha)) e a criação de utilizadores ([5.3. Gestão de utilizadores](#gesto-de-utilizadores)).
+Ao clicar neste o utilizador tem acesso a um conjunto de opções relativas ao perfil do utilizador, como o alterar password ([5.2. Alteração da senha](#alterao-da-senha)) e a criação de utilizadores ([5.4. Gestão de utilizadores](#gesto-de-utilizadores)).
 
 
 A qualquer momento, em qualquer página existe a ligação ao manual de utilizador através do botão no canto superior direito. 
@@ -116,9 +116,9 @@ Caso o utilizador saiba as suas credenciais, inserir os campos obrigatórios, e 
 
 Caso contrário, deverá clicar em **Recuperar Senha**, inserir os campos obrigatórios, e clicar em **Enviar**.
 
-|    |  Campos Obrigatórios [](#figLoginRecuperacao).     |           
-|----|----------------------------------------------------|
-| a) | nome de utilizador associado á aplicação  |  
+|      Campos Obrigatórios [](#figLoginRecuperacao).     |           
+|--------------------------------------------------------|
+|  nome de utilizador associado á aplicação  |  
 
 ![figLoginRecuperacao](img/pages/5_1_2.jpg)
 
@@ -142,11 +142,11 @@ Na primeira vez que o utilizador acede a aplicação, aparecerá a página de ([
 A qualquer momento, o utilizador pode fazer a alteração da sua senha, clicando no botão das opções avançadas situado no canto superior direito da página ([5.Conceitos Básicos](#conceitos-bsicos)). 
 Após clicar em **Alterar Password** é lhe apresentada uma página de alteração de senha, [](#figAlteracaoSenha). O utilizador deverá inserir os campos obrigatórios:
 
-|    |  Campos Obrigatórios [](#figAlteracaoSenha)  |           
-|----|----------------------------------------|
-| a) |  Senha utilizada atualmente            | 
-| b) |  Nova senha pretendida                 |  
-| c) |  Repetição da senha pretendida         |
+|       Campos Obrigatórios [](#figAlteracaoSenha)  |           
+|---- ----------------------------------------------|
+|    Senha utilizada atualmente                  | 
+|    Nova senha pretendida                       |  
+|    Repetição da senha pretendida               |
 
 Após o preenchimento dos campos, o utilizador deverá finalizar a alteração clicando em **Alterar**.
 
@@ -159,9 +159,10 @@ Após o preenchimento dos campos, o utilizador deverá finalizar a alteração c
 A aplicação tem uma página onde podem ser efetuadas pesquisas de entidades ou estabelecimentos, que será a página de entrada de alguns perfis.
 Caso pretenda pesquisar por entidades, o utilizador deverá selecionar **Entidade** no campo *Pesquisar por:* presente no formulário e preencher pelo menos 3 campos de pesquisa. Em seguida clicar em **Pesquisar** para executar a pesquisa.
 
-|   |  Campos Obrigatórios [](#figPesquisaEntidade)  |           
-|----|----------------------------------------|
-| a) | Campo de identificação do tipo de pesquisa | 
+|Campos Obrigatórios [](#figPesquisaEntidade)|           
+|--------------------------------------------|
+|Campo de identificação do tipo de pesquisa  | 
+|Pelo menos 3 campos da pesquisa             |
 
 ![figPesquisaEntidade](img/pages/5_3_1.jpg)
 
@@ -211,15 +212,15 @@ O utilizador deve clicar em **Criar**, para aparecer a página de *Criar Utiliza
 
 Para a criação de utilizador deve ser preenchido os seguintes campos obrigatórios:
 
-|    |  Campos Obrigatórios [](#figCriarUtilizador)  | |    
-|----|----------------------------------------|----|
-| a) |  Nome       		                ||
-| b) |  BI/CC                           ||
-| c) |  Data de nascimento              ||
-| d) |  Sexo                            ||
-| e) |  E-mail                          ||
-| f) |  Perfil                          |SGES_ENTIDADE|
-| |                                     |SGES_EQUIPAMENTOS|
+|     Campos Obrigatórios [](#figCriarUtilizador)  | |    
+|--------------------------------------------|----|
+|  Nome       		                ||
+|  BI/CC                           ||
+|  Data de nascimento              ||
+| Sexo                            ||
+|  E-mail                          ||
+|  Perfil                          |SGES_ENTIDADE|
+|                                     |SGES_EQUIPAMENTOS|
 
 No final da edição o utilizador para gravar as alterações deve clicar no botão **GUARDAR**. Após clicar irá ser notificado com o resultado da operação.
 
