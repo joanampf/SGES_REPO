@@ -118,7 +118,7 @@ Este painel permite ao utilizador identificar as urgências da entidade de acord
 
 O painel de especialidades permite ao utilizador indicar as especialidades com que a entidade lida através dos seguintes campos obrigatórios:
 
-|     Campos Obrigatórios   |                         |
+|     Campos Obrigatórios                    |                         |
 |--------------------------------------------|-------------------------|
 |  	Especialidades e Exames                  | Área                    |
 |   	                                     | Especialidade           |
