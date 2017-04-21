@@ -38,49 +38,36 @@ Se ainda não existir a entidade, o utilizador será encaminhado para a página 
 Deverá preencher os campos obrigatórios, descritos na tabela que se segue, para poder efetuar o registo da entidade.
 Após o registo dos dados deve clicar em **GUARDAR** para gravar a entidade. Após clicar irá ser notificado com o resultado da operação.
 
-| Campos Obrigatórios da ([](#figCriarEntidade))      |                     				|                 |   |
-|-----------------------------------------------------|-------------------------------------|-----------------|---|
-| Denominação                                         |Nome identificativo da Entidade		|				  |   |
-| Natureza Jurídica                                   |                  NA   				|                 |   |
-| Tipo Entidade 									  |Indicar o tipo de entidade (Hospital, Centro Hospitalar, ACES, ULS). Apenas preencher só se natureza jurídica = Pública                   |                 |   |
-|		                                              ||**Natureza Jurídica**				|**Tipo Entidade**|
-|-----------------------------------------------------||------------------------------------|-----------------|
-| ARS                                                 |ARS a que a Entidade está associada|    Pública          	    |ACES             |
-|    \\                                               |\\                                 |\\                 			|Centro Hospitalar|
-|      \\                                             |\\                                 |\\                     		|Hospital         |
-|     \\                                              |\\                                 |\\                 		    |ULS              |
-|Tipo Entidade Jurídica|Tipo de contrato celebrado entre a entidade e a Administração Publica (EPE, PPP, IP,SPA)	|Pública|ACES|
-|       \\                                            | \\ |    \\                 |Centro Hospitalar| 
-|      \\                                             | \\ |   \\                  |Hospital         |
-|      \\                                             | \\ |     \\                |ULS              |
-| Integra ULS                                        |Indicar se o ACEs a criar pertence a alguma ULS e se sim indicar a ULS|    Pública      |ACES              | 
-| Matricula                                           	|NA  |    Privada      |                  | 
-|       \\                                              | \\ |    IPSS         |                  | 
-|         \\                                            | \\ |  Cooperativa    |                  |
-| Volume de negócios global (€)                       	| Movimentos monetários anuais feitos pela entidade |   Privada      |       |
-|         \\                                            | \\ |    IPSS         |                  | 
-|           \\                                          | \\ |  Cooperativa    |                  | 
-| Tipo de Atividade Principal (CAE)                   	|Indicar o tipo de atividade que exerce a Entidade. Os valores vêm de acordo com a Classificação Portuguesa das Atividades Económicas (CAE) |   Privada      |                  | 
-|                   \\                                  | \\ |    IPSS         |                  |   
-|                    \\                                 | \\ |   Cooperativa  |                  | 
-| Tipo de Atividade Secundária (CAE)                  |Indicar (se existir) o tipo de atividade secundária que exerce a Entidade. Os valores vêm de acordo com a Classificação Portuguesa das Atividades Económicas (CAE) |   Privada      |                  |  
-|                    \\                                 | \\ |    IPSS         |                  |  
-|                    \\                                 | \\ |    Cooperativa  |                  |  
-| Morada                                              |       Informação da localização da Entidade          | |             |  
-| Código Postal                                       |               		\\								 | \\ |       \\      |  
-| Distrito                                            |                 \\									 | \\ |     \\        |  
-| Concelho                                            |        \\         									 | \\ |     \\        |  
-| Freguesia                                           |         \\        									 | \\ |     \\        |  
-| Telefone                                            | Nº Telefone da Entidade                |        |             | 
-| Fax                                                 | Nº Fax da Entidade                |        |             | 
-| E-mail                                              |        Endereço de contacto da Entidade     |        |             |  
-| Site                                                |        Site da Entidade       |        |             |  
-| Capital estatuário ou social (€) (Exceto natureza jurídica = Pública e tipo de entidade = ACES)|          |        |             |  
-| Fonte de informação                                 |         |        |             |  
-| existe Equipamento Pesado?                          |              |        |             |  
-| Identificação dos corpos Gerentes/ Conselho de administração    |    |        |             |  
-| Identificação dos Sócios/Acionistas (só se natureza jurídica = Privada) |      |        |             |  
-
+|       											  | Campos ([](#figCriarEntidade))      |                 			   |
+|-----------------------------------------------------|-------------------------------------|------------------------------|
+|**Nome Campo**                                       | **Descrição Campo**                 |**Condições de Preenchimento**|
+| Denominação                                         |Nome identificativo da Entidade		|				 			   |
+| Nº Registo ERS									  | NA									|							   |
+| Natureza Jurídica                                   |                  NA   				|                 			   |
+| Tipo Entidade 									  |Indicar o tipo de entidade (Hospital, Centro Hospitalar, ACES, ULS).|  Apenas visível quando Natureza Jurídica = Pública| 
+|		                                              |                                     |                              |
+|-----------------------------------------------------|-------------------------------------|------------------------------|
+| ARS                                                 |ARS a que a Entidade está associada  | Apenas visível quando Natureza Jurídica = Pública|
+|Tipo Entidade Jurídica                               |Tipo de contrato celebrado entre a entidade e a Administração Publica (EPE, PPP, IP,SPA)	|Apenas visível quando Tipo Entidade = Hospital, Centro Hospitalar, ULS|
+| Integra ULS     									  |Indicar se o ACES a criar pertence a alguma ULS e se sim indicar a ULS| Apenas visível quando Tipo Entidade = ACES| 
+| Matricula                                           |NA|   Apenas visível quando Natureza Jurídica = Privada, IPSS, Cooperativa|
+| Volume de negócios global (€)                       | Movimentos monetários anuais feitos pela entidade |   Apenas visível quando Natureza Jurídica = Privada, IPSS, Cooperativa| 
+| Tipo de Atividade Principal (CAE)                   |Indicar o tipo de atividade que exerce a Entidade. Os valores vêm de acordo com a Classificação Portuguesa das Atividades Económicas (CAE) |   Apenas visível quando Natureza Jurídica = Privada, IPSS, Cooperativa  | 
+| Tipo de Atividade Secundária (CAE)                  |Indicar (se existir) o tipo de atividade secundária que exerce a Entidade. Os valores vêm de acordo com a Classificação Portuguesa das Atividades Económicas (CAE) |   Apenas visível quando Natureza Jurídica = Privada, IPSS, Cooperativa     |  
+| Morada                                              |   Indicar Morada da Entidade           |        |  
+| Código Postal                                       |  Indicar Código Postal da Entidade     |        |     
+| Distrito                                            |                  					   |        |  
+| Concelho                                            |                  					   |        |     
+| Freguesia                                           |                  					   |        |      
+| Telefone                                            | Nº Telefone da Entidade                |        |     
+| Fax                                                 | Nº Fax da Entidade                     |        |     
+| E-mail                                              | Endereço de contacto da Entidade       |        |         
+| Site                                                | Site da Entidade                       |        |         
+| Capital estatuário ou social (€)                    | NA       ||    
+| Fonte de informação                                 | NA         							   |        | 
+| Identificação dos corpos Gerentes/ Conselho de administração|                                |        |    
+| Convencionada                                       | Indicar se existe ou não alguma convenção/acordo com outra entidade | Apenas visível quando Natureza Jurídica = Privada, IPSS, Cooperativa|
+| Identificação dos Sócios/Acionistas  | NA                  |Apenas visível quando Natureza Jurídica = Privada|  
 
 ![figCriarEntidade](img/pages/6_1_2.jpg)
 
