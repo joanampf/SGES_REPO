@@ -86,11 +86,11 @@ Após o preenchimento da identificação do estabelecimento, dependendo do tipo 
 
 Este painel ([](#figPainelGabCidadao)) apenas deve ser preenchido se aplicável à entidade em questão. O utilizador deverá preencher os campos obrigatórios para concluir a ação:
 
-|    | Campos Obrigatórios |      |
-|----|---------------------------------------------------|----------|
-| a) |E-mail do Gabinete Cidadão ||
-| b) |Telefone do Gabinete Cidadão ||
-| c) |Site Tabela Preços em vigor (É uma tabela de preços em vigor para os cuidados a prestar pelo hospital. (São os preços a pagar por um utente independente, sem qualquer sistema de saúde))||
+|     Campos Obrigatórios |      |
+|-------------------------------------------------------|----------|
+| E-mail do Gabinete Cidadão | Indicar endereço electrónico do Gabinete|
+| Telefone do Gabinete Cidadão | Indicar contacto do Gabinete|
+| Site Tabela Preços em vigor |É uma tabela de preços em vigor para os cuidados a prestar pelo hospital. (São os preços a pagar por um utente independente, sem qualquer sistema de saúde)|
 
 
 ![figPainelGabCidadao](img/pages/7_1_2.jpg)
@@ -118,11 +118,11 @@ Este painel permite ao utilizador identificar as urgências da entidade de acord
 
 O painel de especialidades permite ao utilizador indicar as especialidades com que a entidade lida através dos seguintes campos obrigatórios:
 
-|    | Campos Obrigatórios   |                         |
-|----|---------------------------------------|-------------------------|
-| a) | 	Especialidades e Exames              | Área                    |
-|    | 	                                     | Especialidade           |
-|    | 	                                     | Adultos e/ou Pediátricos|
+|     Campos Obrigatórios   |                         |
+|--------------------------------------------|-------------------------|
+|  	Especialidades e Exames                  | Área                    |
+|   	                                     | Especialidade           |
+|    	                                     | Adultos e/ou Pediátricos|
 
 Para adicionar uma nova especialidade o utilizador deverá pressionar **Adicionar Linha**
 ![figEspecialidade](img/pages/7_1_4.jpg)
@@ -137,13 +137,13 @@ Na lista o utilizador deverá indicar quais os exames que o hospital realiza par
 ### 7.1.5. Separador de Capacidade
 No painel de capacidade, deve ser indicada a lotação do hospital relativamente aos vários tipos de áreas existentes na entidade.
 
-|    | Campos Obrigatórios   |      |
-|----|--------------------------------------------------------|------|
-| a) | 	Ano                       								| |
-| b) | 	Capacidade                       |Tipo Área Capacidade |
-||                                       |  Área Capacidade| 
-||                                       |  Tipo Capacidade| 
-||                                       |  Capacidade Lotação| 
+|     Campos Obrigatórios   |      |
+|-----------------------------------------------------------|------|
+| 	Ano                       								| |
+| 	Capacidade                       |Tipo Área Capacidade |
+|                                       |  Área Capacidade| 
+|                                       |  Tipo Capacidade| 
+|                                       |  Capacidade Lotação| 
 
 ![figCapacidade](img/pages/7_1_5.jpg)
 
@@ -161,15 +161,15 @@ Quando o utilizador regista a capacidade dos quartos de isolamento, deverá indi
 ### 7.1.6. Painel de Unidade Funcional
 No caso da entidade em que se está a criar o estabelecimento ser um ACES, então apresenta-se o seguinte painel:
 
-|    | Campos Obrigatórios | |
-|----|--------------------------------------------------------|------|
-| a) | Centro de Saúde (se diferente de USP)                                    | | 
-| b) |População Abrangida                          | Distrito |
-||                                                 | Concelho | 
-||                                                 | Freguesias| 
-| c) | Se Unidade Funcional = USF, UCSP, UCC, USP            | Nº de Gabinetes Médicos| 
-||                                                 | Nº de Gabinetes Tratamento| 
-| d) | Se Unidade Funcional = USF                  | Modelo USF| 
+|     Campos Obrigatórios | |
+|------------------------------------------------------------|------|
+|  Centro de Saúde (se diferente de USP)                                    | | 
+| População Abrangida                          | Distrito |
+|                                                 | Concelho | 
+|                                                 | Freguesias| 
+| Se Unidade Funcional = USF, UCSP, UCC, USP            | Nº de Gabinetes Médicos| 
+|                                                 | Nº de Gabinetes Tratamento| 
+| Se Unidade Funcional = USF                  | Modelo USF| 
 
 
 ![figUnidadeFunc](img/pages/7_1_6.jpg)
@@ -180,14 +180,14 @@ No caso da entidade em que se está a criar o estabelecimento ser um ACES, entã
 ### 7.1.6. Painel de Postos de Colheita
 No caso do estabelecimento a criar ser um laboratório , terá de ser preenchido o seguinte painel:
 
-|    | Campos Obrigatórios  | 
-|----|--------------------------------------------------------|
-| a) | Nome                                                   |
-| b) | Morada                                                 |
-| c) | Código-Postal                                          |
-| d) | Distrito                                               |
-| e) | Concelho                                               |
-| f) | Freguesia                                              |
+|     Campos Obrigatórios  								| 
+|-------------------------------------------------------|
+|Nome                                                   |
+|Morada                                                 |
+|Código-Postal                                          |
+|Distrito                                               |
+|Concelho                                               |
+|Freguesia                                              |
 
 ![figPostosColheita](img/pages/7_1_7.jpg)
 
@@ -218,9 +218,9 @@ Se o utilizador tiver acesso à pesquisa de estabelecimentos ([](#figPesquisaEst
 Na página de estabelecimentos associados a uma entidade ([](#figEstEntidade)), o utilizador pode navegar diretamente para a página de transferência de equipamento após selecionar um estabelecimento da lista e clicar no botão **TRANSFERIR**.
 Para poder transferir o equipamento, o utilizador deve preencher os campos obrigatórios e clicar em **TRANSFERIR**.
 
-|    | Campos Obrigatórios – ([](#figTransfEstabelecimento))  | 
-|----|--------------------------------------------------------|
-| a) | Entidade destino                                       |
+|    Campos Obrigatórios – ([](#figTransfEstabelecimento))   | 
+|------------------------------------------------------------|
+| Entidade destino                                           |
 
 ![figTransfEstabelecimento](img/pages/7_4_1.jpg)
 
