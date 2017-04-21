@@ -86,7 +86,7 @@ Após o preenchimento da identificação do estabelecimento, dependendo do tipo 
 
 Este painel ([](#figPainelGabCidadao)) apenas deve ser preenchido se aplicável à entidade em questão. O utilizador deverá preencher os campos obrigatórios para concluir a ação:
 
-|     Campos Obrigatórios |      |
+|     |Campos Obrigatórios       |
 |-------------------------------------------------------|----------|
 | E-mail do Gabinete Cidadão | Indicar endereço electrónico do Gabinete|
 | Telefone do Gabinete Cidadão | Indicar contacto do Gabinete|

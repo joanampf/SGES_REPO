@@ -22,10 +22,10 @@ Este módulo permite a manipulação das entidades de acordo com as permissões 
 
 Para poder criar uma entidade o utilizador deve preencher, pelo menos, os campos obrigatórios e clicar em **CRIAR**;
 
-|  | Campos Obrigatórios ([](#figCamposPesquisaEntidade))               |   |   |   |
-|----|--------------------------------------------|---|---|---|
-| a) | Campo de identificação do tipo de pesquisa |   |   |   |
-| b) | NIPC da entidade a criar |   |    |   |
+|   Campos Obrigatórios ([](#figCamposPesquisaEntidade))               |   
+|------------------------------------------------|
+|  Campo de identificação do tipo de pesquisa | 
+|  NIPC da entidade a criar |  
 
 
 
@@ -54,18 +54,18 @@ Após o registo dos dados deve clicar em **GUARDAR** para gravar a entidade. Ap�
 | Tipo de Atividade Secundária (CAE)                  |Indicar (se existir) o tipo de atividade secundária que exerce a Entidade. Os valores vêm de acordo com a Classificação Portuguesa das Atividades Económicas (CAE) |   Apenas visível quando Natureza Jurídica = Privada, IPSS, Cooperativa     | 
 | Morada                                              |   Indicar Morada da Entidade           | &nbsp;&nbsp;       |  
 | Código Postal                                       |  Indicar Código Postal da Entidade     |  &nbsp;&nbsp;      |     
-| Distrito                                            |          &nbsp;&nbsp;        					   |   &nbsp;&nbsp;     |  
-| Concelho                                            |          &nbsp;&nbsp;        					   |    &nbsp;&nbsp;    |     
-| Freguesia                                           |           &nbsp;&nbsp;       					   |   &nbsp;&nbsp;     |      
+| Distrito                                            |      Indicar Distrito da Entidade  	   |   &nbsp;&nbsp;     |  
+| Concelho                                            |        Indicar Concelho da Entidade  			   |    &nbsp;&nbsp;    |     
+| Freguesia                                           |      Indicar Freguesia da Entidade  					   |   &nbsp;&nbsp;     |      
 | Telefone                                            | Nº Telefone da Entidade                |  &nbsp;&nbsp;      |     
 | Fax                                                 | Nº Fax da Entidade                     |   &nbsp;&nbsp;     |     
 | E-mail                                              | Endereço de contacto da Entidade       |   &nbsp;&nbsp;     |         
 | Site                                                | Site da Entidade                       |    &nbsp;&nbsp;    |         
 | Capital estatuário ou social (€)                    | NA       |&nbsp;&nbsp;|    
 | Fonte de informação                                 | NA         							   |    &nbsp;&nbsp;    | 
-| Identificação dos corpos Gerentes/ Conselho de administração|                                |   &nbsp;&nbsp;     |    
+| Identificação dos corpos Gerentes/ Conselho de administração|  Identidicação do corpo Administrativo que constitui a entidade                              |   &nbsp;&nbsp;     |    
 | Convencionada                                       | Indicar se existe ou não alguma convenção/acordo com outra entidade | Apenas visível quando Natureza Jurídica = Privada, IPSS, Cooperativa|
-| Identificação dos Sócios/Acionistas  | NA                  |Apenas visível quando Natureza Jurídica = Privada|  
+| Identificação dos Sócios/Acionistas  |   Inidicar a estrutura accionista da instituição               |Apenas visível quando Natureza Jurídica = Privada|  
 
 ![figCriarEntidade](img/pages/6_1_2.jpg)
 
@@ -77,7 +77,7 @@ Após o registo dos dados deve clicar em **GUARDAR** para gravar a entidade. Ap�
 
 Existem duas possibilidades de Editar uma entidade no SGES:
 
- - Na página de Consulta de Entidade/Página Inicial do SGES ([](#figPaginaEntradaEnt)):  que aparece na página de edição de uma entidade está disponível através da consulta de entidade clicando no botão **EDITAR ENTIDADE**  
+ - Na página de Consulta de Entidade/Página Inicial do SGES ([](#figPaginaEntradaEnt)): que aparece na página de edição de uma entidade está disponível através da consulta de entidade clicando no botão **EDITAR ENTIDADE**  
 	
  - Na página de Pesquisa de Entidade ([](#figPesquisaExEntidade)): se tiver acesso à pesquisa de entidades pode navegar diretamente para a edição após selecionar uma entidade da lista de resultados e clicar no botão **EDITAR**.
 
@@ -106,7 +106,7 @@ Após se clicar no botão surge alerta a questionar se pretende mesmo encerrar a
 
 <p class="caption" id="figEncerraEntidade"> Encerrar entidade</p>
 
-<p id="historicoEntidade"></p>
+<div id="historicoEntidade"></div>
 
 ## 6.5.Histórico Entidade
 
@@ -117,4 +117,4 @@ Uma vez na página de histórico ([](#figHistoricoEntidade)) poderá visualizar 
 
 <p class="caption" id="figHistoricoEntidade"> Histórico de Entidade</p>
 
-Estão também registados os estabelecimentos transferidos e encerrados da entidade. 
+Estão também registados os estabelecimentos transferidos e encerrados da entidade.  
