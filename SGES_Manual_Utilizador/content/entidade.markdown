@@ -41,9 +41,9 @@ Após o registo dos dados deve clicar em **GUARDAR** para gravar a entidade. Ap�
 |       											  | Campos ([](#figCriarEntidade))      |                 			   |
 |-----------------------------------------------------|-------------------------------------|------------------------------|
 |**Nome Campo**                                       | **Descrição Campo**                 |**Condições de Preenchimento**|
-| Denominação                                         |Nome identificativo da Entidade		|		&nbsp;&nbsp;		 			   |
-| Nº Registo ERS									  | NA									|		&nbsp;&nbsp;					   |
-| Natureza Jurídica                                   |                  NA   				|       &nbsp;&nbsp;          			   |
+| Denominação                                         |Nome identificativo da Entidade		|		&nbsp;&nbsp;		   |
+| Nº Registo ERS									  | NA									|		&nbsp;&nbsp;		   |
+| Natureza Jurídica                                   |	NA   								|       &nbsp;&nbsp;           |
 | Tipo Entidade 									  |Indicar o tipo de entidade (Hospital, Centro Hospitalar, ACES, ULS).|  Apenas visível quando Natureza Jurídica = Pública| 
 | ARS                                                 |ARS a que a Entidade está associada  | Apenas visível quando Natureza Jurídica = Pública|
 |Tipo Entidade Jurídica                               |Tipo de contrato celebrado entre a entidade e a Administração Publica (EPE, PPP, IP,SPA)	|Apenas visível quando Tipo Entidade = Hospital, Centro Hospitalar, ULS|
@@ -55,17 +55,17 @@ Após o registo dos dados deve clicar em **GUARDAR** para gravar a entidade. Ap�
 | Morada                                              |   Indicar Morada da Entidade           | &nbsp;&nbsp;       |  
 | Código Postal                                       |  Indicar Código Postal da Entidade     |  &nbsp;&nbsp;      |     
 | Distrito                                            |      Indicar Distrito da Entidade  	   |   &nbsp;&nbsp;     |  
-| Concelho                                            |        Indicar Concelho da Entidade  			   |    &nbsp;&nbsp;    |     
-| Freguesia                                           |      Indicar Freguesia da Entidade  					   |   &nbsp;&nbsp;     |      
+| Concelho                                            |        Indicar Concelho da Entidade    |    &nbsp;&nbsp;    |     
+| Freguesia                                           |      Indicar Freguesia da Entidade     |   &nbsp;&nbsp;     |      
 | Telefone                                            | Nº Telefone da Entidade                |  &nbsp;&nbsp;      |     
 | Fax                                                 | Nº Fax da Entidade                     |   &nbsp;&nbsp;     |     
 | E-mail                                              | Endereço de contacto da Entidade       |   &nbsp;&nbsp;     |         
 | Site                                                | Site da Entidade                       |    &nbsp;&nbsp;    |         
-| Capital estatuário ou social (€)                    | NA       |&nbsp;&nbsp;|    
+| Capital estatuário ou social (€)                    | NA                                     |     &nbsp;&nbsp;   |    
 | Fonte de informação                                 | NA         							   |    &nbsp;&nbsp;    | 
 | Identificação dos corpos Gerentes/ Conselho de administração|  Identidicação do corpo Administrativo que constitui a entidade                              |   &nbsp;&nbsp;     |    
 | Convencionada                                       | Indicar se existe ou não alguma convenção/acordo com outra entidade | Apenas visível quando Natureza Jurídica = Privada, IPSS, Cooperativa|
-| Identificação dos Sócios/Acionistas  |   Inidicar a estrutura accionista da instituição               |Apenas visível quando Natureza Jurídica = Privada|  
+| Identificação dos Sócios/Acionistas  |   Indicar a estrutura accionista da instituição               |Apenas visível quando Natureza Jurídica = Privada|  
 
 ![figCriarEntidade](img/pages/6_1_2.jpg)
 
