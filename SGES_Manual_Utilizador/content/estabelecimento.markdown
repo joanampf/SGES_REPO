@@ -60,8 +60,8 @@ Neste painel identificam-se os dados básicos da entidade. O utilizador deverá 
 | Distrito                                     | |
 | Concelho                                     | |
 | Freguesia                                    | |
-|Telefone                                     | |
-|Fax                                          | |
+| Telefone                                     | |
+| Fax                                          | |
 | Email                                        | |
 | Site                                         | |
 
@@ -151,11 +151,11 @@ No painel de capacidade, deve ser indicada a lotação do hospital relativamente
 
 Quando o utilizador regista a capacidade dos quartos de isolamento, deverá indicar o nível de isolamento do quarto como especificado de seguida no campo **Área de Capacidade**:
 
-•	**Quarto de Isolamento de GRAU III** – Quarto individual fechado, bem ventilado
-
-•	**Quarto de Isolamento de GRAU IV**  – Quarto individual fechado, bem ventilado, com desinfeção da ventilação e pressão negativa
-
-•	**Quarto de Isolamento de GRAU VI**  – Quarto individual com porta dupla e pressão negativa. 
+| Quartos de Isolamento                |                                                                                         |
+|--------------------------------------|-----------------------------------------------------------------------------------------|
+|**Quarto de Isolamento de GRAU III**  |Quarto individual fechado, bem ventilado                                                 |
+|**Quarto de Isolamento de GRAU IV**   |Quarto individual fechado, bem ventilado, com desinfeção da ventilação e pressão negativa|
+|**Quarto de Isolamento de GRAU VI**   |Quarto individual com porta dupla e pressão negativa                                     |
 
 <p id="painelUnidadeFuncional"></p>
 ### 7.1.6. Painel de Unidade Funcional
