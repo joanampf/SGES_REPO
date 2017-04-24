@@ -232,7 +232,7 @@ Após clicar no botão surge alerta a questionar se pretende mesmo encerrar o es
 
 ## 7.5. Encerrar Estabelecimento 
 
-Para encerrar um estabelecimento tem de pesquisar pelo mesmo ([](#figPesquisaEstabelecimento)) e depois de o selecionar na lista de resultados deve clicar no botão **ENCERRAR**.
+Para encerrar um estabelecimento é necessário pesquisar pelo mesmo ([](#figPesquisaEstabelecimento)) e depois de selecionar na lista de resultados deve clicar no botão **ENCERRAR**.
 Uma vez na página de **Encerrar Estabelecimento** ([](#figEncerraEstabelecimento)) deve preencher os campos *Mês*, *Ano*, *Motivo*, *Observação* se for necessário e depois clicar no botão “Encerrar”. Após clicar no botão surge alerta a questionar se pretende mesmo encerrar o estabelecimento, se confirmar irá ser notificado com o resultado da operação.
 
 ![figEncerraEstabelecimento](img/pages/7_5_1.jpg)
