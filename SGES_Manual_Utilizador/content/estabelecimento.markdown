@@ -41,29 +41,21 @@ Neste painel identificam-se os dados básicos da entidade. O utilizador deverá 
 
 |     Campos Obrigatórios ([](#figCriarEstabelecimento))         |      |
 |-------------------------------------------------------|----------|
-|  Tipo de Estabelecimento                          |  Hospital | 
-|                                                      |  Unidade funcional (se for um ACES)| 
-|                                                      |  Consultório| 
-|                                                      |  Laboratório| 
-| Tipo de Unidade Funcional (se Tipo de Estabelecimento = Unidade Funcional)|UCC| 
-|                                                      |  UCSP| 
-|                                                      |  USF| 
-|                                                     |  USP| 
-|                                                      |  URAP| 
-| Estado                                            | Ativa|
-|                                                     | Encerrado|
-|                                                    | Suspenso|
-|                                                      | Transferido|
-| Nome/Designação social                       | |
-| Morada                                       | |
-| Código-Postal                                | |
-| Distrito                                     | |
-| Concelho                                     | |
-| Freguesia                                    | |
-| Telefone                                     | |
-| Fax                                          | |
-| Email                                        | |
-| Site                                         | |
+|**Nome Campo**|	**Descrição Campo**|	**Condições de Preenchimento**|
+|Tipo de Estabelecimento|	Tipo de estabelecimento a criar	||
+|Tipo de Unidade Funcional|	Compreende as unidades de saúde familiar, de cuidados na comunidade e de saúde pública. Podem compreender, ainda, unidades de meios de diagnóstico e tratamento e especialidades de internamento ou de urgência.|	Apenas visivel se Tipo de Estabelecimento = Unidade Funcional|
+|Estado	|Estado em que o estabelecimento ficará no sistema inicialmente	|Por defeito ficará sempre a activo|
+|Nome/Designação social	|Descrição do estabelecimento	||
+|Morada	|Informação da Morada do estabelecimento	||
+|Código-Postal	|Informação do Código-Postal do estabelecimento	||
+|Distrito|	Informação do Distrito do estabelecimento	||
+|Concelho	|Informação da Concelho do estabelecimento	||
+|Freguesia|	Informação da Freguesia do estabelecimento	||
+|Telefone	|Informação do Telefone do estabelecimento	||
+|Fax	|Informação do Fax do estabelecimento	||
+|Email	|Correio eletronico de contacto do estabelecimento	||
+|Site	|Site de acesso às informações do estabelecimentos	||
+
 
 ![figCriarEstabelecimento](img/pages/7_1_1.jpg)
 
