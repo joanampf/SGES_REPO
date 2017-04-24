@@ -44,7 +44,15 @@ Após o registo dos dados deve clicar em **GUARDAR** para gravar a entidade. Ap�
 | Estado                                              | Estado da entidade (Activa ou Suspensa) | Por defeito o sistema assumirá que a entidade activa|
 | Denominação                                         |Nome identificativo da Entidade		|		&nbsp;&nbsp;		   |
 | Nº Registo ERS									  | NA									|		&nbsp;&nbsp;		   |
-| Natureza Jurídica                                   |	NA   								|Valores = pública, privada, cooperativa, IPSS (Instituições Particulares de Solidariedade Social)          |
+| Natureza Jurídica                                   |	NA   								|       &nbsp;&nbsp;           |
+| Tipo Entidade 									  |Indicar o tipo de entidade (Hospital, Centro Hospitalar, ACES, ULS).|  Apenas visível quando Natureza Jurídica = Pública| 
+| ARS                                                 |ARS a que a Entidade está associada  | Apenas visível quando Natureza Jurídica = Pública|
+|Tipo Entidade Jurídica                               |Tipo de contrato celebrado entre a entidade e a Administração Publica (EPE, PPP, IP,SPA)	|Apenas visível quando Tipo Entidade = Hospital, Centro Hospitalar, ULS|
+| Integra ULS     									  |Indicar se o ACES a criar pertence a alguma ULS e se sim indicar a ULS| Apenas visível quando Tipo Entidade = ACES| 
+| Matricula                                           |NA|   Apenas visível quando Natureza Jurídica = Privada, IPSS, Cooperativa|
+| Volume de negócios global (€)                       | Movimentos monetários anuais feitos pela entidade |   Apenas visível quando Natureza Jurídica = Privada, IPSS, Cooperativa| 
+| Tipo de Atividade Principal (CAE)                   |Indicar o tipo de atividade que exerce a Entidade. Os valores vêm de acordo com a Classificação Portuguesa das Atividades Económicas (CAE) |   Apenas visível quando Natureza Jurídica = Privada, IPSS, Cooperativa  | 
+| Tipo de Atividade Secundária (CAE)                  |Indicar (se existir) o tipo de atividade secundária que exerce a Entidade. Os valores vêm de acordo com a Classificação Portuguesa das Atividades Económicas (CAE) |   Apenas visível quando Natureza Jurídica = Privada, IPSS, Cooperativa     | 
 | Morada                                              |   Indicar Morada da Entidade           |        &nbsp;&nbsp;       |  
 | Código Postal                                       |  Indicar Código Postal da Entidade     |         &nbsp;&nbsp;      |     
 | Distrito                                            |      Indicar Distrito da Entidade  	   |          &nbsp;&nbsp;     |  
@@ -58,19 +66,8 @@ Após o registo dos dados deve clicar em **GUARDAR** para gravar a entidade. Ap�
 | Site                                                | Site da Entidade                       |           &nbsp;&nbsp;    |         
 | Capital estatuário ou social (€)                    | NA                                     |            &nbsp;&nbsp;   |    
 | Fonte de informação                                 | NA         							   |           &nbsp;&nbsp;    | 
-| Identificação dos corpos Gerentes/ Conselho de administração|  Identidicação do corpo Administrativo que constitui a entidade                              |   &nbsp;&nbsp;     |
-||<b>CAMPOS A PREENCHER NO CASO DE NATUREZA JURÍDICA = PÚBLICA</b||
-| Tipo Entidade 									  |Indicar o tipo de entidade           |Valores = Hospital, Centro Hospitalar, ACES, ULS| 
-| ARS                                                 |ARS a que a Entidade está associada  ||
-|Tipo Entidade Jurídica                               |Tipo de contrato celebrado entre a entidade e a Administração Publica (EPE, PPP, IP,SPA)	|Apenas visível quando Tipo Entidade = Hospital, Centro Hospitalar, ULS|
-| Integra ULS     									  |Indicar se o ACES a criar pertence a alguma ULS e se sim indicar a ULS| Apenas visível quando Tipo Entidade = ACES| 
-||<b>CAMPOS A PREENCHER NO CASO DE NATUREZA JURÍDICA = PRIVADA, COOPERATIVA, IPSS</b||
-| Matricula                                           |NA|   |
-| Volume de negócios global (€)                       | Movimentos monetários anuais feitos pela entidade |   | 
-| Tipo de Atividade Principal (CAE)                   |Indicar o tipo de atividade que exerce a Entidade. Os valores vêm de acordo com a Classificação Portuguesa das Atividades Económicas (CAE) |    | 
-| Tipo de Atividade Secundária (CAE)                  |Indicar (se existir) o tipo de atividade secundária que exerce a Entidade. Os valores vêm de acordo com a Classificação Portuguesa das Atividades Económicas (CAE) |     | 
-| Convencionada                                       | Indicar se existe ou não alguma convenção/acordo com outra entidade | Apenas visível quando Natureza Jurídica = Privada, IPSS, Cooperativa|    
-||<b>CAMPOS A PREENCHER NO CASO DE NATUREZA JURÍDICA = PRIVADA</b||
+| Identificação dos corpos Gerentes/ Conselho de administração|  Identidicação do corpo Administrativo que constitui a entidade                              |   &nbsp;&nbsp;     |    
+| Convencionada                                       | Indicar se existe ou não alguma convenção/acordo com outra entidade | Apenas visível quando Natureza Jurídica = Privada, IPSS, Cooperativa|
 | Identificação dos Sócios/Acionistas  |   Indicar a estrutura accionista da instituição               |Apenas visível quando Natureza Jurídica = Privada|  
 
 ![figCriarEntidade](img/pages/6_1_2.jpg)
