@@ -29,50 +29,8 @@ O utilizador pode consultar a lista dos recursos humanos afetos a serviços numa
 
 ## 8.1. Criar RH Serviço
 
-|    | Campos Obrigatórios da [](#figCriarRhServicos)       |      |
-|----|---------------------------------------------------|----------|
-| a) | Ano                                          |   | 
-| b) | Grupo Profissional               |  Assistente Operacional| 
-|    |                                  |  Assistente Técnico| 
-|    |                                  |  Enfermeiro| 
-|    |                                  |  Engenheiro Biomédico| 
-|    |                                  |  Engenheiro Físico| 
-|    |                                  |  Físico| 
-|    |                                  |  Internos| 
-|    |                                  |  Médico| 
-|    |                                  |  Radiofarmacêutico| 
-|    |                                  |  Técnico de Diagnóstico e Terapêutica| 
-| c) | Área de afetação                 |  Braquiterapia| 
-|    |                                  |  Cardiologia| 
-|    |                                  |  Cardiologia Pediátrica/Hemodinâmica| 
-|    |                                  |  Cardiologia/Hemodinâmica| 
-|    |                                  |  Cardiopneumologia| 
-|    |                                  |  Cirurgia Vascular/Hemodinâmica| 
-|    |                                  |  Gastroenterologia| 
-|    |                                  |  Medicina Hiperbárica| 
-|    |                                  |  Medicina Nuclear| 
-|    |                                  |  Neurorradiologia| 
-|    |                                  |  Pneumologia| 
-|    |                                  |  Neurorradiologia| 
-|    |                                  |  Radiologia| 
-|    |                                  |  Radiologia/Neurorradiologia| 
-|    |                                  |  Radioncologia| 
-| c) | Modalidade Vinculação   |  Comissão Serviço| 
-|    |                         |  Contrato Individual Trabalho| 
-|    |                         |  Contrato Trabalho a Termo Resolutivo Certo| 
-|    |                         |  Contrato Trabalho a Termo Resolutivo Incerto| 
-|    |                         |  Contrato Trabalho em Funções Públicas a Termo Resolutivo Certo| 
-|    |                         |  Contrato Trabalho em Funções Públicas a Termo Resolutivo Incerto| 
-|    |                         |  Contrato Trabalho em Funções Públicas por Tempo Indeterminado| 
-|    |                         |  Contrato Trabalho por Tempo Indeterminado| 
-|    |                         |  Contratos de Prestação de Serviço| 
-| e) | Nº efetivos                                             |   | 
-| f) | N.º horas semanais constantes no contrato profissional  |   | 
-| g) | N.º de horas semanais atribuídas à realização de exames |   | 
-| h) | Nº horas extraordinárias/ano                            |   | 
-| i) | Nº horas prevenção                                      |   | 
-| j) | Nº horas ao atos contratados                            |   | 
-| k) | Nº de exames contratados                                |   | 
+| Campos [](#figCriarRhServicos)       |      |
+|---------------------------------------------------|----------|
 
 
 ![figCriarRhServicos](img/pages/8_1_1.jpg)
