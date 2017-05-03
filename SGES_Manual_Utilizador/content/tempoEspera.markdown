@@ -22,10 +22,9 @@ O utilizador pode consultar os tempos de espera numa entidade no separador **Tem
 |  | Permissões               | 
 |----|--------------------------------------------|
 |**Funcionalidade** |**Perfil**|
-| Criar RH Serviço | ACSS, SGES_EQUIPAMENTOS|
-| Editar RH Serviço | ACSS, SGES_EQUIPAMENTOS |
-| Consultar RH Serviço | ACSS, SGES_EQUIPAMENTOS |
-| Apagar RH Serviço| ACSS, SGES_EQUIPAMENTOS|
+| Consultar Tempos de Espera | ACSS, SGES_EQUIPAMENTOS|
+| Preencher/Alterar Tempos de Espera | ACSS, SGES_EQUIPAMENTOS |
+| Importar de Ficheiro Tempos de Espera| ACSS, SGES_EQUIPAMENTOS |
 
 <p id="tERealizacaoExames"></p>
 

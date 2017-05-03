@@ -19,10 +19,9 @@ O utilizador pode consultar a produção interna e para exterior dos equipamento
 |  | Permissões               | 
 |----|--------------------------------------------|
 |**Funcionalidade** |**Perfil**|
-| Criar RH Serviço | ACSS, SGES_EQUIPAMENTOS|
-| Editar RH Serviço | ACSS, SGES_EQUIPAMENTOS |
-| Consultar RH Serviço | ACSS, SGES_EQUIPAMENTOS |
-| Apagar RH Serviço| ACSS, SGES_EQUIPAMENTOS|
+| Consultar Produção Equipamentos | ACSS, SGES_EQUIPAMENTOS|
+| Preencher/Alterar Produção Equipamentos | ACSS, SGES_EQUIPAMENTOS |
+| Importar de Ficheiro Produção Equipamentos| ACSS, SGES_EQUIPAMENTOS |
 
 <p id="consultaProdEquipamento"></p>
 
@@ -63,10 +62,9 @@ O utilizador pode consultar a produção no exterior por uma entidade no separad
 |  | Permissões               | 
 |----|--------------------------------------------|
 |**Funcionalidade** |**Perfil**|
-| Criar RH Serviço | ACSS, SGES_EQUIPAMENTOS|
-| Editar RH Serviço | ACSS, SGES_EQUIPAMENTOS |
-| Consultar RH Serviço | ACSS, SGES_EQUIPAMENTOS |
-| Apagar RH Serviço| ACSS, SGES_EQUIPAMENTOS|
+| Consultar Produção no Exterior | ACSS, SGES_EQUIPAMENTOS|
+| Preencher/Alterar Produção no Exterior | ACSS, SGES_EQUIPAMENTOS |
+| Importar de Ficheiro Produção no Exterior| ACSS, SGES_EQUIPAMENTOS |
 
 ## 10.1.Consultar Produção no Exterior
 O utilizador pode consultar a produção realizada no exterior após navegar para o subseparador do ano pretendido no separador **Produção no Exterior** ([](#figProdExterior)), selecionar o ano que pretende consultar e clicar no botão **CONSULTAR**.
