@@ -40,7 +40,7 @@ O utilizador pode consultar a lista dos recursos humanos afetos a serviços que 
 |Nº horas extraordinárias/ano|Nº de horas unicamente dedicadas a exames||
 |Nº horas prevenção|Nº de horas dispendidadas por semana em pervenção||
 |Nº de atos contratados|NA||
-|Trabalho em regime de telerradiologia?|NA|Só aplicável quando Grupo profissional = Médico e Área de afetação = Radiologia|
+|Trabalho em regime de telerradiologia?|NA|Só aplicável quando Grupo profissional = Médico e Área de afetação = Radiologia, Radiologia/Neurorradiologia||
 |Observações|||
 
 ![figCriarRhServicos](img/pages/8_1_1.jpg)
