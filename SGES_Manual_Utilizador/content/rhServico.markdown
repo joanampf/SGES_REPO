@@ -11,11 +11,11 @@ order: 3
 # 8. RH Serviços
 
 É neste módulo que são feitas ações sobre os recursos humanos afetos a serviços.
-O utilizador pode consultar a lista dos recursos humanos afetos a serviços numa entidade no separador **RH Serviços**  ([](#figRhEquipEntidade)), através do ponto [6.3 Consultar Entidade](##consultar-entidade).
+O utilizador pode consultar a lista dos recursos humanos afetos a serviços que tenham EPM numa entidade no separador **RH Serviços**  ([](#figRhEquipEntidade)), através do ponto [6.3 Consultar Entidade](##consultar-entidade).
 
 ![figRhEquipEntidade](img/pages/8_0_1.jpg)
 
-<p class="caption" id="figRhEquipEntidade"> Recursos Humanos afetos a serviços numa Entidade</p>
+<p class="caption" id="figRhEquipEntidade"> Recursos Humanos afetos a serviços que tenham EPM numa Entidade</p>
 
 |  | Permissões               | 
 |----|--------------------------------------------|
@@ -40,7 +40,7 @@ O utilizador pode consultar a lista dos recursos humanos afetos a serviços numa
 |Nº horas extraordinárias/ano|Nº de horas unicamente dedicadas a exames||
 |Nº horas prevenção|Nº de horas dispendidadas por semana em pervenção||
 |Nº de atos contratados|NA||
-|Trabalho em regime de telerradiologia?|NA|Só aplicável quando Grupo profissional = Médico e Área de afetação = Radiologia|
+|Trabalho em regime de telerradiologia?|NA|Só aplicável quando Grupo profissional = Médico e Área de afetação = Radiologia, Radiologia/Neurorradiologia||
 |Observações|||
 
 ![figCriarRhServicos](img/pages/8_1_1.jpg)
