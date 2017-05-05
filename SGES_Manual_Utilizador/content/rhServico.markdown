@@ -29,9 +29,19 @@ O utilizador pode consultar a lista dos recursos humanos afetos a serviços numa
 
 ## 8.1. Criar RH Serviço
 
-| Campos [](#figCriarRhServicos)       |      |
-|---------------------------------------------------|----------|
-
+| |  Campos         ||
+|---------------------------------------------------|----------|--|
+|Grupo Profissional|Grupo Profissional||
+|Area de Afetação| Especialidade à qual o Grupo Profissional está afeto| |
+|Modalidade de Vinculção|Tipo de contrato celebrado com a entidade||
+|Nº de Efectivos|Nº de efectivos nestas condições||
+|Nº horas semanais constantes no contrato profissional|N.º horas por semana que constam no contrato||
+|Nº de horas semanais atribuidas à realização de exames|Nº de horas unicamente dedicadas a exames||
+|Nº horas extraordinárias/ano|Nº de horas unicamente dedicadas a exames||
+|Nº horas prevenção|Nº de horas dispendidadas por semana em pervenção||
+|Nº de atos contratados|NA||
+|Trabalho em regime de telerradiologia?|NA|Só aplicável quando Grupo profissional = Médico e Área de afetação = Radiologia|
+|Observações|||
 
 ![figCriarRhServicos](img/pages/8_1_1.jpg)
 

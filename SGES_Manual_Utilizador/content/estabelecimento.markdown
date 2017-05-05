@@ -39,10 +39,10 @@ Após o registo dos dados em cada Painel, deve clicar em **GUARDAR** para gravar
 ### 7.1.1. Painel de Identificação do Estabelecimento
 Neste painel identificam-se os dados básicos da entidade. O utilizador deverá preencher os campos obrigatórios para concluir a ação:
 
-|     Campos Obrigatórios ([](#figCriarEstabelecimento))         |      |
-|-------------------------------------------------------|----------|
+|            |     Campos Obrigatórios ([](#figCriarEstabelecimento))   ||
+|-------------------------------------------------------|----------|--|
 |**Nome Campo**|	**Descrição Campo**|	**Condições de Preenchimento**|
-|Tipo de Estabelecimento|	Tipo de estabelecimento a criar	||
+|Tipo de Estabelecimento|	Tipo de estabelecimento a criar	| Valores disponiveis dependem do Tipo de Entidade em que se incluem|
 |Tipo de Unidade Funcional|	Compreende as unidades de saúde familiar, de cuidados na comunidade e de saúde pública. Podem compreender, ainda, unidades de meios de diagnóstico e tratamento e especialidades de internamento ou de urgência.|	Apenas visivel se Tipo de Estabelecimento = Unidade Funcional|
 |Estado	|Estado em que o estabelecimento ficará no sistema inicialmente	|Por defeito ficará sempre a activo|
 |Nome/Designação social	|Descrição do estabelecimento	||
@@ -93,8 +93,9 @@ Este painel ([](#figPainelGabCidadao)) apenas deve ser preenchido se aplicável 
 ### 7.1.3. Painel de Urgências
 Este painel permite ao utilizador identificar as urgências da entidade de acordo com os seguintes campos obrigatórios:
 
-|     Campos    |      |
+|      |  Campos       ||
 |------------------------------------------------------------|------|
+|**Nome Campo**|**Descrição Campo**|**Condições de Preenchimento**|
 |Urgências|	O estabelecimento em questão tem serviço de urgencias?||	
 |Tipo de Urgencias|	Especialidades à qual está associado o serviço de urgência|	Apenas visivel se Urgências = Sim|
 |Classificação do Serviço de Urgência|	NA	|Apenas visivel se Urgências = Sim|
@@ -109,8 +110,9 @@ Este painel permite ao utilizador identificar as urgências da entidade de acord
 
 O painel de especialidades permite ao utilizador indicar as especialidades com que a entidade lida através dos seguintes campos obrigatórios:
 
-|     Campos                     |                         |
-|--------------------------------------------|-------------------------|
+|                    |   Campos                            ||
+|--------------------------------------------|-------------------------|-|
+|**Nome Campo**|**Descrição Campo**|**Condições de Preenchimento**|
 |Área	|NA	||
 |Especialidade|	Especialidade a registar|	|
 |Adultos e/ou Pediátricos|	Faixa etaria a qual a especialidade está associada	||
@@ -136,7 +138,7 @@ No painel de capacidade, deve ser indicada a lotação do hospital relativamente
 
 |        | Campos     | |
 |-----------------------------------------------------------|------|--|
-|Nome Campo	|Descrição Campo	|Condições de Preenchimento|
+|**Nome Campo**|**Descrição Campo**|**Condições de Preenchimento**|
 |Tipo Área Capacidade|	NA	||
 |Área Capacidade|	NA	||
 |Tipo Capacidade|	NA	||
@@ -219,7 +221,7 @@ Se o utilizador tiver acesso à pesquisa de estabelecimentos ([](#figPesquisaEst
 Na página de estabelecimentos associados a uma entidade ([](#figEstEntidade)), o utilizador pode navegar diretamente para a página de transferência de equipamento após selecionar um estabelecimento da lista e clicar no botão **TRANSFERIR**.
 Para poder transferir o equipamento, o utilizador deve preencher os campos obrigatórios e clicar em **TRANSFERIR**.
 
-|    Campos Obrigatórios – ([](#figTransfEstabelecimento))   | 
+|    Campos  | 
 |------------------------------------------------------------|
 | Entidade destino                                           |
 

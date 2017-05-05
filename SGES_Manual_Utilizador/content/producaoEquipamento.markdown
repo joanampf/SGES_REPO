@@ -124,13 +124,13 @@ No final da edição o utilizador para gravar as alterações deve clicar no bot
 
 ## 10.3. Importar Ficheiro Produção no Exterior 
 
-O utilizador pode importar dados em massa de exames na produção realizada dos equipamentos após navegar no separador **Produção no Exterior** ([](#figProdEquipamento)), selecionar o ano que pretende importar e clicar no botão **Importar de Ficheiro**.
+O utilizador pode importar dados em massa de exames na produção realizada dos equipamentos após navegar no separador **Produção no Exterior** ([](#figProdExterior)), selecionar o ano que pretende importar e clicar no botão **Importar de Ficheiro**.
 
 Será enviado para o seguinte painel:
 
 ![figPainelProdIntEnt](img/pages/9_3_1.jpg)
 
-<p class="caption" id="figPainelProdIntEnt"> Painel de importação de ficheiro da Produção Interna de uma Entidade</p>
+<p class="caption" id="figPainelProdIntEnt"> Painel de importação de ficheiro da Produção No Exterior de uma Entidade</p>
 
 Onde deverá seguir os seguintes passos:
 
