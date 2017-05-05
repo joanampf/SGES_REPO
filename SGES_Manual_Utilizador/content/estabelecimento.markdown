@@ -134,13 +134,15 @@ Na lista o utilizador deverá indicar quais os exames que o hospital realiza par
 ### 7.1.5. Separador de Capacidade
 No painel de capacidade, deve ser indicada a lotação do hospital relativamente aos vários tipos de áreas existentes na entidade.
 
-|     Campos Obrigatórios   |      |
-|-----------------------------------------------------------|------|
-| 	Ano                       								| |
-| 	Capacidade                       |Tipo Área Capacidade |
-|                                       |  Área Capacidade| 
-|                                       |  Tipo Capacidade| 
-|                                       |  Capacidade Lotação| 
+|        | Campos     | |
+|-----------------------------------------------------------|------|--|
+|Nome Campo	|Descrição Campo	|Condições de Preenchimento|
+|Tipo Área Capacidade|	NA	||
+|Área Capacidade|	NA	||
+|Tipo Capacidade|	NA	||
+|Capacidade Lotação	|Número de camas que o estabelecimento tem (unidade: tipo de capacidade)||	
+|Internamento Total	|Somatório do internamento normal com os internamentos especiais	||
+
 
 ![figCapacidade](img/pages/7_1_5.jpg)
 
@@ -158,15 +160,17 @@ Quando o utilizador regista a capacidade dos quartos de isolamento, deverá indi
 ### 7.1.6. Painel de Unidade Funcional
 No caso da entidade em que se está a criar o estabelecimento ser um ACES, então apresenta-se o seguinte painel:
 
-|     Campos Obrigatórios | |
-|------------------------------------------------------------|------|
-|  Centro de Saúde (se diferente de USP)                                    | | 
-| População Abrangida                          | Distrito |
-|                                                 | Concelho | 
-|                                                 | Freguesias| 
-| Se Unidade Funcional = USF, UCSP, UCC, USP            | Nº de Gabinetes Médicos| 
-|                                                 | Nº de Gabinetes Tratamento| 
-| Se Unidade Funcional = USF                  | Modelo USF| 
+|       |Campos ||
+|------------------------------------------------------------|------|----|
+|**Nome Campo**|	**Descrição Campo**|	**Condições de Preenchimento**|
+|Tipo de Unidade Funcional|	Tipo de serviço que a unidade presta||	
+|Modelo USF|	NA|	Se Tipo = USF|
+|Centro Saúde|	Centro de Saúde na qual este estabelecimento se integra|	Se Tipo ≠ USP|
+|Número Gabinetes Médicos|	Número de Gabinetes medicos existentes no estabelecimento	|Tipo unidade = USF (Unidade de saúde familiar) ou UCSP (Unidade de cuidados de saúde personalizados)|
+|Número Gabinetes Tratamento	|Número de Gabinetes de tratamento existentes no estabelecimento|	Tipo unidade = USF (Unidade de saúde familiar) ou UCSP (Unidade de cuidados de saúde personalizados)|
+|Hospital de Referencia|	NA	||
+|População abrangida|	População para a qual aquele centro de saude fornece serviços	||
+
 
 
 ![figUnidadeFunc](img/pages/7_1_6.jpg)
