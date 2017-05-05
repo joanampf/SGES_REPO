@@ -67,5 +67,5 @@ No final da edição o utilizador para gravar as alterações deve clicar no bot
 
 ## 8.4. Apagar RH Serviço
  
- O utilizador pode apagar um RH Serviço após selecionar um RH Serviço da lista de RH Serviços existentes numa entidade ([](#figRhAfetosEntidade)) e clicar no botão **APAGAR**. 
+ O utilizador pode apagar um RH Serviço após selecionar um RH Serviço da lista de RH Serviços existentes numa entidade ([](#figRhEquipEntidade)) e clicar no botão **APAGAR**. 
  Após clicar irá ser notificado com o resultado da operação.
