@@ -39,10 +39,10 @@ Após o registo dos dados em cada Painel, deve clicar em **GUARDAR** para gravar
 ### 7.1.1. Painel de Identificação do Estabelecimento
 Neste painel identificam-se os dados básicos da entidade. O utilizador deverá preencher os campos obrigatórios para concluir a ação:
 
-|     Campos Obrigatórios ([](#figCriarEstabelecimento))         |      |
-|-------------------------------------------------------|----------|
+|            |     Campos Obrigatórios ([](#figCriarEstabelecimento))   ||
+|-------------------------------------------------------|----------|--|
 |**Nome Campo**|	**Descrição Campo**|	**Condições de Preenchimento**|
-|Tipo de Estabelecimento|	Tipo de estabelecimento a criar	||
+|Tipo de Estabelecimento|	Tipo de estabelecimento a criar	| Valores disponiveis dependem do Tipo de Entidade em que se incluem|
 |Tipo de Unidade Funcional|	Compreende as unidades de saúde familiar, de cuidados na comunidade e de saúde pública. Podem compreender, ainda, unidades de meios de diagnóstico e tratamento e especialidades de internamento ou de urgência.|	Apenas visivel se Tipo de Estabelecimento = Unidade Funcional|
 |Estado	|Estado em que o estabelecimento ficará no sistema inicialmente	|Por defeito ficará sempre a activo|
 |Nome/Designação social	|Descrição do estabelecimento	||
