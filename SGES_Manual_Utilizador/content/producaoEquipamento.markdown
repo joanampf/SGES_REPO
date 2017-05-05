@@ -123,3 +123,31 @@ O utilizador pode preencher ou alterar o total de exames na produção realizada
 No final da edição o utilizador para gravar as alterações deve clicar no botão **GUARDAR**. Após clicar irá ser notificado com o resultado da operação.
 
 ## 10.3. Importar Ficheiro Produção no Exterior 
+
+O utilizador pode importar dados em massa de exames na produção realizada dos equipamentos após navegar no separador **Produção no Exterior** ([](#figProdEquipamento)), selecionar o ano que pretende importar e clicar no botão **Importar de Ficheiro**.
+
+Será enviado para o seguinte painel:
+
+![figPainelProdIntEnt](img/pages/9_3_1.jpg)
+
+<p class="caption" id="figPainelProdIntEnt"> Painel de importação de ficheiro da Produção Interna de uma Entidade</p>
+
+Onde deverá seguir os seguintes passos:
+
+   - Fazer download do template **TemplateUploadProd** (clicar no nome do ficheiro);
+
+   - Preencher o ficheiro do template com os dados. No campo código bastará indicar o código do indicador e no campo total deverá indicar o número de exames realizados para aquele código;
+   
+   ![figficheiroProdIntEnt](img/pages/9_3_2.jpg)
+
+<p class="caption" id="figficheiroProdIntEnt"> Exemplo de preenchimento do ficheiro TemplateUploadProd</p>
+
+   - Clicar no botão Anexar;
+
+   - Selecionar o ficheiro preenchido;
+
+   - Clicar em carregar;
+
+   - Verificar os dados;
+
+   - Clicar em Submeter; 

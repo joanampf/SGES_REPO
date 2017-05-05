@@ -37,7 +37,7 @@ selecionar o período que pretende consultar e clicar no botão **CONSULTAR**;
 
 <p class="caption" id="criarTempoEspera"> Tempos de Espera</p>
 
-|    | Campos Obrigatórios da ([](#criarTempoEspera))        |
+|    | Campos Obrigatórios da ([](#criarTempoEspera))    |
 |----|---------------------------------------------------|
 | a) | 	Área                                             |
 | b) | 	Exames                                           |
@@ -46,8 +46,36 @@ selecionar o período que pretende consultar e clicar no botão **CONSULTAR**;
 <p id="tEAlteraExames"></p>
 
 ## 11.2. Preencher/Alterar Tempos de Espera
+
 O utilizador pode preencher ou alterar o *Total dias de espera* após navegar para o separador **Tempos de Espera**  ([](#figTempoEspera)), selecionar o período que pretende preencher ou alterar e clicar no botão **PREENCHER/ALTERAR**.
 No final da edição o utilizador para gravar as alterações deve clicar no botão **GUARDAR**. Após clicar irá ser notificado com o resultado da operação.
 
 ## 11.3. Importar de Ficheiro Tempos de Espera
 
+O utilizador pode importar dados em massa de exames na produção realizada dos equipamentos após navegar no separador **Tempos de Espera** ([](#figTempoEspera)), selecionar o ano que pretende importar e clicar no botão **Importar de Ficheiro**.
+
+Será enviado para o seguinte painel:
+
+![figPainelProdIntEnt](img/pages/9_3_1.jpg)
+
+<p class="caption" id="figPainelProdIntEnt"> Painel de importação de ficheiro dos Tempos de Espera de uma Entidade</p>
+
+Onde deverá seguir os seguintes passos:
+
+   - Fazer download do template **TemplateUploadProd** (clicar no nome do ficheiro);
+
+   - Preencher o ficheiro do template com os dados. No campo código bastará indicar o código do indicador e no campo total deverá indicar o número de exames realizados para aquele código;
+   
+   ![figficheiroProdIntEnt](img/pages/9_3_2.jpg)
+
+<p class="caption" id="figficheiroProdIntEnt"> Exemplo de preenchimento do ficheiro TemplateUploadProd</p>
+
+   - Clicar no botão Anexar;
+
+   - Selecionar o ficheiro preenchido;
+
+   - Clicar em carregar;
+
+   - Verificar os dados;
+
+   - Clicar em Submeter; 
