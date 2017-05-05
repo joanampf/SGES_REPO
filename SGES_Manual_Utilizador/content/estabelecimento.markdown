@@ -93,8 +93,9 @@ Este painel ([](#figPainelGabCidadao)) apenas deve ser preenchido se aplicável 
 ### 7.1.3. Painel de Urgências
 Este painel permite ao utilizador identificar as urgências da entidade de acordo com os seguintes campos obrigatórios:
 
-|     Campos    |      |
+|      |  Campos       ||
 |------------------------------------------------------------|------|
+|**Nome Campo**|**Descrição Campo**|**Condições de Preenchimento**|
 |Urgências|	O estabelecimento em questão tem serviço de urgencias?||	
 |Tipo de Urgencias|	Especialidades à qual está associado o serviço de urgência|	Apenas visivel se Urgências = Sim|
 |Classificação do Serviço de Urgência|	NA	|Apenas visivel se Urgências = Sim|
@@ -109,8 +110,9 @@ Este painel permite ao utilizador identificar as urgências da entidade de acord
 
 O painel de especialidades permite ao utilizador indicar as especialidades com que a entidade lida através dos seguintes campos obrigatórios:
 
-|     Campos                     |                         |
-|--------------------------------------------|-------------------------|
+|                    |   Campos                            ||
+|--------------------------------------------|-------------------------|-|
+|**Nome Campo**|**Descrição Campo**|**Condições de Preenchimento**|
 |Área	|NA	||
 |Especialidade|	Especialidade a registar|	|
 |Adultos e/ou Pediátricos|	Faixa etaria a qual a especialidade está associada	||
@@ -136,7 +138,7 @@ No painel de capacidade, deve ser indicada a lotação do hospital relativamente
 
 |        | Campos     | |
 |-----------------------------------------------------------|------|--|
-|Nome Campo	|Descrição Campo	|Condições de Preenchimento|
+|**Nome Campo**|**Descrição Campo**|**Condições de Preenchimento**|
 |Tipo Área Capacidade|	NA	||
 |Área Capacidade|	NA	||
 |Tipo Capacidade|	NA	||
@@ -219,7 +221,7 @@ Se o utilizador tiver acesso à pesquisa de estabelecimentos ([](#figPesquisaEst
 Na página de estabelecimentos associados a uma entidade ([](#figEstEntidade)), o utilizador pode navegar diretamente para a página de transferência de equipamento após selecionar um estabelecimento da lista e clicar no botão **TRANSFERIR**.
 Para poder transferir o equipamento, o utilizador deve preencher os campos obrigatórios e clicar em **TRANSFERIR**.
 
-|    Campos Obrigatórios – ([](#figTransfEstabelecimento))   | 
+|    Campos  | 
 |------------------------------------------------------------|
 | Entidade destino                                           |
 
