@@ -49,3 +49,5 @@ selecionar o período que pretende consultar e clicar no botão **CONSULTAR**;
 O utilizador pode preencher ou alterar o *Total dias de espera* após navegar para o separador **Tempos de Espera**  ([](#figTempoEspera)), selecionar o período que pretende preencher ou alterar e clicar no botão **PREENCHER/ALTERAR**.
 No final da edição o utilizador para gravar as alterações deve clicar no botão **GUARDAR**. Após clicar irá ser notificado com o resultado da operação.
 
+## 11.3. Importar de Ficheiro Tempos de Espera
+
