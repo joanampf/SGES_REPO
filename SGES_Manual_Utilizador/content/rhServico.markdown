@@ -11,11 +11,11 @@ order: 3
 # 8. RH Serviços
 
 É neste módulo que são feitas ações sobre os recursos humanos afetos a serviços.
-O utilizador pode consultar a lista dos recursos humanos afetos a serviços numa entidade no separador **RH Serviços**  ([](#figRhEquipEntidade)), através do ponto [6.3 Consultar Entidade](##consultar-entidade).
+O utilizador pode consultar a lista dos recursos humanos afetos a serviços que tenham EPM numa entidade no separador **RH Serviços**  ([](#figRhEquipEntidade)), através do ponto [6.3 Consultar Entidade](##consultar-entidade).
 
 ![figRhEquipEntidade](img/pages/8_0_1.jpg)
 
-<p class="caption" id="figRhEquipEntidade"> Recursos Humanos afetos a serviços numa Entidade</p>
+<p class="caption" id="figRhEquipEntidade"> Recursos Humanos afetos a serviços que tenham EPM numa Entidade</p>
 
 |  | Permissões               | 
 |----|--------------------------------------------|
