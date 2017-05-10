@@ -11,57 +11,65 @@ order: 3
 # 13. Instalações
 
 É neste módulo que serão feitas ações sobre as instalações.
-O utilizador pode consultar as instalações de um estabelecimento no separador “Instalações” ([Fig. 38](#fig38) e [Fig. 39](#fig39)), através do ponto [7.3 Consultar Estabelecimento](#consultar-estabelecimento), ou selecionando um estabelecimento e clicando em **Instalações** ([Fig. 14](#fig14)) na página de consulta de estabelecimentos existentes numa entidade, através do ponto [7. Estabelecimentos](#estabelecimentos).
+O utilizador pode consultar as instalações de um estabelecimento no separador “Instalações” ([](#13_1) e [](#13_2)), através do ponto [7.3 Consultar Estabelecimento](#consultar-estabelecimento), ou selecionando um estabelecimento e clicando em **Instalações** ([](#figEstEntidade)) na página de consulta de estabelecimentos existentes numa entidade, através do ponto [7. Estabelecimentos](#estabelecimentos).
 
-![img/pages/fig38](img/pages/fig38.jpg)
+![img/pages/13_1](img/pages/13_1.jpg)
 
-<p class="caption" id="fig38"> Fig. 38 -Exemplo de Estabelecimento sem Instalações</p>
+<p class="caption" id="13_1"> Exemplo de Estabelecimento com Instalações</p>
 
-![img/pages/fig39](img/pages/fig39.jpg)
+![img/pages/13_2](img/pages/13_2.jpg)
 
-<p class="caption" id="fig39"> Fig. 39 -Exemplo de Estabelecimento com Instalações</p>
+<p class="caption" id="13_2"> Exemplo de Estabelecimento sem Instalações</p>
+
+![img/pages/13_3](img/pages/13_3.jpg)
+
+<p class="caption" id="13_3"> Botões disponiveis no módulo Instalações </p>
 
 ## 13.1. Criar Instalações
 
 Caso ainda não exista informação acerca das instalações de um estabelecimento, o utilizador pode criar instalações.
-Para criar instalações, o utilizador deve clicar em **CRIAR INSTALAÇÃO** na página de instalações de estabelecimento ([Fig. 38](#fig38)). De seguida, será encaminhado para a página de criação de instalações, onde deverá preencher os campos obrigatórios para poder efetuar o registo das instalações.
+Para criar instalações, o utilizador deve clicar em **CRIAR** na página de instalações de estabelecimento ([Fig. 38](#fig38)). De seguida, será encaminhado para a página de criação de instalações, onde deverá preencher os campos obrigatórios para poder efetuar o registo das instalações.
 Para o Registo de Instalações será necessário primeiro submeter os campos da Caracterização Geral do(s) edifício(s), sem estes submetidos não é possível preencher outros campos.
 
 ### 13.1.1 Caracterização
 
-Para poder criar a instalação o utilizador deve preencher, pelo menos, os campos obrigatórios da *Caracterização Geral* e clicar em **SUBMETER**;
+Para poder criar a instalação o utilizador deve preencher, pelo menos, os campos obrigatórios da *Caracterização Geral*, campos esses que dizem respeito ao estabelecimento em si, e clicar em **SUBMETER**. 
 
 
-|    | Campos Obrigatórios – Caracterização Geral - [Fig. 40](#fig40)  |   | | |
-|----|----------------------------------------------------------------|----|-|-|
-| a) | Propriedade do Terreno  |Estado  | | |
-| |                            |Privado com cedência de direito de superfície|||
-| |                            |SCM|| |
-| b) | Propriedade do(s) Edifício(s)   |Arrendado| | |
-| |                                    |Estado| | |
-| |                                    |PPP| | |
-| |                                    |SCM| | |
-| c) | Informação de pelo menos 1 edifício   || | |
-| d) | Se morada do edifício ≠ morada do estabelecimento   | Morada | | |
-| |                                                        | Código-Postal| | |
-| |                                                        | Distrito | | |
-| |                                                        | Concelho | | |
-| |                                                        | Freguesia| | |
-| e) | Edifícios construídos na mesma fase? |Sim|Número de fases de construção||
-||                                          |Não|||
-| f) | Heliporto?                           |Sim|Heliporto Certificado?| Sim|
-||||                                                                   | Não|
-||||                                             Heliporto Operacional?| Sim|
-||||                                                                   | Não|
-||                                          |Não|||
+|  |   Campos – Caracterização Geral - [](#13_1_1) | | |
+|----------------------------------------------------------------|----|-|-|
+|O estabelecimento tem múltiplos edifícios?|Sim|||
+|                                          |Não|||
+|Os edifícios que compõem o estabelecimento estão localizados no mesmo terreno?|Sim|||
+|                                          |Não|||
+| Propriedade do Terreno     |Estado  | | |
+|                            |Privado com cedência de direito de superfície|||
+|                            |SCM|| |
+| Propriedade do(s) Edifício(s)   |Arrendado| | |
+|                                    |Estado| | |
+|                                    |PPP| | |
+|                                    |SCM| | |
+| **Lista de Edifícios**  || | |
+| Se morada do edifício ≠ morada do estabelecimento   | Morada | | |
+|                                                        | Código-Postal| | |
+|                                                        | Distrito | | |
+|                                                        | Concelho | | |
+|                                                        | Freguesia| | |
+| Edifícios construídos na mesma fase? |Sim|||
+|                                          |Não| Número de fases de construção||
+| Heliporto?                           |Sim| Heliporto Certificado?| Sim|
+|||                                                                   | Não|
+|||                                             Heliporto Operacional?| Sim|
+|||                                                                   | Não|
+|                                          |Não|||
 
-![img/pages/fig40](img/pages/fig40.jpg)
+![img/pages/13_1_1](img/pages/13_1_1.jpg)
 
-<p class="caption" id="fig40"> Fig. 40 -Criar Instalações – Caracterização Geral</p>
+<p class="caption" id="13_1_1"> Criar Instalações – Caracterização Geral</p>
 
 Pode inserir informação acerca das áreas e estacionamento, submetendo no final de cada um de ambos os módulos.
 
-|    | Campos Áreas Totais e Estacionamento - [Fig. 41](#fig41)  | |
+|    | Campos Áreas Totais e Estacionamento - [](#13_1_2)  | |
 |----|-----------------------------------------------------------|-|
 | a) | Áreas Totais    |    Área bruta de construção             |
 ||                     |    Área de Estacionamento Construído     |
@@ -71,41 +79,46 @@ Pode inserir informação acerca das áreas e estacionamento, submetendo no fina
 | b) | Estacionamento  |  N.º Lugares de estacionamento em área construída |
 ||                     |  N.º Lugares de estacionamento à superfície |
 
-![img/pages/fig41](img/pages/fig41.jpg)
+![img/pages/13_1_2](img/pages/13_1_2.jpg)
 
-<p class="caption" id="fig41"> Fig. 41 -Criar Instalação - Áreas Totais e Estacionamento</p>
+<p class="caption" id="13_1_2"> Criar Instalação - Áreas Totais e Estacionamento</p>
+
+**Separador Caracterização do Edifício** - no que diz respeito à caracterização do edifício, aparecerá uma lista com o mesmo número de edifícios que os indicados no separador da **Caracterização Geral**. O utilizador deverá proceder a seleção de um (ou do único) edifício, tal como indicado na mensagem no início do painel.
+
+![img/pages/13_1_3](img/pages/13_1_3.jpg)
+
+<p class="caption" id="13_1_3"> Lista de edifícios Caracterização do Edifício</p>
+
+Após selecionar o botão de **EDITAR** os campos não editáveis ficaram preenchíveis.
+
+![img/pages/13_1_4](img/pages/13_1_4.jpg)
+
+<p class="caption" id="13_1_4">Caracterização do Edifício com os campos preenchíveis</p>
+
+**Separador Projeto** - contém a caracterização do projeto, como os custos e datas chave do projecto. Estes dados devem ser inseridos para cada fase de construção dos edifícios;
+
+![img/pages/13_1_5](img/pages/13_1_5.jpg)
+
+<p class="caption" id="13_1_5"> Caracterização do Projeto </p>
 
 
+![img/pages/13_1_6](img/pages/13_1_6.jpg)
 
-![img/pages/fig42](img/pages/fig42.jpg)
+<p class="caption" id="13_1_6"> Caracterização do Projeto - Datas Chaves </p>
 
-<p class="caption" id="fig42"> Fig. 42 -Caracterização do Edifício</p>
+**Separador Construção** - contém a caracterização da construção, como os seus custos e custos de equipamentos. Estes dados devem ser inseridos para cada fase de construção dos edifícios;
 
-O separador *Projeto* contem a caracterização do projeto, como os custos e datas. Estes dados devem ser inseridos para cada fase de construção dos edifícios;
+![img/pages/13_1_7](img/pages/13_1_7.jpg)
 
-![img/pages/fig43](img/pages/fig43.jpg)
-
-<p class="caption" id="fig43"> Fig. 43 -Caracterização do Projeto</p>
-
-
-![img/pages/fig44](img/pages/fig44.jpg)
-
-<p class="caption" id="fig44"> Fig. 44 -Caracterização do Projeto - Datas Chaves</p>
-
-O separador *Construção* contem a caracterização da construção, como os seus custos e custos de equipamentos. Estes dados devem ser inseridos para cada fase de construção dos edifícios;
-
-![img/pages/fig45](img/pages/fig45.jpg)
-
-<p class="caption" id="fig45"> Fig. 45 -Caracterização da Construção</p>
+<p class="caption" id="13_1_7"> Caracterização da Construção </p>
 
 ### 13.1.2 Detalhe
 
-Contem informação acerca da energia, águas e gases medicinais utilizados na instalação, assim como os seus custos e consumos e a produção de resíduos.
-
+Contém informação acerca da energia, águas e gases medicinais utilizados na instalação, assim como a produção de resíduos. O utilizador deverá preencher os campos obrigatórios e selecionar **SUBMETER**.
 
 |  | Campos no Separador Detalhe                            ||
 |-----------------------------------------------------------|-|-|
-| Energia ([Fig. 46](#fig46))   | Ano de alteração;            | |
+| Energia ([](# 13_2_1))   | Ano de alteração;            | |
 |                                  | Nível da tensão de alimentação – rede elétrica de distribuição pública;  | |
 |                                  | Topologia de alimentação de energia elétrica; | |
 |                                  | Potência Contratada; | |
@@ -117,65 +130,66 @@ Contem informação acerca da energia, águas e gases medicinais utilizados na i
 |                                  | Painéis Fotovoltaicos;  | |
 |                                  | Aero-geradores;         | |
 |                                  | Certificação Energética; | |
-|Água / Águas Residuais  ([Fig. 47](#fig47))  | Ano de alteração;            | |
+|Água / Águas Residuais  ([](# 13_2_2))  | Ano de alteração;            | |
 |                                               | Volume de armazenamento total; | |
 |                                               | Volume de armazenamento de água para rede de incêndios; | |
 |                                               | Furo de captação de águas subterrâneas; | |
 |                                               | ETAR / ETARI;| |
-| Gases Medicinais  ([Fig. 48](#fig48)) | Ano de alteração;            | |
+| Gases Medicinais  ([](# 13_2_3)) | Ano de alteração;            | |
 |                                         | Instalação registada no Infarmed como Dispositivo Médico?| |
-| Produção de Resíduos  ([Fig. 50](#fig50)) | Ano                   | |
+| Produção de Resíduos  ([](# 13_2_4)) | Ano                   | |
 |                                   |Quantidade de Resíduos Produzidos |Grupo I e II; |
 |                                   |                                  |Grupo III; |
 |                                   |                                  |Grupo IV; |
 
-![img/pages/fig46](img/pages/fig46.jpg)
+![img/pages/13_2_1](img/pages/13_2_1.jpg)
 
-<p class="caption" id="fig46"> Fig. 46 -Detalhe Energia</p>
+<p class="caption" id="13_2_1"> Detalhe Energia </p>
 
-![img/pages/fig47](img/pages/fig47.jpg)
+![img/pages/13_2_2](img/pages/13_2_2.jpg)
 
-<p class="caption" id="fig47"> Fig. 47 -Detalhe Água/Águas Residuais</p>
+<p class="caption" id="13_2_2"> Detalhe Água/Águas Residuais </p>
 
-![img/pages/fig48](img/pages/fig48.jpg)
+![img/pages/13_2_3](img/pages/13_2_3.jpg)
 
-<p class="caption" id="fig48"> Fig. 48 -Detalhe Gases Medicinais</p>
+<p class="caption" id="13_2_3"> Detalhe Gases Medicinais </p>
 
-![img/pages/fig49](img/pages/fig49.jpg)
+![img/pages/13_2_5](img/pages/13_2_4.jpg)
 
-<p class="caption" id="fig49">Fig. 49 -Detalhe Consumos e Custos</p>
+<p class="caption" id="13_2_4"> Detalhe Produção de Resíduos </p>
 
-![img/pages/fig50](img/pages/fig50.jpg)
-
-<p class="caption" id="fig50">Fig. 50 -Detalhe Produção de Resíduos</p>
 
 ### 13.1.3 Equipamentos Críticos
 
-Contem a informação de todos os equipamentos críticos para o funcionamento da instalação, como as instalações elétricas, instalações mecânicas e instalações de águas e esgotos.
+Contém a informação de todos os equipamentos críticos para o funcionamento da instalação, como as instalações elétricas, instalações mecânicas e instalações de águas e esgotos.
 Após guardar cada registo na tabela, e para não se perder os dados será necessário submeter.
 
 |    | Campos Obrigatórios em Equipamentos Críticos              | |
 |----|-----------------------------------------------------------|-|
-| a) | Instalações Elétricas ([Fig. 51](#fig51)), Instalações Mecânicas ([Fig. 52](#fig52)) ,Instalações de Águas e Esgotos ([Fig. 53](#fig53)) | Designação do Equipamento;    ||
-||                                                       | Data de entrada;   | |
-||                                                       | Estado;   | |
-| |                                                      | Data de Abate (caso Estado=Abatido)   | |
+| a) | Instalações Elétricas ([Fig. 51](#fig51)), Instalações Mecânicas ([Fig. 52](#fig52)) ,Instalações de Águas e Esgotos ([Fig. 53](#fig53)) | Designação do Equipamento    ||
+||                                                       | Edificio  | |
+||                                                       | Marca   | |
+||                                                       | Modelo   | |
+||                                                       | Nº Serie   | |
+||                                                       | Data de entrada em funcionamento  | |
+||                                                       | Estado   | |
+||                                                       | Data de Abate (caso Estado=Abatido)   | |
 
 ![img/pages/fig51](img/pages/fig51.jpg)
 
-<p class="caption" id="fig51">Fig. 51 - Equipamentos Críticos - Instalações Elétricas</p>
+<p class="caption" id="fig51">Equipamentos Críticos - Instalações Elétricas</p>
 
 ![img/pages/fig52](img/pages/fig52.jpg)
 
-<p class="caption" id="fig52">Fig. 52 -Equipamentos Críticos - Instalações Mecânicas</p>
+<p class="caption" id="fig52">Equipamentos Críticos - Instalações Mecânicas</p>
 
 ![img/pages/fig53](img/pages/fig53.jpg)
 
-<p class="caption" id="fig53">Fig. 53 -Equipamentos Críticos - Instalações de Águas e Esgotos</p>
+<p class="caption" id="fig53">Equipamentos Críticos - Instalações de Águas e Esgotos</p>
 
 ### 13.1.4 Serviços
 
-Contem toda a informação relacionada com os serviços que foram realizados nas instalações do estabelecimento, assim como os seus custos e serviços de apoio.
+Contém toda a informação relacionada com os serviços que foram realizados nas instalações do estabelecimento, assim como os seus custos e serviços de apoio.
 
 |    | Campos Obrigatórios em Equipamentos Críticos              | |
 |----|-----------------------------------------------------------|-|
@@ -202,7 +216,7 @@ Contem toda a informação relacionada com os serviços que foram realizados nas
 
 ### 13.1.5 Contratos de Manutenção
 
-Contem a informação dos contratos de manutenção dos equipamentos das instalações.
+Contém a informação dos contratos de manutenção dos equipamentos das instalações.
 
 |    | Campos em Contratos de Manutenção – [Fig. 57](#fig57)     | |
 |----|-----------------------------------------------------------|-|
@@ -231,17 +245,17 @@ Contem a informação dos contratos de manutenção dos equipamentos das instala
 | |                                           | Trianual|
 | |                                           | Quadrienal|
 | |                                           | Quinquenal|
-| f) |   Contrato contem SLA – Service Level Agreement?    | Sim|
+| f) |   Contrato contém SLA – Service Level Agreement?    | Sim|
 | |                                                        | Não|
 
 ![img/pages/fig57](img/pages/fig57.jpg)
 
-<p class="caption" id="fig57">Fig. 57 -Contratos de Manutenção </p>
+<p class="caption" id="fig57"> Contratos de Manutenção </p>
 
 
 ### 13.1.6 Avaliação Pós-Ocupação
 
-Contem a informação acerca da avaliação dos edifícios da instalação; útil instrumento na implementação de melhorias na criação de edifícios no futuro.
+Contém a informação acerca da avaliação dos edifícios da instalação; útil instrumento na implementação de melhorias na criação de edifícios no futuro.
 
 |    | Campos em Avaliação Pós-Ocupação – [Fig. 58](#fig58)     | |
 |----|-----------------------------------------------------------|-|
@@ -251,11 +265,11 @@ Contem a informação acerca da avaliação dos edifícios da instalação; úti
 
 ![img/pages/fig58](img/pages/fig58.jpg)
 
-<p class="caption" id="fig58">Fig. 58 -Avaliação Pós-Ocupação </p>
+<p class="caption" id="fig58"> Avaliação Pós-Ocupação </p>
 
 ### 13.1.7 Ações ACSS
 
-Contem a informação de todas as ações que a ACSS executou naquelas instalações.
+Contém a informação de todas as ações que a ACSS executou naquelas instalações.
 
 |    | Campos em Ações ACSS – [Fig. 59](#fig59)     | |
 |----|-----------------------------------------------------------|-|
@@ -271,12 +285,12 @@ Contem a informação de todas as ações que a ACSS executou naquelas instalaç
 
 ![img/pages/fig59](img/pages/fig59.jpg)
 
-<p class="caption" id="fig59">Fig. 59 -Ações ACSS </p>
+<p class="caption" id="fig59"> Ações ACSS </p>
 
 ## 13.2. Editar Instalações
 
 O utilizador pode navegar para a página de edição de instalação na página de instalações de estabelecimento ([Fig. 39](#fig39)) e clicar no botão **ALTERAR INSTALAÇÃO**.
-A edição deve respeitar o preenchimento dos campos obrigatórios identificados no ponto [12.1 Criar Instalações](#criar-instalaes)
+A edição deve respeitar o preenchimento dos campos obrigatórios identificados no ponto [13.1 Criar Instalações](#criar-instalaes)
 No final da edição o utilizador para gravar as alterações deve clicar no botão **SUBMETER** ou **GUARDAR**, dependendo dos painéis alterados. Após clicar irá ser notificado com o resultado da operação.
 
 ## 13.3. Consultar Instalações
