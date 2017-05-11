@@ -204,9 +204,9 @@ Para que o utilizador possa criar um novo equipamento critico, deverá ter em co
 
 ### 13.1.4 Serviços
 
-Contém toda a informação relacionada com os serviços que foram realizados nas instalações do estabelecimento, assim como os seus custos e serviços de apoio.
+Contém toda a informação relacionada com os serviços que foram realizados nas instalações do estabelecimento, assim como os seus custos e serviços de apoio. O utilizador deverá preencher os dados da tabela seguinte e selecionar **SUBMETER**.
 
-|             | Campos Obrigatórios em Serviços|
+|             | Campos em Serviços|
 |-----------------------------------------------------------|-|
 | Serviço de Instalação e Equipamento ([](#13_4_1)) | Ano de Alteração (Ano em que acontece a alteração, se estiver a criar o ano de alteração deve ser igual ao ano atual) ||
 |                                     | Equipa de Manutenção Permanente;||
@@ -239,9 +239,9 @@ Contém toda a informação relacionada com os serviços que foram realizados na
 
 ### 13.1.5 Contratos de Manutenção
 
-Contém a informação dos contratos de manutenção dos equipamentos das instalações.
+Contém a informação dos contratos de manutenção dos equipamentos das instalações. O utilizador deverá preencher os dados da tabela seguinte e selecionar **SUBMETER**.
 
-| Campos em Contratos de Manutenção – [Fig. 57](#fig57)     | |
+| Campos em Contratos de Manutenção – [](#13_5_1)     | |
 |-----------------------------------------------------------|-|
 | Equipamento com contrato de manutenção | Bomba(s) rede de incêndios |
 |                                           | Bomba(s) circuladoras |
@@ -271,30 +271,30 @@ Contém a informação dos contratos de manutenção dos equipamentos das instal
 |   Contrato contém SLA – Service Level Agreement?    | Sim|
 |                                                        | Não|
 
-![img/pages/fig57](img/pages/fig57.jpg)
+![img/pages/13_5_1](img/pages/13_5_1.jpg)
 
-<p class="caption" id="fig57"> Contratos de Manutenção </p>
+<p class="caption" id="13_5_1"> Contratos de Manutenção </p>
 
 
-### 13.1.6 Avaliação Pós-Ocupação
+### 13.1.6 Avaliação Pós-Ocupação (Apenas disponivel para o perfil ACSS)
 
-Contém a informação acerca da avaliação dos edifícios da instalação; útil instrumento na implementação de melhorias na criação de edifícios no futuro.
+Contém a informação acerca da avaliação dos edifícios da instalação; útil instrumento na implementação de melhorias na criação de edifícios no futuro. O utilizador deverá preencher os dados da tabela seguinte e selecionar **SUBMETER**.
 
-|    | Campos em Avaliação Pós-Ocupação – [Fig. 58](#fig58)     | |
+|    | Campos em Avaliação Pós-Ocupação – [](#13_6_1)     | |
 |----|-----------------------------------------------------------|-|
 |a)  | Existe APO efetuada?                | Data de realização |
 |b)  | Serviços avaliados?                						||
 |c)  | Upload para repositório?            | Ficheiro           |
 
-![img/pages/fig58](img/pages/fig58.jpg)
+![img/pages/13_6_1](img/pages/13_6_1.jpg)
 
-<p class="caption" id="fig58"> Avaliação Pós-Ocupação </p>
+<p class="caption" id="13_6_1"> Avaliação Pós-Ocupação </p>
 
-### 13.1.7 Ações ACSS
+### 13.1.7 Ações ACSS (Apenas disponivel para o perfil ACSS)
 
-Contém a informação de todas as ações que a ACSS executou naquelas instalações.
+Contém a informação de todas as ações que a ACSS executou naquelas instalações. O utilizador deverá preencher os dados da tabela seguinte e selecionar **SUBMETER**.
 
-|    | Campos em Ações ACSS – [Fig. 59](#fig59)     | |
+|    | Campos em Ações ACSS – [](#13_7_1)     | |	
 |----|-----------------------------------------------------------|-|
 | a) | Existem ações realizadas no estabelecimento, pela ACSS? |Data de realização |
 | b) | Tipo de Ação                          |Avaliações do estado das instalações |
@@ -306,20 +306,20 @@ Contém a informação de todas as ações que a ACSS executou naquelas instala�
 | e) | Upload para repositório?              |Ficheiro |
 
 
-![img/pages/fig59](img/pages/fig59.jpg)
+![img/pages/13_7_1](img/pages/13_7_1.jpg)
 
-<p class="caption" id="fig59"> Ações ACSS </p>
+<p class="caption" id="13_7_1"> Ações ACSS </p>
 
 ## 13.2. Editar Instalações
 
-O utilizador pode navegar para a página de edição de instalação na página de instalações de estabelecimento ([Fig. 39](#fig39)) e clicar no botão **ALTERAR INSTALAÇÃO**.
+O utilizador pode navegar para a página de edição de instalação na página de instalações de estabelecimento ([](#13_3)) e clicar no botão **ALTERAR INSTALAÇÃO**.
 A edição deve respeitar o preenchimento dos campos obrigatórios identificados no ponto [13.1 Criar Instalações](#criar-instalaes)
 No final da edição o utilizador para gravar as alterações deve clicar no botão **SUBMETER** ou **GUARDAR**, dependendo dos painéis alterados. Após clicar irá ser notificado com o resultado da operação.
 
 ## 13.3. Consultar Instalações
-O utilizador pode navegar para a página de consulta de instalação na página de instalações de estabelecimento ([Fig. 39](#fig39)) e clicar no botão **CONSULTAR INSTALAÇÃO**.
+O utilizador pode navegar para a página de consulta de instalação na página de instalações de estabelecimento ([](#13_3)) e clicar no botão **CONSULTAR INSTALAÇÃO**.
 
 ## 13.4. Histórico Instalações
 
-A página de histórico de uma entidade pode ser acedida através da página de instalações de estabelecimento ([Fig. 39](#fig39)) e clicando no botão **HISTÓRICO INSTALAÇÃO** .
+A página de histórico de uma entidade pode ser acedida através da página de instalações de estabelecimento ([](#13_3)) e clicando no botão **HISTÓRICO INSTALAÇÃO** .
 Uma vez na página de histórico poderá visualizar todas as versões resultantes da edição das instalações, bem como a identificação dos campos alterados.
