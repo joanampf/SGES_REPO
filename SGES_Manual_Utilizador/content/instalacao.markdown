@@ -15,20 +15,16 @@ O utilizador pode consultar as instalações de um estabelecimento no separador 
 
 ![img/pages/13_1](img/pages/13_1.jpg)
 
-<p class="caption" id="13_1"> Exemplo de Estabelecimento com Instalações</p>
+<p class="caption" id="13_1"> Exemplo de Estabelecimento sem Instalações</p>
 
 ![img/pages/13_2](img/pages/13_2.jpg)
 
-<p class="caption" id="13_2"> Exemplo de Estabelecimento sem Instalações</p>
-
-![img/pages/13_3](img/pages/13_3.jpg)
-
-<p class="caption" id="13_3"> Botões disponiveis no módulo Instalações </p>
+<p class="caption" id="13_2"> Exemplo de Estabelecimento com Instalações</p>
 
 ## 13.1. Criar Instalações
 
 Caso ainda não exista informação acerca das instalações de um estabelecimento, o utilizador pode criar instalações.
-Para criar instalações, o utilizador deve clicar em **CRIAR** na página de instalações de estabelecimento ([Fig. 38](#fig38)). De seguida, será encaminhado para a página de criação de instalações, onde deverá preencher os campos obrigatórios para poder efetuar o registo das instalações.
+Para criar instalações, o utilizador deve clicar em **CRIAR** na página de instalações de estabelecimento ([](#13_1)). De seguida, será encaminhado para a página de criação de instalações, onde deverá preencher os campos obrigatórios para poder efetuar o registo das instalações.
 Para o Registo de Instalações será necessário primeiro submeter os campos da Caracterização Geral do(s) edifício(s), sem estes submetidos não é possível preencher outros campos.
 
 ### 13.1.1 Caracterização
@@ -312,14 +308,14 @@ Contém a informação de todas as ações que a ACSS executou naquelas instala�
 
 ## 13.2. Editar Instalações
 
-O utilizador pode navegar para a página de edição de instalação na página de instalações de estabelecimento ([](#13_3)) e clicar no botão **ALTERAR INSTALAÇÃO**.
+O utilizador pode navegar para a página de edição de instalação na página de instalações de estabelecimento ([](#13_2)) e clicar no botão **ALTERAR INSTALAÇÃO**.
 A edição deve respeitar o preenchimento dos campos obrigatórios identificados no ponto [13.1 Criar Instalações](#criar-instalaes)
 No final da edição o utilizador para gravar as alterações deve clicar no botão **SUBMETER** ou **GUARDAR**, dependendo dos painéis alterados. Após clicar irá ser notificado com o resultado da operação.
 
 ## 13.3. Consultar Instalações
-O utilizador pode navegar para a página de consulta de instalação na página de instalações de estabelecimento ([](#13_3)) e clicar no botão **CONSULTAR INSTALAÇÃO**.
+O utilizador pode navegar para a página de consulta de instalação na página de instalações de estabelecimento ([](#13_2)) e clicar no botão **CONSULTAR INSTALAÇÃO**.
 
 ## 13.4. Histórico Instalações
 
-A página de histórico de uma entidade pode ser acedida através da página de instalações de estabelecimento ([](#13_3)) e clicando no botão **HISTÓRICO INSTALAÇÃO** .
+A página de histórico de uma entidade pode ser acedida através da página de instalações de estabelecimento ([](#13_2)) e clicando no botão **HISTÓRICO INSTALAÇÃO** .
 Uma vez na página de histórico poderá visualizar todas as versões resultantes da edição das instalações, bem como a identificação dos campos alterados.
