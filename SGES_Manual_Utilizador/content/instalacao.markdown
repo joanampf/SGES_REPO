@@ -95,15 +95,15 @@ Após selecionar o botão de **EDITAR** os campos não editáveis ficaram preenc
 
 <p class="caption" id="13_1_4">Caracterização do Edifício com os campos preenchíveis</p>
 
-**Separador Projeto** - contém a caracterização do projeto, como os custos e datas chave do projecto. Estes dados devem ser inseridos para cada fase de construção dos edifícios.
+**Separador Projeto** - contém a caracterização do projeto, como os custos e datas chave do projeto. Estes dados devem ser inseridos para cada fase de construção dos edifícios.
 
-Os paineis deste separador encontram-se apresentados pelas fases de contrução, logo os dados terão de ser preenchidos tantas vezes quantas as feses de construção da Instalação.
+Os painéis deste separador encontram-se apresentados pelas fases de construção, logo os dados terão de ser preenchidos tantas vezes quantas as fases de construção da Instalação.
 
 ![img/pages/13_1_5](img/pages/13_1_5.jpg)
 
 <p class="caption" id="13_1_5"> Caracterização do Projeto </p>
 
-Para inserir a informação nos devidos campos é necessário o elemento da lista (mesmo que só exista um) e selecionar o o botão **EDITAR**. Na figura anterior ([](# 13_1_5)) é possivel ver como se apresenta o painel após selecionado o elemento.
+Para inserir a informação nos devidos campos é necessário o elemento da lista (mesmo que só exista um) e selecionar o botão **EDITAR**. Na figura anterior ([](# 13_1_5)) é possível ver como se apresenta o painel após selecionado o elemento.
 
 ![img/pages/13_1_6](img/pages/13_1_6.jpg)
 
@@ -111,7 +111,7 @@ Para inserir a informação nos devidos campos é necessário o elemento da list
 
 **Separador Construção** - contém a caracterização da construção, como os seus custos e custos de equipamentos. Estes dados devem ser inseridos para cada fase de construção dos edifícios. 
 
-Aplicam-se aqui as mesmas regras do **Separador Projecto**: é necesario preencher os dados tantas vezes quantas as fases existentes na construção e para que um painel se torne editável é necessário selecionar um dos elementos da lista e carregar no botão **EDITAR**.
+Aplicam-se aqui as mesmas regras do **Separador Projeto**: é necessário preencher os dados tantas vezes quantas as fases existentes na construção e para que um painel se torne editável é necessário selecionar um dos elementos da lista e carregar no botão **EDITAR**.
 
 ![img/pages/13_1_7](img/pages/13_1_7.jpg)
 
@@ -177,12 +177,12 @@ Para que o utilizador possa criar um novo equipamento critico, deverá ter em co
 * Selecionar a que tipo de equipamento se adequa o pretendido;
 * Selecionar o botão **CRIAR** ([](#13_3_1));
 * Será adicionada uma nova linha ao painel que deverá ser preenchida de acordo com os campos referidos na tabela seguinte;
-* Selecionar o botão **GUARDAR** em cada separador uma vez concluido o preenchimento do mesmo.
+* Selecionar o botão **GUARDAR** em cada separador uma vez concluído o preenchimento do mesmo.
 
-| Campos em Equipamentos Críticos              | |
+| Campos em Equipamentos Críticos | |
 |-----------------------------------------------------------|-|
 | Instalações Elétricas ([](#13_3_2)), Instalações Mecânicas ([](#13_3_3)) ,Instalações de Águas e Esgotos ([](#13_3_4)) | Designação do Equipamento    ||
-|                                                       | Edificio  | |
+|                                                       | Edifício  | |
 |                                                       | Marca   | |
 |                                                       | Modelo   | |
 |                                                       | Nº Serie   | |
@@ -206,70 +206,70 @@ Para que o utilizador possa criar um novo equipamento critico, deverá ter em co
 
 Contém toda a informação relacionada com os serviços que foram realizados nas instalações do estabelecimento, assim como os seus custos e serviços de apoio.
 
-| Campos Obrigatórios em Equipamentos Críticos              | |
+|             | Campos Obrigatórios em Serviços|
 |-----------------------------------------------------------|-|
-| Serviço de Instalação e Equipamento ([Fig. 54](#fig54)) | Ano de Alteração (Ano em que acontece a alteração, se estiver a criar o ano de alteração deve ser igual ao ano actual) ||
+| Serviço de Instalação e Equipamento ([](#13_4_1)) | Ano de Alteração (Ano em que acontece a alteração, se estiver a criar o ano de alteração deve ser igual ao ano atual) ||
 |                                     | Equipa de Manutenção Permanente;||
 |                                     | Serviço de Instalações e Equipamentos – Em regime de outsourcing;||
 |                                     | Número de elementos;|
 |                                     | Nome da Empresa (caso Serviço de Instalações e Equipamentos – Em regime de outsourcing = Sim)||
-| Custos do Serviço ([Fig. 55](#fig55))| Custos anuais com manutenção;||
+| Custos do Serviço ([](#13_4_2))| Custos anuais com manutenção;||
 |                                         | Custos anuais com contratos de manutenção;||
 |                                         |Custos anuais com substituição de equipamento;||
-| Serviços de Apoio |Ano (Ano em que acontece a alteração, se estiver a criar o ano de alteração deve ser igual ao ano actual)||
-||Esterilização|Serviço em Outsourcing|
+| Serviços de Apoio ([](#13_4_3))|Ano (Ano em que acontece a alteração, se estiver a criar o ano de alteração deve ser igual ao ano atual)||
+||Esterilização | Serviço em Outsourcing|
 ||				|Custos anuais (€)|
-||Lavandaria|Existe Lavadaria?|
+||Lavandaria |Existe Lavandaria?|
 ||				|Serviço em Outsourcing|
 ||				|Custos anuais (€)|
-||Residuos|Serviço em Outsourcing|
+||Resíduos | Serviço em Outsourcing|
 ||				|Custos anuais (€)|
 
-![img/pages/fig54](img/pages/fig54.jpg)
+![img/pages/13_4_1](img/pages/13_4_1.jpg)
 
-<p class="caption" id="fig54">Fig. 54 -Serviços - Serviço de Instalação e Equipamento</p>
+<p class="caption" id="13_4_1">Serviços - Serviço de Instalação e Equipamento </p>
 
-![img/pages/fig55](img/pages/fig55.jpg)
+![img/pages/13_4_2](img/pages/13_4_2.jpg)
 
-<p class="caption" id="fig55">Fig. 55 -Serviços - Custos do Serviço</p>
+<p class="caption" id="13_4_2">Serviços - Custos do Serviço </p>
 
-![img/pages/fig56](img/pages/fig56.jpg)
+![img/pages/13_4_3](img/pages/13_4_3.jpg)
 
-<p class="caption" id="fig56">Fig. 56 -Serviços - Serviços de Apoio</p>
+<p class="caption" id="13_4_3">Serviços - Serviços de Apoio </p>
 
 ### 13.1.5 Contratos de Manutenção
 
 Contém a informação dos contratos de manutenção dos equipamentos das instalações.
 
-|    | Campos em Contratos de Manutenção – [Fig. 57](#fig57)     | |
-|----|-----------------------------------------------------------|-|
-|a)  | Equipamento com contrato de manutenção | Bomba(s) rede de incêndios |
-| |                                           | Bomba(s) circuladoras |
-| |                                           | Gerador(es) de emergência |
-| |                                           | UPS |
-| |                                           | Posto de transformação (PT) |
-| |                                           | Quadro geral de baixa tensão (QGBT) |
-| |                                           | Bomba(s) circuladoras |
-| |                                           | Unidade de tratamento de ar (UTA) |
-| |                                           | Unidade de tratamento de ar novo (UTAN) |
-| |                                           | Bomba(s) de vácuo |
-| |                                           | Bomba(s) de ar comprimido medicinal |
-| |                                           | Central de protóxido |
-| |                                           | Central de extração de gases anestésicos |
-| |                                           | Ventilador(es) associado(s) ao sistema de incêndios |
-| c) |      Tipo de Manutenção                | Preventiva |
-| |                                           | Corretiva |
-| |                                           | Preventiva e Corretiva |
-|  d)|Com peças? (Se Tipo de Manutenção = “Preventiva” ou ”Corretiva ou Preventiva”)       |                                               Sim |
-| |                                           | Não |
-| e) |      Duração do Contrato               | Semestral |
-| |                                           | Anual |
-| |                                           | Bianual|
-| |                                           | Trianual|
-| |                                           | Quadrienal|
-| |                                           | Quinquenal|
-| f) |   Contrato contém SLA – Service Level Agreement?    | Sim|
-| |                                                        | Não|
+| Campos em Contratos de Manutenção – [Fig. 57](#fig57)     | |
+|-----------------------------------------------------------|-|
+| Equipamento com contrato de manutenção | Bomba(s) rede de incêndios |
+|                                           | Bomba(s) circuladoras |
+|                                           | Gerador(es) de emergência |
+|                                           | UPS |
+|                                           | Posto de transformação (PT) |
+|                                           | Quadro geral de baixa tensão (QGBT) |
+|                                           | Bomba(s) circuladoras |
+|                                           | Unidade de tratamento de ar (UTA) |
+|                                           | Unidade de tratamento de ar novo (UTAN) |
+|                                           | Bomba(s) de vácuo |
+|                                           | Bomba(s) de ar comprimido medicinal |
+|                                           | Central de protóxido |
+|                                           | Central de extração de gases anestésicos |
+|                                           | Ventilador(es) associado(s) ao sistema de incêndios |
+|      Tipo de Manutenção                | Preventiva |
+|                                           | Corretiva |
+|                                           | Preventiva e Corretiva |
+|Com peças? (Se Tipo de Manutenção = “Preventiva” ou ”Corretiva ou Preventiva”)       |                                               Sim |
+|                                           | Não |
+|      Duração do Contrato               | Semestral |
+|                                           | Anual |
+|                                           | Bianual|
+|                                           | Trianual|
+|                                           | Quadrienal|
+|                                           | Quinquenal|
+|   Contrato contém SLA – Service Level Agreement?    | Sim|
+|                                                        | Não|
 
 ![img/pages/fig57](img/pages/fig57.jpg)
 
