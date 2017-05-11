@@ -172,21 +172,23 @@ Contém a informação de todos os equipamentos críticos para o funcionamento d
 
 <p class="caption" id="13_3_1"> Ecrã principal dos Equipamentos Críticos </p>
 
-Para que o utilizador possa criar um novo equipamento critico, deverá ter em conta dois passos:
+Para que o utilizador possa criar um novo equipamento critico, deverá ter em conta quatro passos:
 
 * Selecionar a que tipo de equipamento se adequa o pretendido;
-* Selecionar o botão **CRIAR** ([](#13_3_1)), será adicionada uma nova linha ao painel que deverá ser preenchida de acordo com os campos referidos na tabela seguinte:
+* Selecionar o botão **CRIAR** ([](#13_3_1));
+* Será adicionada uma nova linha ao painel que deverá ser preenchida de acordo com os campos referidos na tabela seguinte;
+* Selecionar o botão **GUARDAR** em cada separador uma vez concluido o preenchimento do mesmo.
 
-|    | Campos em Equipamentos Críticos              | |
-|----|-----------------------------------------------------------|-|
-| a) | Instalações Elétricas ([](#13_3_2)), Instalações Mecânicas ([](#13_3_3)) ,Instalações de Águas e Esgotos ([](#13_3_4)) | Designação do Equipamento    ||
-||                                                       | Edificio  | |
-||                                                       | Marca   | |
-||                                                       | Modelo   | |
-||                                                       | Nº Serie   | |
-||                                                       | Data de entrada em funcionamento  | |
-||                                                       | Estado   | |
-||                                                       | Data de Abate (caso Estado=Abatido)   | |
+| Campos em Equipamentos Críticos              | |
+|-----------------------------------------------------------|-|
+| Instalações Elétricas ([](#13_3_2)), Instalações Mecânicas ([](#13_3_3)) ,Instalações de Águas e Esgotos ([](#13_3_4)) | Designação do Equipamento    ||
+|                                                       | Edificio  | |
+|                                                       | Marca   | |
+|                                                       | Modelo   | |
+|                                                       | Nº Serie   | |
+|                                                       | Data de entrada em funcionamento  | |
+|                                                       | Estado   | |
+|                                                       | Data de Abate (caso Estado=Abatido)   | |
 
 ![img/pages/13_3_2](img/pages/13_3_2.jpg)
 
@@ -204,16 +206,24 @@ Para que o utilizador possa criar um novo equipamento critico, deverá ter em co
 
 Contém toda a informação relacionada com os serviços que foram realizados nas instalações do estabelecimento, assim como os seus custos e serviços de apoio.
 
-|    | Campos Obrigatórios em Equipamentos Críticos              | |
-|----|-----------------------------------------------------------|-|
-|a)  | Serviço de Instalação e Equipamento ([Fig. 54](#fig54)) | Ano de Alteração (Ano em que acontece a alteração, se estiver a criar o ano de alteração deve ser igual ao ano actual) |
-|    |                                     | Equipa de Manutenção Permanente;|
-|    |                                     | Serviço de Instalações e Equipamentos – Em regime de outsourcing;|
-|    |                                     | Número de elementos;|
-|    |                                     | Nome da Empresa (caso Serviço de Instalações e Equipamentos – Em regime de outsourcing = Sim)|
-| b) | Custos do Serviço ([Fig. 55](#fig55))| Custos anuais com manutenção;|
-| |                                         | Custos anuais com contratos de manutenção;|
-| |                                         |Custos anuais com substituição de equipamento;|
+| Campos Obrigatórios em Equipamentos Críticos              | |
+|-----------------------------------------------------------|-|
+| Serviço de Instalação e Equipamento ([Fig. 54](#fig54)) | Ano de Alteração (Ano em que acontece a alteração, se estiver a criar o ano de alteração deve ser igual ao ano actual) ||
+|                                     | Equipa de Manutenção Permanente;||
+|                                     | Serviço de Instalações e Equipamentos – Em regime de outsourcing;||
+|                                     | Número de elementos;|
+|                                     | Nome da Empresa (caso Serviço de Instalações e Equipamentos – Em regime de outsourcing = Sim)||
+| Custos do Serviço ([Fig. 55](#fig55))| Custos anuais com manutenção;||
+|                                         | Custos anuais com contratos de manutenção;||
+|                                         |Custos anuais com substituição de equipamento;||
+| Serviços de Apoio |Ano (Ano em que acontece a alteração, se estiver a criar o ano de alteração deve ser igual ao ano actual)||
+||Esterilização|Serviço em Outsourcing|
+||				|Custos anuais (€)|
+||Lavandaria|Existe Lavadaria?|
+||				|Serviço em Outsourcing|
+||				|Custos anuais (€)|
+||Residuos|Serviço em Outsourcing|
+||				|Custos anuais (€)|
 
 ![img/pages/fig54](img/pages/fig54.jpg)
 
