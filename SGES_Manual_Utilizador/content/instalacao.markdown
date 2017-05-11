@@ -95,18 +95,23 @@ Após selecionar o botão de **EDITAR** os campos não editáveis ficaram preenc
 
 <p class="caption" id="13_1_4">Caracterização do Edifício com os campos preenchíveis</p>
 
-**Separador Projeto** - contém a caracterização do projeto, como os custos e datas chave do projecto. Estes dados devem ser inseridos para cada fase de construção dos edifícios;
+**Separador Projeto** - contém a caracterização do projeto, como os custos e datas chave do projecto. Estes dados devem ser inseridos para cada fase de construção dos edifícios.
+
+Os paineis deste separador encontram-se apresentados pelas fases de contrução, logo os dados terão de ser preenchidos tantas vezes quantas as feses de construção da Instalação.
 
 ![img/pages/13_1_5](img/pages/13_1_5.jpg)
 
 <p class="caption" id="13_1_5"> Caracterização do Projeto </p>
 
+Para inserir a informação nos devidos campos é necessário o elemento da lista (mesmo que só exista um) e selecionar o o botão **EDITAR**. Na figura anterior ([](# 13_1_5)) é possivel ver como se apresenta o painel após selecionado o elemento.
 
 ![img/pages/13_1_6](img/pages/13_1_6.jpg)
 
 <p class="caption" id="13_1_6"> Caracterização do Projeto - Datas Chaves </p>
 
-**Separador Construção** - contém a caracterização da construção, como os seus custos e custos de equipamentos. Estes dados devem ser inseridos para cada fase de construção dos edifícios;
+**Separador Construção** - contém a caracterização da construção, como os seus custos e custos de equipamentos. Estes dados devem ser inseridos para cada fase de construção dos edifícios. 
+
+Aplicam-se aqui as mesmas regras do **Separador Projecto**: é necesario preencher os dados tantas vezes quantas as fases existentes na construção e para que um painel se torne editável é necessário selecionar um dos elementos da lista e carregar no botão **EDITAR**.
 
 ![img/pages/13_1_7](img/pages/13_1_7.jpg)
 
@@ -154,7 +159,7 @@ Contém informação acerca da energia, águas e gases medicinais utilizados na 
 
 <p class="caption" id="13_2_3"> Detalhe Gases Medicinais </p>
 
-![img/pages/13_2_5](img/pages/13_2_4.jpg)
+![img/pages/13_2_4](img/pages/13_2_4.jpg)
 
 <p class="caption" id="13_2_4"> Detalhe Produção de Resíduos </p>
 
@@ -162,11 +167,19 @@ Contém informação acerca da energia, águas e gases medicinais utilizados na 
 ### 13.1.3 Equipamentos Críticos
 
 Contém a informação de todos os equipamentos críticos para o funcionamento da instalação, como as instalações elétricas, instalações mecânicas e instalações de águas e esgotos.
-Após guardar cada registo na tabela, e para não se perder os dados será necessário submeter.
 
-|    | Campos Obrigatórios em Equipamentos Críticos              | |
+![img/pages/13_3_1](img/pages/13_3_1.jpg)
+
+<p class="caption" id="13_3_1"> Ecrã principal dos Equipamentos Críticos </p>
+
+Para que o utilizador possa criar um novo equipamento critico, deverá ter em conta dois passos:
+
+* Selecionar a que tipo de equipamento se adequa o pretendido;
+* Selecionar o botão **CRIAR** ([](#13_3_1)), será adicionada uma nova linha ao painel que deverá ser preenchida de acordo com os campos referidos na tabela seguinte:
+
+|    | Campos em Equipamentos Críticos              | |
 |----|-----------------------------------------------------------|-|
-| a) | Instalações Elétricas ([Fig. 51](#fig51)), Instalações Mecânicas ([Fig. 52](#fig52)) ,Instalações de Águas e Esgotos ([Fig. 53](#fig53)) | Designação do Equipamento    ||
+| a) | Instalações Elétricas ([](#13_3_2)), Instalações Mecânicas ([](#13_3_3)) ,Instalações de Águas e Esgotos ([](#13_3_4)) | Designação do Equipamento    ||
 ||                                                       | Edificio  | |
 ||                                                       | Marca   | |
 ||                                                       | Modelo   | |
@@ -175,17 +188,17 @@ Após guardar cada registo na tabela, e para não se perder os dados será neces
 ||                                                       | Estado   | |
 ||                                                       | Data de Abate (caso Estado=Abatido)   | |
 
-![img/pages/fig51](img/pages/fig51.jpg)
+![img/pages/13_3_2](img/pages/13_3_2.jpg)
 
-<p class="caption" id="fig51">Equipamentos Críticos - Instalações Elétricas</p>
+<p class="caption" id="13_3_2">Equipamentos Críticos - Instalações Elétricas</p>
 
-![img/pages/fig52](img/pages/fig52.jpg)
+![img/pages/13_3_3](img/pages/13_3_3.jpg)
 
-<p class="caption" id="fig52">Equipamentos Críticos - Instalações Mecânicas</p>
+<p class="caption" id="13_3_3">Equipamentos Críticos - Instalações Mecânicas</p>
 
-![img/pages/fig53](img/pages/fig53.jpg)
+![img/pages/13_3_4](img/pages/13_3_4.jpg)
 
-<p class="caption" id="fig53">Equipamentos Críticos - Instalações de Águas e Esgotos</p>
+<p class="caption" id="13_3_4">Equipamentos Críticos - Instalações de Águas e Esgotos</p>
 
 ### 13.1.4 Serviços
 
