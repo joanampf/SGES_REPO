@@ -14,7 +14,7 @@ Será organizado:
 	 * “Objetivos do Sistema” onde se descrevem os propósitos da utilização da aplicação informática;
 	 * “Conceitos básicos” onde se explicam os principais conceitos que suportam a aplicação, concretamente conceitos tipo “navegação" no sistema, explicando o que se entende por isso;
  	 * “Instruções de acesso”, onde é descrito como o utilizador pode aceder ao sistema
- - **Sequências de menus** onde o utilizador é guiado pelas funcionalidades da aplicação de modo a facilitar a sua utilização.
+ - **Sequência de Menus** onde o utilizador é guiado pelas funcionalidades da aplicação de modo a facilitar a sua utilização.
  
 
 # 2.Tabela de Acrónimos
