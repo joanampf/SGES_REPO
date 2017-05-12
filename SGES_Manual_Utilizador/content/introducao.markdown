@@ -14,7 +14,7 @@ Será organizado:
 	 * “Objetivos do Sistema” onde se descrevem os propósitos da utilização da aplicação informática;
 	 * “Conceitos básicos” onde se explicam os principais conceitos que suportam a aplicação, concretamente conceitos tipo “navegação" no sistema, explicando o que se entende por isso;
  	 * “Instruções de acesso”, onde é descrito como o utilizador pode aceder ao sistema
- - **Sequências de menus** onde o utilizador é guiado pelas funcionalidades da aplicação de modo a facilitar a sua utilização.
+ - **Sequência de Menus** onde o utilizador é guiado pelas funcionalidades da aplicação de modo a facilitar a sua utilização.
  
 
 # 2.Tabela de Acrónimos
@@ -124,8 +124,12 @@ Caso contrário, deverá clicar em **Recuperar Senha**, inserir os campos obriga
 
 <p class="caption" id="figLoginRecuperacao"> Recuperação da Senha </p>
 
-Uma vez identificado e autenticado, é apresentada ao utilizador a página de entrada do SGES, 
-[](#figPaginaEntrada) ou [](#figPaginaEntradaEnt) caso seja do perfil ENTIDADE, onde pode então aceder às funcionalidades que lhe estão disponíveis.
+
+Uma vez identificado e autenticado, é apresentada ao utilizador a página de entrada do SGES.
+
+<div id="ModuloMenuInicial" class="modulo"></div>
+ 
+Se o utilizador estiver associado a uma Entidade o ecrã de entrada será [](#figPaginaEntradaEnt), caso não tenha um entidade associada ou a entidade for uma ARS, entao [](#figPaginaEntrada) será o ecrã de entrada.
 
 ![figPaginaEntrada](img/pages/5_1_4.jpg)
 
