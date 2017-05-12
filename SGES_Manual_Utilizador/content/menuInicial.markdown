@@ -1,7 +1,12 @@
+---
+layout: default
+title: "Introdução"
+---
+
 <p id="home"></p>
 
 O SGES faz-se acompanhar de um menu inicial cuja visibilidade dos botões depende do perfil a que o utilizador esta associado.
-Em cada módulo do menu o utilizador pode visualizar o próprio *layout* do respetivo módulo ou o ecrã de pesquisa de entidades ([] (#pgina-de-pesquisa)).
+Em cada módulo do menu o utilizador pode visualizar o próprio *layout* do respetivo módulo ou o ecrã de pesquisa de entidades ([](#pgina-de-pesquisa)).
 
 ### Menu Entidade
 
