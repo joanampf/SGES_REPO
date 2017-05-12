@@ -119,7 +119,7 @@ Contém informação acerca da energia, águas e gases medicinais utilizados na 
 
 |  | Campos no Separador Detalhe                            ||
 |-----------------------------------------------------------|-|-|
-| Energia ([](# 13_2_1))   | Ano de alteração;            | |
+| Energia ([](#13_2_1))   | Ano de alteração;            | |
 |                                  | Nível da tensão de alimentação – rede elétrica de distribuição pública;  | |
 |                                  | Topologia de alimentação de energia elétrica; | |
 |                                  | Potência Contratada; | |
@@ -131,14 +131,14 @@ Contém informação acerca da energia, águas e gases medicinais utilizados na 
 |                                  | Painéis Fotovoltaicos;  | |
 |                                  | Aero-geradores;         | |
 |                                  | Certificação Energética; | |
-|Água / Águas Residuais  ([](# 13_2_2))  | Ano de alteração;            | |
+|Água / Águas Residuais  ([](#13_2_2))  | Ano de alteração;            | |
 |                                               | Volume de armazenamento total; | |
 |                                               | Volume de armazenamento de água para rede de incêndios; | |
 |                                               | Furo de captação de águas subterrâneas; | |
 |                                               | ETAR / ETARI;| |
-| Gases Medicinais  ([](# 13_2_3)) | Ano de alteração;            | |
+| Gases Medicinais  ([](#13_2_3)) | Ano de alteração;            | |
 |                                         | Instalação registada no Infarmed como Dispositivo Médico?| |
-| Produção de Resíduos  ([](# 13_2_4)) | Ano                   | |
+| Produção de Resíduos  ([](#13_2_4)) | Ano                   | |
 |                                   |Quantidade de Resíduos Produzidos |Grupo I e II; |
 |                                   |                                  |Grupo III; |
 |                                   |                                  |Grupo IV; |
@@ -256,7 +256,7 @@ Contém a informação dos contratos de manutenção dos equipamentos das instal
 |      Tipo de Manutenção                | Preventiva |
 |                                           | Corretiva |
 |                                           | Preventiva e Corretiva |
-|Com peças? (Se Tipo de Manutenção = “Preventiva” ou ”Corretiva ou Preventiva”)       |                                               Sim |
+|Com peças? (Se Tipo de Manutenção = “Preventiva” ou ”Corretiva ou Preventiva”)       |  Sim |
 |                                           | Não |
 |      Duração do Contrato               | Semestral |
 |                                           | Anual |
