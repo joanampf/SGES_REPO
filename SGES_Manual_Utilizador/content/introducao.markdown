@@ -128,6 +128,10 @@ Caso contrário, deverá clicar em **Recuperar Senha**, inserir os campos obriga
 Uma vez identificado e autenticado, é apresentada ao utilizador a página de entrada do SGES.
 
 <div id="ModuloMenuInicial" class="modulo"></div>
+
+<script>
+$("#ModuloMenuInicial").load("https://joanampf.github.io/SGES_REPO/SGES_Manual_Utilizador/content/menuInicial.html");
+</script>
  
 Se o utilizador estiver associado a uma Entidade o ecrã de entrada será [](#figPaginaEntradaEnt), caso não tenha um entidade associada ou a entidade for uma ARS, entao [](#figPaginaEntrada) será o ecrã de entrada.
 
