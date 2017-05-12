@@ -338,7 +338,12 @@ width: auto;
 }
 
 
-#paginas p  img[alt=figLogin],#paginas p  img[alt=figLoginRecuperacao], #paginas p  img[alt=figAlteracaoSenha], #paginas p  img[alt=figficheiroProdIntEnt] {
+#paginas p  img[alt=figLogin],#paginas p  img[alt=figLoginRecuperacao], #paginas p  img[alt=figAlteracaoSenha], #paginas p  img[alt=figficheiroProdIntEnt], 
+#paginas p  img[alt=figMenuEnt],
+#paginas p  img[alt=figMenuEqu],
+#paginas p  img[alt=figMenuIns],
+#paginas p  img[alt=figMenuUti],
+#paginas p  img[alt=figMenuAC]{
 width: auto;
 }
 
