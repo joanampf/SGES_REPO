@@ -133,15 +133,12 @@ Uma vez identificado e autenticado, é apresentada ao utilizador a página de en
 $("#ModuloMenuInicial").load("https://joanampf.github.io/SGES_REPO/SGES_Manual_Utilizador/content/menuInicial.html");
 </script>
  
-Se o utilizador estiver associado a uma Entidade o ecrã de entrada será [](#figPaginaEntradaEnt), caso não tenha um entidade associada ou a entidade for uma ARS, entao [](#figPaginaEntrada) será o ecrã de entrada.
+Se o utilizador estiver associado a uma Entidade o ecrã de entrada será [](#figPaginaEntradaEnt), caso não tenha um entidade associada ou a entidade for uma ARS, entao [](#figPaginaEntrada) será o ecrã de entrada, como explicado em [](#pgina-de-pesquisa).
 
 ![figPaginaEntrada](img/pages/5_1_4.jpg)
 
 <p class="caption" id="figPaginaEntrada"> Página de entrada no SGES </p>
 
-![figPaginaEntradaEnt](img/pages/5_1_5.jpg)
-
-<p class="caption" id="figPaginaEntradaEnt"> Página de entrada no SGES Entidade </p>
 
 Na primeira vez que o utilizador acede a aplicação, aparecerá a página de ([5.2. Alteração da senha](#alterao-da-senha)).
 
