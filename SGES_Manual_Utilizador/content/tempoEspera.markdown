@@ -8,6 +8,7 @@ translation_priority: 1
 order: 3
 ---
 
+<p id="tempos-de-espera"></p>
 # 11.Tempos de Espera
 
 Os tempos de espera correspondem ao nº máximo de dias que decorrem desde que surge a necessidade de marcar um exame até à sua realização, para um doente programado, não urgente e seguido em ambulatório.
