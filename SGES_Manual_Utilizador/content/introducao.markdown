@@ -160,6 +160,7 @@ Após o preenchimento dos campos, o utilizador deverá finalizar a alteração c
 
 <p class="caption" id="figAlteracaoSenha"> Página de alteração de senha </p>
 
+<p id="pesquisa"></p>
 ## 5.3. Página de Pesquisa
 
 A aplicação tem uma página onde podem ser efetuadas pesquisas de entidades ou estabelecimentos, que será a página de entrada de alguns perfis.
