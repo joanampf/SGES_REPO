@@ -23,6 +23,7 @@ O utilizador pode consultar as instalações de um estabelecimento no separador 
 
 <p class="caption" id="13_2"> Exemplo de Estabelecimento com Instalações</p>
 
+<p id="criarInstalacao"></p>
 ## 13.1. Criar Instalações
 
 Caso ainda não exista informação acerca das instalações de um estabelecimento, o utilizador pode criar instalações.
@@ -308,15 +309,18 @@ Contém a informação de todas as ações que a ACSS executou naquelas instala�
 
 <p class="caption" id="13_7_1"> Ações ACSS </p>
 
+<p id="editarInstalacao"></p>
 ## 13.2. Editar Instalações
 
 O utilizador pode navegar para a página de edição de instalação na página de instalações de estabelecimento ([](#13_2)) e clicar no botão **ALTERAR INSTALAÇÃO**.
 A edição deve respeitar o preenchimento dos campos obrigatórios identificados no ponto [13.1 Criar Instalações](#criar-instalaes)
 No final da edição o utilizador para gravar as alterações deve clicar no botão **SUBMETER** ou **GUARDAR**, dependendo dos painéis alterados. Após clicar irá ser notificado com o resultado da operação.
 
+<p id="consultarInstalacao"></p>
 ## 13.3. Consultar Instalações
 O utilizador pode navegar para a página de consulta de instalação na página de instalações de estabelecimento ([](#13_2)) e clicar no botão **CONSULTAR INSTALAÇÃO**.
 
+<p id="historicoInstalacao"></p>
 ## 13.4. Histórico Instalações
 
 A página de histórico de uma entidade pode ser acedida através da página de instalações de estabelecimento ([](#13_2)) e clicando no botão **HISTÓRICO INSTALAÇÃO** .

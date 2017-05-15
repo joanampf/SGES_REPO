@@ -2,6 +2,7 @@
 layout: default
 title: "Entidade"
 ---
+<p id="entidades"></p>
 
 # 6.Entidades
 

@@ -7,7 +7,7 @@ updated_on: 2015-10-06
 translation_priority: 1
 order: 3
 ---
-
+<p id="#rh-servios"></p>
 # 8. RH Serviços
 
 É neste módulo que são feitas ações sobre os recursos humanos afetos a serviços.
