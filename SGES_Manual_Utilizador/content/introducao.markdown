@@ -33,7 +33,8 @@ A tabela seguinte está ordenada por ordem alfabética segundo as siglas.
 |  UF    |  Unidade Funcional |           
 |  ULS   |  Unidade Local de Saúde |    
 |  SPMS  |  Serviços Partilhados do Ministério da Saúde|               
-|  PPP   |  Parceria Público-Privada|           
+|  PPP   |  Parceria Público-Privada|    
+|  EMP   |  Equipamentos Médicos Pesados|       
  
 # 3.Termos e Definições
 
