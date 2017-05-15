@@ -7,7 +7,7 @@ updated_on: 2015-10-06
 translation_priority: 1
 order: 3
 ---
-<p id="#produo-equipamentos"></p>
+<p id="produo-equipamentos"></p>
 
 # 9.Produção Equipamentos
 
@@ -96,7 +96,7 @@ Onde deverá seguir os seguintes passos:
    - Clicar em Submeter; 
 
    
-<p id="#producao-no-exterior"></p>
+<p id="producao-no-exterior"></p>
 # 10.Produção no Exterior
 
 É neste módulo que serão feitas ações sobre a produção realizada no exterior.
