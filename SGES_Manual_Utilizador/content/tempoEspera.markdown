@@ -44,13 +44,15 @@ selecionar o período que pretende consultar e clicar no botão **CONSULTAR**;
 | b) | 	Exames                                           |
 | b) |  Total dias espera                                |
 
-<p id="tEAlteraExames"></p>
+
 
 ## 11.2. Preencher/Alterar Tempos de Espera
 
 O utilizador pode preencher ou alterar o *Total dias de espera* após navegar para o separador **Tempos de Espera**  ([](#figTempoEspera)), selecionar o período que pretende preencher ou alterar e clicar no botão **PREENCHER/ALTERAR**.
 No final da edição o utilizador para gravar as alterações deve clicar no botão **GUARDAR**. Após clicar irá ser notificado com o resultado da operação.
 
+
+<p id="importExames"></p>
 ## 11.3. Importar de Ficheiro Tempos de Espera
 
 O utilizador pode importar dados em massa de exames na produção realizada dos equipamentos após navegar no separador **Tempos de Espera** ([](#figTempoEspera)), selecionar o ano que pretende importar e clicar no botão **Importar de Ficheiro**.
