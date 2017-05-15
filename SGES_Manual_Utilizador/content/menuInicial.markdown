@@ -29,6 +29,12 @@ Este Menu apenas vai estar disponível para o perfil que tem como objetivo o pre
 
 <p class="caption" id="figMenuEqu">Menu Equipamentos</p>
 
+O ecrã principal levará ao seguinte módulo: 
+
+![figEcraEqu](img/pages/ecra2.jpg)
+
+<p class="caption" id="figEcraEqu">Página Inicial Equipamentos</p>
+
 ### Menu Instalações
 Este Menu apenas vai estar disponível para o perfil que tem como objetivo o preenchimento dos dados das instalações/edifícios dos estabelecimentos. Apresenta-se com o seguinte *layout*:
 
