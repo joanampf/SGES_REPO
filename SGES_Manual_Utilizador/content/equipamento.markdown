@@ -8,6 +8,7 @@ translation_priority: 1
 order: 3
 ---
 
+<p id="equipamentos"></p>
 # 12. Equipamentos
 
 É neste módulo que são feitas ações sobre os equipamentos. 
