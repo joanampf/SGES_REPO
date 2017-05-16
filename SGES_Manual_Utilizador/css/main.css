@@ -2095,6 +2095,7 @@
             color: #f3f6f8;
 			display: block;
 			padding: 0.4em 1em 0.4em 1em;
+			line-height: 110%;
 			text-decoration: none;
 			border-radius: 0.4em;
 			outline: 0;
@@ -2111,6 +2112,7 @@
 			text-decoration: none;
 			border-radius: 0.4em;
 			outline: 0;
+			height: 25px;s
 			-moz-transition: background-color .25s ease-in-out, color .25s ease-in-out;
 			-webkit-transition: background-color .25s ease-in-out, color .25s ease-in-out;
 			-ms-transition: background-color .25s ease-in-out, color .25s ease-in-out;
