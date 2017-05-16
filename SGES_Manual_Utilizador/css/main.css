@@ -2667,7 +2667,7 @@
 			}
 
 				#nav:before {
-					display: none !important;
+					/*display: none !important;*/
 				}
 
 				#nav li:hover a {
@@ -2795,7 +2795,7 @@
 			}
 
 				#nav:before {
-					display: none !important;
+					/*display: none !important;*/
 				}
 
 				#nav li:hover a {
