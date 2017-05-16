@@ -2071,10 +2071,6 @@
 
 /* Nav */
 
-	#nav > ul > li > ul {
-		display: none;
-	}
-
 	#nav ul {
 		margin: 0;
 	}
