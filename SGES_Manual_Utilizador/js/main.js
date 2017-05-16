@@ -34,7 +34,7 @@
 			skel.on('+mobile -mobile', function() {
 				$.prioritize(
 					'.important\\28 mobile\\29',
-					skel.breakpoint('mobile').active
+					//skel.breakpoint('mobile').active
 				);
 			});
 

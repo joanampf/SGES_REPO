@@ -116,7 +116,7 @@
 						}
 
 					// Hide.
-						config.target.removeClass(config.visibleClass);
+						//config.target.removeClass(config.visibleClass);
 
 					// Post-hide stuff.
 						window.setTimeout(function() {
