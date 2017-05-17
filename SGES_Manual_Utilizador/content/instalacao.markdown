@@ -279,11 +279,11 @@ Contém a informação dos contratos de manutenção dos equipamentos das instal
 
 Contém a informação acerca da avaliação dos edifícios da instalação; útil instrumento na implementação de melhorias na criação de edifícios no futuro. O utilizador deverá preencher os dados da tabela seguinte e selecionar **SUBMETER**.
 
-|    | Campos em Avaliação Pós-Ocupação – [](#13_6_1)     | |
-|----|-----------------------------------------------------------|-|
-|a)  | Existe APO efetuada?                | Data de realização |
-|b)  | Serviços avaliados?                						||
-|c)  | Upload para repositório?            | Ficheiro           |
+| Campos em Avaliação Pós-Ocupação – [](#13_6_1)     | |
+|-----------------------------------------------------------|-|
+| Existe APO efetuada?                | Data de realização |
+| Serviços avaliados?                						||
+| Upload para repositório?            | Ficheiro           |
 
 ![img/pages/13_6_1](img/pages/13_6_1.jpg)
 
@@ -293,16 +293,16 @@ Contém a informação acerca da avaliação dos edifícios da instalação; út
 
 Contém a informação de todas as ações que a ACSS executou naquelas instalações. O utilizador deverá preencher os dados da tabela seguinte e selecionar **SUBMETER**.
 
-|    | Campos em Ações ACSS – [](#13_7_1)     | |	
-|----|-----------------------------------------------------------|-|
-| a) | Existem ações realizadas no estabelecimento, pela ACSS? |Data de realização |
-| b) | Tipo de Ação                          |Avaliações do estado das instalações |
-||                                           |Estudo-piloto |
-||                                           |Outros |
-||                                           |Visita |
-| c) | Serviços Visitados                           ||
-| d) | Descrição Sumária                            ||
-| e) | Upload para repositório?              |Ficheiro |
+| Campos em Ações ACSS – [](#13_7_1)     | |	
+|-----------------------------------------------------------|-|
+| Existem ações realizadas no estabelecimento, pela ACSS? |Data de realização |
+| Tipo de Ação                          |Avaliações do estado das instalações |
+|                                           |Estudo-piloto |
+|                                           |Outros |
+|                                           |Visita |
+| Serviços Visitados                           ||
+| Descrição Sumária                            ||
+| Upload para repositório?              |Ficheiro |
 
 
 ![img/pages/13_7_1](img/pages/13_7_1.jpg)
