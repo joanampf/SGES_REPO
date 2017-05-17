@@ -68,15 +68,15 @@ Para poder criar a instalação o utilizador deve preencher, pelo menos, os camp
 
 Pode inserir informação acerca das áreas e estacionamento, submetendo no final de cada um de ambos os módulos.
 
-|    | Campos Áreas Totais e Estacionamento - [](#13_1_2)  | |
-|----|-----------------------------------------------------------|-|
-| a) | Áreas Totais    |    Área bruta de construção             |
-||                     |    Área de Estacionamento Construído     |
-||                     |    Área implantação do(s) edifício(s)    |
-||                     |    Área terreno                          |
-||                     |    Área útil                             |
-| b) | Estacionamento  |  N.º Lugares de estacionamento em área construída |
-||                     |  N.º Lugares de estacionamento à superfície |
+| Campos Áreas Totais e Estacionamento - [](#13_1_2)  | |
+|-----------------------------------------------------------|-|
+| Áreas Totais    |    Área bruta de construção             |
+|                     |    Área de Estacionamento Construído     |
+|                     |    Área implantação do(s) edifício(s)    |
+|                     |    Área terreno                          |
+|                     |    Área útil                             |
+| Estacionamento  |  N.º Lugares de estacionamento em área construída |
+|                     |  N.º Lugares de estacionamento à superfície |
 
 ![img/pages/13_1_2](img/pages/13_1_2.jpg)
 
