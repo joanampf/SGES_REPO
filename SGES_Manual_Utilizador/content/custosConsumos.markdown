@@ -27,6 +27,7 @@ Também existe a possibilidade de marcar os dados como Não aplicável, ou seja 
 <p class="caption" id=" figNaoAplicavel"> Exemplo do um campo não aplicável. </p>
 
 |Campos Consumos e Custos                                         ||
+|---|-----|
 | Ano                                                             ||
 | Energia Renováveis                                              |Energia elétrica produzida por Painéis Fotovoltaicos (kWh)|
 |                   	                                          |Energia elétrica produzida por aerogeradores (kWh)|

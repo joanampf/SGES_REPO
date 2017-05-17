@@ -9,7 +9,7 @@ order: 3
 ---
 
 <p id="equipamentos"></p>
-# 12. Equipamentos
+# 13. Equipamentos
 
 É neste módulo que são feitas ações sobre os equipamentos. 
 Apenas as entidades do SNS (excepto ACES) é que têm acesso a esta funcionalidade.
@@ -21,12 +21,12 @@ O utilizador pode consultar a lista de equipamentos associados a um estabelecime
 
 <p id="criaEquipamento"></p>
 
-## 12.1. Criar Equipamento
+## 13.1. Criar Equipamento
 Para criar um novo equipamento, o utilizador deve clicar em **CRIAR** na página de equipamentos de um estabelecimento ([](#figEqpEstabelecimento)). De seguida, será encaminhado para a página de criação de equipamento, onde deverá preencher os campos obrigatórios do painel Identificação para poder efetuar o registo do equipamento.
 
 
 
-### 12.1.1. Identificação
+### 13.1.1. Identificação
 
 |    | Campos Obrigatórios da ([](#figCriarEquipamento))         |      |
 |----|----------------------------------------------------|----------|
@@ -45,7 +45,7 @@ Para criar um novo equipamento, o utilizador deve clicar em **CRIAR** na página
 
 Após o registo dos dados deve clicar em **GUARDAR** para gravar o equipamento. Após clicar irá ser notificado com o resultado da operação.
 
-### 12.1.2. Outros painéis
+### 13.1.2. Outros painéis
 
 |    | Outros módulos a preencher                 |
 |----|--------------------------------------------|
@@ -156,7 +156,7 @@ Após clicar irá ser notificado com o resultado da operação.
 
 <p id="alteraEquipamento"></p>
 
-## 12.2. Editar Equipamento
+## 13.2. Editar Equipamento
 
 A página de edição de um equipamento está disponível através da consulta de equipamento clicando no botão **EDITAR EQUIPAMENTO**. Na página de equipamentos de um estabelecimento ([](#figEqpEstabelecimento)) o utilizador pode navegar diretamente para a edição após selecionar um equipamento da lista e clicar no botão **ALTERAR**.
 A edição deve respeitar o preenchimento dos campos obrigatórios identificados no ponto [13.1 Criar Equipamento](#criar-equipamento).
@@ -165,13 +165,13 @@ O utilizador pode navegar entre os equipamentos do estabelecimento clicando em *
 
 <p id="consultaEquipamento"></p>
 
-## 12.3. Consultar Equipamento
+## 13.3. Consultar Equipamento
 
 Na página de equipamentos de um estabelecimento ([](#figEqpEstabelecimento)), o utilizador pode navegar diretamente para a consulta após selecionar um equipamento da lista e clicar no botão **CONSULTAR**. 
 
 <p id="transfereEquipamento"></p>
 
-## 12.4. Transferir Equipamento
+## 13.4. Transferir Equipamento
 
 Na página de equipamentos de um estabelecimento([](#figEqpEstabelecimento)), o utilizador pode navegar diretamente para a página de transferência de equipamento após selecionar um equipamento da lista e clicar no botão **TRANSFERIR**.
 Para poder transferir o equipamento, o utilizador deve preencher os campos obrigatórios e clicar em **TRANSFERIR**.
@@ -190,6 +190,6 @@ Para poder transferir o equipamento, o utilizador deve preencher os campos obrig
 
 <p id="historicoEquipamento"></p>
 
-## 12.5. Histórico de Equipamento
+## 13.5. Histórico de Equipamento
 A página de histórico de um equipamento pode ser acedida através da página de equipamentos de estabelecimento ([](#figEqpEstabelecimento)) e clicando no botão **HISTÓRICO**.
 Uma vez na página de histórico poderá visualizar todas as versões resultantes da edição do equipamento, bem como a identificação dos campos alterados.
