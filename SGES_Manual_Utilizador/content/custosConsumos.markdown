@@ -14,6 +14,10 @@ order: 3
 Esta funcionalidade permite monitorizar os custos e consumos ao nível de uma Entidade. Deve ser preenchida anualmente. 
 Para aceder a este módulo o utilizador deve ir a Consulta de Entidades [6.3 Consultar Entidade] (#consultaEntidade) e selecionar o respetivo **Custos e Consumos Instalações**.
 
+![figCustoConsumo](img/pages/custoconsumo.jpg)
+
+<p class="caption" id="figCustoConsumo"> Layout Principal dos Custos e Consumos Instalações </p>
+
 <p id="custosConsumos"></p>
 
 ## 12.1. Consumos e Custos 
