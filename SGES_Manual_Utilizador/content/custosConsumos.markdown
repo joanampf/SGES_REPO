@@ -9,7 +9,7 @@ order: 3
 ---
 <p id="custosConsumosInst"></p>
 
-# 12. Consumos e Custos Instalações
+# 11. Consumos e Custos Instalações
 
 Esta funcionalidade permite monitorizar os custos e consumos ao nível de uma Entidade. Deve ser preenchida anualmente. 
 Para aceder a este módulo o utilizador deve ir a Consulta de Entidades [6.3 Consultar Entidade] (#consultaEntidade) e selecionar o respetivo **Custos e Consumos Instalações**.
@@ -20,7 +20,7 @@ Para aceder a este módulo o utilizador deve ir a Consulta de Entidades [6.3 Con
 
 <p id="custosConsumos"></p>
 
-## 12.1. Consumos e Custos 
+## 11.1. Consumos e Custos 
 
 Este módulo está dividido em vários blocos sendo que o utilizador pode ir guardando os dados por bloco. 
 
@@ -60,7 +60,7 @@ Também existe a possibilidade de marcar os dados como Não aplicável, ou seja 
 
 <p id="custosConsumosPebc"></p>
 
-## 12.2. Consumos e Custos PEBC & Eco.Ap
+## 11.2. Consumos e Custos PEBC & Eco.Ap
 
 Este separador é preenchido automaticamente com os dados do SI Externo PEBC (Plano Estratégico do Baixo Carbono) & Eco.Ap (Programa de Eficiência Energética na Administração Pública). Este SI tem como objetivo fundamental registar e controlar os consumos energéticos: eletricidade, gás, água e a produção de resíduos hospitalares, de qualquer Unidade de Saúde.
 

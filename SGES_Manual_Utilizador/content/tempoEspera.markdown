@@ -9,7 +9,7 @@ order: 3
 ---
 
 <p id="tempos-de-espera"></p>
-# 11.Tempos de Espera
+# 10.Tempos de Espera
 
 Os tempos de espera correspondem ao nº máximo de dias que decorrem desde que surge a necessidade de marcar um exame até à sua realização, para um doente programado, não urgente e seguido em ambulatório.
 O registo desta informação deve ser feito trimestralmente ([Despacho nº. 10430](http://www.sg.min-saude.pt/NR/rdonlyres/4D921E90-4382-4E9E-B682-3FE85F261D87/27261/3387133871.pdf)), preferencialmente nas datas 31 de Março, 30 de Junho, 30 de Setembro e 31 de Dezembro.
@@ -29,7 +29,7 @@ O utilizador pode consultar os tempos de espera numa entidade no separador **Tem
 
 <p id="tERealizacaoExames"></p>
 
-## 11.1.Consultar Tempos de Espera
+## 10.1.Consultar Tempos de Espera
 
 O utilizador pode consultar os tempos de espera para a realização de exames após navegar para o separador **Tempos de Espera** ([](#figTempoEspera)), 
 selecionar o período que pretende consultar e clicar no botão **CONSULTAR**;
@@ -46,14 +46,14 @@ selecionar o período que pretende consultar e clicar no botão **CONSULTAR**;
 
 
 
-## 11.2. Preencher/Alterar Tempos de Espera
+## 10.2. Preencher/Alterar Tempos de Espera
 
 O utilizador pode preencher ou alterar o *Total dias de espera* após navegar para o separador **Tempos de Espera**  ([](#figTempoEspera)), selecionar o período que pretende preencher ou alterar e clicar no botão **PREENCHER/ALTERAR**.
 No final da edição o utilizador para gravar as alterações deve clicar no botão **GUARDAR**. Após clicar irá ser notificado com o resultado da operação.
 
 
 <p id="importExames"></p>
-## 11.3. Importar de Ficheiro Tempos de Espera
+## 10.3. Importar de Ficheiro Tempos de Espera
 
 O utilizador pode importar dados em massa de exames na produção realizada dos equipamentos após navegar no separador **Tempos de Espera** ([](#figTempoEspera)), selecionar o ano que pretende importar e clicar no botão **Importar de Ficheiro**.
 

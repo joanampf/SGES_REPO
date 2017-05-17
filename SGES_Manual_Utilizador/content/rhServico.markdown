@@ -8,7 +8,7 @@ translation_priority: 1
 order: 3
 ---
 <p id="rh-servios"></p>
-# 8. RH Serviços
+# 7. RH Serviços
 
 É neste módulo que são feitas ações sobre os recursos humanos afetos a serviços.
 O utilizador pode consultar a lista dos recursos humanos afetos a serviços que tenham EPM numa entidade no separador **RH Serviços**  ([](#figRhEquipEntidade)), através do ponto [6.3 Consultar Entidade](##consultar-entidade).
@@ -27,7 +27,7 @@ O utilizador pode consultar a lista dos recursos humanos afetos a serviços que 
 
 <p id="criaRhEquipamento"></p>
 
-## 8.1. Criar RH Serviço
+## 7.1. Criar RH Serviço
 
 | |  Campos         ||
 |---------------------------------------------------|----------|--|
@@ -51,13 +51,13 @@ Após o registo dos dados deve clicar em **GUARDAR** para gravar o RH Serviço. 
 
 <p id="consultaRhEquipamento"></p>
 
-## 8.2. Consultar RH Serviço
+## 7.2. Consultar RH Serviço
 
 O utilizador pode navegar para a página de consulta de RH Serviços após selecionar um RH Serviço da lista de RH Serviços existentes numa entidade ([](#figRhEquipEntidade))  e clicar no botão **CONSULTAR**.
 
 <p id="alteraRhEquipamento"></p>
 
-## 8.3. Editar RH Serviço
+## 7.3. Editar RH Serviço
 
 Através da página de consulta de RH Serviços existentes numa entidade ([](#figRhEquipEntidade)) , o utilizador pode navegar diretamente para a edição após selecionar um RH Serviço da lista e clicar no botão **EDITAR**.
 A edição deve respeitar o preenchimento dos campos obrigatórios identificados no ponto [8.1 Criar RH Serviço](#criar-rh-servico).
@@ -65,7 +65,7 @@ No final da edição o utilizador para gravar as alterações deve clicar no bot
 
 <p id="removeRhEquipamento"></p>
 
-## 8.4. Apagar RH Serviço
+## 7.4. Apagar RH Serviço
  
  O utilizador pode apagar um RH Serviço após selecionar um RH Serviço da lista de RH Serviços existentes numa entidade ([](#figRhEquipEntidade)) e clicar no botão **APAGAR**. 
  Após clicar irá ser notificado com o resultado da operação.
