@@ -9,7 +9,7 @@ order: 3
 ---
 <p id="produo-equipamentos"></p>
 
-# 9.Produção Equipamentos
+# 8.Produção Equipamentos
 
 É neste módulo que serão feitas ações sobre a produção realizada pelos equipamentos.
 O utilizador pode consultar a produção interna e para exterior dos equipamentos de uma entidade no separador **Produção Equipamentos** ([](#figProdEquipamento)), através do ponto [6.3 Consultar Entidade](#consultar-entidade).
@@ -36,7 +36,7 @@ Como é possivel consultar na imagem anterior, o utilizador pode preencher:
  De seguida deverá escolher o ano a preencher, e selecionar se quer **CONSULTAR**, **PREENCHER/ALTERAR** ou **IMPORTAR DE FICHEIRO** que serão explicados nas Secções seguintes.
  
 <p id="consultaProdEquipamento"></p>
-## 9.1.Consultar Produção Equipamentos
+## 8.1.Consultar Produção Equipamentos
 
 O utilizador pode consultar a produção dos equipamentos após navegar para o subseparador de produção *Interna* ou *Para Exterior* do separador **Produção Equipamentos** ([](#figProdEquipamento)), selecionar o ano que pretende consultar e clicar no botão **CONSULTAR**.
 
@@ -55,7 +55,7 @@ Na consulta será apresentada uma página separada por áreas de afetação dos 
 
 <p id="alteraProdEquipamento"></p>
 
-## 9.2.Preencher/Alterar Produção Equipamentos
+## 8.2.Preencher/Alterar Produção Equipamentos
 
 O utilizador pode preencher ou alterar o total de exames na produção realizada dos equipamentos após navegar para o subseparador de produção *Interna* ou *Para Exterior* do separador **Produção Equipamentos** ([](#figProdEquipamento)), selecionar o ano que pretende preencher ou alterar e clicar no botão **PREENCHER/ALTERAR**.
 No final da edição o utilizador para gravar as alterações deve clicar no botão **GUARDAR**. Após clicar irá ser notificado com o resultado da operação.
@@ -65,7 +65,7 @@ No final da edição o utilizador para gravar as alterações deve clicar no bot
 <p class="caption" id="figPreencheProdIntEnt"> Exemplo do ecrã de preenchimento da Produção Interna de uma Entidade</p>
 
 <p id="importProdEquipamento"></p>
-## 9.3.Importar Ficheiro Produção Equipamentos
+## 8.3.Importar Ficheiro Produção Equipamentos
 
 O utilizador pode importar dados em massa de exames na produção realizada dos equipamentos após navegar para o subseparador de produção *Interna* ou *Para Exterior* do separador **Produção Equipamentos** ([](#figProdEquipamento)), selecionar o ano que pretende importar e clicar no botão **Importar de Ficheiro**.
 
@@ -97,7 +97,7 @@ Onde deverá seguir os seguintes passos:
 
    
 <p id="producao-no-exterior"></p>
-# 10.Produção no Exterior
+# 9.Produção no Exterior
 
 É neste módulo que serão feitas ações sobre a produção realizada no exterior.
 O utilizador pode consultar a produção no exterior por uma entidade no separador **Produção no Exterior** ([](#figProdExterior)) através do ponto [6.3 Consultar Entidade](#consultar-entidade).
@@ -116,20 +116,20 @@ O utilizador pode consultar a produção no exterior por uma entidade no separad
 | Importar de Ficheiro Produção no Exterior| ACSS, SGES_EQUIPAMENTOS |
 
 <p id="consultarProducaoRealizadaExterior"></p>
-## 10.1.Consultar Produção no Exterior
+## 9.1.Consultar Produção no Exterior
 
 O utilizador pode consultar a produção realizada no exterior após navegar para o subseparador do ano pretendido no separador **Produção no Exterior** ([](#figProdExterior)), selecionar o ano que pretende consultar e clicar no botão **CONSULTAR**.
-A consulta será apresentada da mesma forma que a demonstrada no ponto [9.1 Consultar Produção Equipamentos](#consultar-producao-equipamentos).
+A consulta será apresentada da mesma forma que a demonstrada no ponto [8.1 Consultar Produção Equipamentos](#consultar-producao-equipamentos).
 
 <p id="alterarProducaoRealizadaExterior"></p>
 
-## 10.2. Preencher/Alterar Produção no Exterior
+## 9.2. Preencher/Alterar Produção no Exterior
 
 O utilizador pode preencher ou alterar o total de exames na produção realizada no exterior após navegar para o subseparador do ano pretendido no separador **Produção no Exterior** ([](#figProdExterior)), selecionar o ano que pretende preencher/alterar e clicar no botão **PREENCHER/ALTERAR**.
 No final da edição o utilizador para gravar as alterações deve clicar no botão **GUARDAR**. Após clicar irá ser notificado com o resultado da operação.
 
 <p id="importProducaoRealizadaExterior"></p>
-## 10.3. Importar Ficheiro Produção no Exterior 
+## 9.3. Importar Ficheiro Produção no Exterior 
 
 O utilizador pode importar dados em massa de exames na produção realizada dos equipamentos após navegar no separador **Produção no Exterior** ([](#figProdExterior)), selecionar o ano que pretende importar e clicar no botão **Importar de Ficheiro**.
 
