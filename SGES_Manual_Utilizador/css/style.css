@@ -343,7 +343,8 @@ width: auto;
 #paginas p  img[alt=figMenuEqu],
 #paginas p  img[alt=figMenuIns],
 #paginas p  img[alt=figMenuUti],
-#paginas p  img[alt=figMenuAC]{
+#paginas p  img[alt=figMenuAC]
+#paginas p  img[alt=figNaoAplicavel]{
 width: auto;
 }
 

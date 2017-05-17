@@ -10,7 +10,7 @@ order: 3
 
 <p id="instalacao"></p>
 
-# 13. Instalações
+# 14. Instalações
 
 É neste módulo que serão feitas ações sobre as instalações.
 O utilizador pode consultar as instalações de um estabelecimento no separador “Instalações” ([](#13_1) e [](#13_2)), através do ponto [7.3 Consultar Estabelecimento](#consultar-estabelecimento), ou selecionando um estabelecimento e clicando em **Instalações** ([](#figEstEntidade)) na página de consulta de estabelecimentos existentes numa entidade, através do ponto [7. Estabelecimentos](#estabelecimentos).
@@ -24,13 +24,13 @@ O utilizador pode consultar as instalações de um estabelecimento no separador 
 <p class="caption" id="13_2"> Exemplo de Estabelecimento com Instalações</p>
 
 <p id="criarInstalacao"></p>
-## 13.1. Criar Instalações
+## 14.1. Criar Instalações
 
 Caso ainda não exista informação acerca das instalações de um estabelecimento, o utilizador pode criar instalações.
 Para criar instalações, o utilizador deve clicar em **CRIAR** na página de instalações de estabelecimento ([](#13_1)). De seguida, será encaminhado para a página de criação de instalações, onde deverá preencher os campos obrigatórios para poder efetuar o registo das instalações.
 Para o Registo de Instalações será necessário primeiro submeter os campos da Caracterização Geral do(s) edifício(s), sem estes submetidos não é possível preencher outros campos.
 
-### 13.1.1 Caracterização
+### 14.1.1 Caracterização
 
 Para poder criar a instalação o utilizador deve preencher, pelo menos, os campos obrigatórios da *Caracterização Geral*, campos esses que dizem respeito ao estabelecimento em si, e clicar em **SUBMETER**. 
 
@@ -116,7 +116,7 @@ Aplicam-se aqui as mesmas regras do **Separador Projeto**: é necessário preenc
 
 <p class="caption" id="13_1_7"> Caracterização da Construção </p>
 
-### 13.1.2 Detalhe
+### 14.1.2 Detalhe
 
 Contém informação acerca da energia, águas e gases medicinais utilizados na instalação, assim como a produção de resíduos. O utilizador deverá preencher os campos obrigatórios e selecionar **SUBMETER**.
 
@@ -163,7 +163,7 @@ Contém informação acerca da energia, águas e gases medicinais utilizados na 
 <p class="caption" id="13_2_4"> Detalhe Produção de Resíduos </p>
 
 
-### 13.1.3 Equipamentos Críticos
+### 14.1.3 Equipamentos Críticos
 
 Contém a informação de todos os equipamentos críticos para o funcionamento da instalação, como as instalações elétricas, instalações mecânicas e instalações de águas e esgotos.
 
@@ -201,7 +201,7 @@ Para que o utilizador possa criar um novo equipamento critico, deverá ter em co
 
 <p class="caption" id="13_3_4">Equipamentos Críticos - Instalações de Águas e Esgotos</p>
 
-### 13.1.4 Serviços
+### 14.1.4 Serviços
 
 Contém toda a informação relacionada com os serviços que foram realizados nas instalações do estabelecimento, assim como os seus custos e serviços de apoio. O utilizador deverá preencher os dados da tabela seguinte e selecionar **SUBMETER**.
 
@@ -236,7 +236,7 @@ Contém toda a informação relacionada com os serviços que foram realizados na
 
 <p class="caption" id="13_4_3">Serviços - Serviços de Apoio </p>
 
-### 13.1.5 Contratos de Manutenção
+### 14.1.5 Contratos de Manutenção
 
 Contém a informação dos contratos de manutenção dos equipamentos das instalações. O utilizador deverá preencher os dados da tabela seguinte e selecionar **SUBMETER**.
 
@@ -275,7 +275,7 @@ Contém a informação dos contratos de manutenção dos equipamentos das instal
 <p class="caption" id="13_5_1"> Contratos de Manutenção </p>
 
 
-### 13.1.6 Avaliação Pós-Ocupação (Apenas disponivel para o perfil ACSS)
+### 14.1.6 Avaliação Pós-Ocupação (Apenas disponivel para o perfil ACSS)
 
 Contém a informação acerca da avaliação dos edifícios da instalação; útil instrumento na implementação de melhorias na criação de edifícios no futuro. O utilizador deverá preencher os dados da tabela seguinte e selecionar **SUBMETER**.
 
@@ -289,7 +289,7 @@ Contém a informação acerca da avaliação dos edifícios da instalação; út
 
 <p class="caption" id="13_6_1"> Avaliação Pós-Ocupação </p>
 
-### 13.1.7 Ações ACSS (Apenas disponivel para o perfil ACSS)
+### 14.1.7 Ações ACSS (Apenas disponivel para o perfil ACSS)
 
 Contém a informação de todas as ações que a ACSS executou naquelas instalações. O utilizador deverá preencher os dados da tabela seguinte e selecionar **SUBMETER**.
 
@@ -310,18 +310,18 @@ Contém a informação de todas as ações que a ACSS executou naquelas instala�
 <p class="caption" id="13_7_1"> Ações ACSS </p>
 
 <p id="editarInstalacao"></p>
-## 13.2. Editar Instalações
+## 14.2. Editar Instalações
 
 O utilizador pode navegar para a página de edição de instalação na página de instalações de estabelecimento ([](#13_2)) e clicar no botão **ALTERAR INSTALAÇÃO**.
 A edição deve respeitar o preenchimento dos campos obrigatórios identificados no ponto [13.1 Criar Instalações](#criar-instalaes)
 No final da edição o utilizador para gravar as alterações deve clicar no botão **SUBMETER** ou **GUARDAR**, dependendo dos painéis alterados. Após clicar irá ser notificado com o resultado da operação.
 
 <p id="consultarInstalacao"></p>
-## 13.3. Consultar Instalações
+## 14.3. Consultar Instalações
 O utilizador pode navegar para a página de consulta de instalação na página de instalações de estabelecimento ([](#13_2)) e clicar no botão **CONSULTAR INSTALAÇÃO**.
 
 <p id="historicoInstalacao"></p>
-## 13.4. Histórico Instalações
+## 14.4. Histórico Instalações
 
 A página de histórico de uma entidade pode ser acedida através da página de instalações de estabelecimento ([](#13_2)) e clicando no botão **HISTÓRICO INSTALAÇÃO** .
 Uma vez na página de histórico poderá visualizar todas as versões resultantes da edição das instalações, bem como a identificação dos campos alterados.
