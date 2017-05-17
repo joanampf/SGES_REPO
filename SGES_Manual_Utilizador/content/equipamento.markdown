@@ -28,15 +28,15 @@ Para criar um novo equipamento, o utilizador deve clicar em **CRIAR** na página
 
 ### 13.1.1. Identificação
 
-|    | Campos Obrigatórios da ([](#figCriarEquipamento))         |      |
-|----|----------------------------------------------------|----------|
-| a) | Designação                                         |      |
-| b) | Número de Série                                    |      |
-| c) | Posto de Trabalho (Todos os serviços a que um equipamento se encontra associado devem ser considerados)                           |      |
-| d) | Marca                                              |      |
-| e) | Modelo                                             |      |
-| f) |Se Designação = Acelerador Linear,Angiógrafo,Câmara Gama, Câmara Hiperbárica,RM, RM (Dedicada exclusivamente à Radioterapia,TC ou TC (Dedicada exclusivamente à Radioterapia                           |Característica Técnica| 
-| g) | Produção para Exterior?                          | Sim     |
+| Campos Obrigatórios da ([](#figCriarEquipamento))         |      |
+|----------------------------------------------------|----------|
+| Designação                                         |      |
+| Número de Série                                    |      |
+| Posto de Trabalho (Todos os serviços a que um equipamento se encontra associado devem ser considerados)                           |      |
+| Marca                                              |      |
+| Modelo                                             |      |
+|Se Designação = Acelerador Linear,Angiógrafo,Câmara Gama, Câmara Hiperbárica,RM, RM (Dedicada exclusivamente à Radioterapia,TC ou TC (Dedicada exclusivamente à Radioterapia                           |Característica Técnica| 
+| Produção para Exterior?                          | Sim     |
 
 
 ![figCriarEquipamento](img/pages/12_1_1_1.jpg)
@@ -47,103 +47,103 @@ Após o registo dos dados deve clicar em **GUARDAR** para gravar o equipamento. 
 
 ### 13.1.2. Outros painéis
 
-|    | Outros módulos a preencher                 |
-|----|--------------------------------------------|
-| a) | Contratação ([](#figContratacao))            |
-| b) | Localização/Estado ([](#figLocalizacao))     |
-| c) | Atividade   ([](#figAtividade))            |
-| d) |Autorização Ministerial / Licença de Instalação ([](#figAutorizacao))|
-| e) | Manutenção  ([](#figManutencao))            |
-| f) | Recursos Humanos Afetos ([](#figRhAfetos))|
+| Outros módulos a preencher                 |
+|--------------------------------------------|
+| Contratação ([](#figContratacao))            |
+| Localização/Estado ([](#figLocalizacao))     |
+| Atividade   ([](#figAtividade))            |
+|Autorização Ministerial / Licença de Instalação ([](#figAutorizacao))|
+| Manutenção  ([](#figManutencao))            |
+| Recursos Humanos Afetos ([](#figRhAfetos))|
 
 
-|    | Campos Obrigatórios do módulo Contratação ([](#figContratacao)) | |
-|----|----------------------------------------------------|----------|
-| a) | Tipo de Contrato                                   | Aquisição    |
-||                                                        | Concessão    |
-||                                                        | Locação/Leasing |
-||                                                        | Oferta       |
-| b) | Data de Início de Funcionamento                     || 
-| c) | Se Tipo de Contrato diferente de Concessão         |Nº inventário/ID Equipamento |
-| d) | Se Tipo de Contrato= Aquisição (apenas para novas aquisições)| Data de Publicação da abertura de concurso |
-| e) | Se Tipo de Contrato= Aquisição                     | Custo Aquisição |
-| f) | Se Tipo de Contrato= Aquisição                     | Data de Receção  |
+| Campos Contratação ([](#figContratacao)) | |
+|----------------------------------------------------|----------|
+| Tipo de Contrato                                   | Aquisição    |
+|                                                        | Concessão    |
+|                                                        | Locação/Leasing |
+|                                                        | Oferta       |
+| Data de Início de Funcionamento                     || 
+| Se Tipo de Contrato diferente de Concessão         |Nº inventário/ID Equipamento |
+| Se Tipo de Contrato= Aquisição (apenas para novas aquisições)| Data de Publicação da abertura de concurso |
+| Se Tipo de Contrato= Aquisição                     | Custo Aquisição |
+| Se Tipo de Contrato= Aquisição                     | Data de Receção  |
 
 ![figContratacao](img/pages/12_1_2_1.jpg)
 
 <p class="caption" id="figContratacao"> Criar novo Equipamento - Contratação</p>
 
-|    | Campos Obrigatórios do módulo Localização/Estado ([](#figLocalizacao)) | | |
-|----|----------------------------------------------------|----------||
-| a) | Estado                               		      | Abatido    ||
-||                                                        | Avariado    ||
-||                                                        | Em Funcionamento ||
-||                                                        | Não Instalado ||
-||                                                        | Parado       ||
-| b) | Instalação Fixa				                      | Sim| Localização |
-||                                                        | Não ||
-| c) | Se Estado = Não Instalado,Parado ou Avariado       | Motivo||
-| d) | Se Estado = Abatido                    	          | Data de Abate|
+| Campos Localização/Estado ([](#figLocalizacao)) | | |
+|----------------------------------------------------|----------||
+| Estado                               		      | Abatido    ||
+|                                                        | Avariado    ||
+|                                                        | Em Funcionamento ||
+|                                                        | Não Instalado ||
+|                                                        | Parado       ||
+| Instalação Fixa				                      | Sim| Localização |
+|                                                        | Não ||
+| Se Estado = Não Instalado,Parado ou Avariado       | Motivo||
+| Se Estado = Abatido                    	          | Data de Abate|
 
 ![figLocalizacao](img/pages/12_1_2_2.jpg)
 
 <p class="caption" id="figLocalizacao"> Criar novo Equipamento - Localização/Estado</p>
 
-|    | Campos Obrigatórios do módulo Atividade ([](#figAtividade)) | | 
-|----|----------------------------------------------------|----------|
-| a) | Tipo Atividade                               	| Partilhada (Programada/Urgência) |
-||                                                      | Programada    |
-||                                                      | Urgência ||
-| b) | Se Estado diferente urgência				        | Carga Semanal| 
-| c) | Se Estado diferente urgência				        | Nº dias por semana| 
-| d) | Tipo de Utilização                    	        ||
+| Campos Atividade ([](#figAtividade)) | | 
+|----------------------------------------------------|----------|
+| Tipo Atividade                               	| Partilhada (Programada/Urgência) |
+|                                                      | Programada    |
+|                                                      | Urgência ||
+| Se Estado diferente urgência				        | Carga Semanal| 
+| Se Estado diferente urgência				        | Nº dias por semana| 
+| Tipo de Utilização                    	        ||
 
 ![figAtividade](img/pages/12_1_2_2.jpg)
 
 <p class="caption" id="figAtividade"> Criar novo Equipamento - Atividade</p>
 
 
-|    | Campos Obrigatórios do módulo Autorização Ministeria/ Licença de Instalação ([](#figAutorizacao)) | | |
-|----|----------------------------------------------------|----------|--|
-| a) | Autorização Ministerial                         	  | Sim||
-||                                                   	  | Não||
-| b) | Instalação licenciada pela DGS?                    | Sim| Data da Licença |
-||                                                   	  | Não||
+| Campos Obrigatórios do módulo Autorização Ministeria/ Licença de Instalação ([](#figAutorizacao)) | | |
+|----------------------------------------------------|----------|--|
+| Autorização Ministerial                         	  | Sim||
+|                                                   	  | Não||
+| Instalação licenciada pela DGS?                    | Sim| Data da Licença |
+|                                                   	  | Não||
 
 
 ![figAutorizacao](img/pages/12_1_2_3.jpg)
 
 <p class="caption" id="figAutorizacao"> Criar novo Equipamento - Autorização Ministeria/ Licença de Instalação</p>
 
-|    | Campos Obrigatórios do módulo Manutenção ([](#figManutencao)) | | 
-|----|----------------------------------------------------|----------|
-| a) | Ano               			                	  | |
-| b) | Tipo de Manutenção                           	  | Corretiva|
-|	|        		                         	          | Preventiva |
-|	|        		                         	          | Preventiva e Corretiva |
-| c) | Duração   Contrato                           	  | Anual|
-|	|        		                         	          | Bianual |
-|	|        		                         	          | Quadrienal |
-|	|        		                         	          | Quinquenal |
-|	|        		                         	          | Semestral |
-|	|        		                         	          | Trianual |
-| d) |  Se Tipo de Manutenção = Preventiva ou Preventiva e Corretiva           	  | Preventiva com Peças|
-| e) | Com ampola                              	          | Sim |
-|	|        		                         	          | Não |
-| f) | Detetores                              	          | Sim |
-|	|        		                         	          | Não |
-| f) | Custo                             	          	  |  |
+| Campos Manutenção ([](#figManutencao)) | | 
+|----------------------------------------------------|----------|
+| Ano               			                	  | |
+| Tipo de Manutenção                           	  | Corretiva|
+|        		                         	          | Preventiva |
+|        		                         	          | Preventiva e Corretiva |
+| Duração   Contrato                           	  | Anual|
+|        		                         	          | Bianual |
+|        		                         	          | Quadrienal |
+|        		                         	          | Quinquenal |
+|        		                         	          | Semestral |
+|        		                         	          | Trianual |
+|  Se Tipo de Manutenção = Preventiva ou Preventiva e Corretiva           	  | Preventiva com Peças|
+| Com ampola                              	          | Sim |
+|        		                         	          | Não |
+| Detetores                              	          | Sim |
+|        		                         	          | Não |
+| Custo                             	          	  |  |
 
 ![figManutencao](img/pages/12_1_2_4.jpg)
 
 <p class="caption" id="figManutencao"> Criar novo Equipamento - Manutenção</p>
 
-|    | Campos Obrigatórios do módulo Recursos Humanos Afetos ([](#figRhAfetos)) | | 
-|----|----------------------------------------------------|----------|
-| a) | Ano               			                	  | |
-| b) | Grupo Profissional                         	      | |
-| c) | Área Afetação   		                           	  | |
-| d) | ECTS 		   		                           	  | |
+| Campos Recursos Humanos Afetos ([](#figRhAfetos)) | | 
+|----------------------------------------------------|----------|
+| Ano               			                	  | |
+| Grupo Profissional                         	      | |
+| Área Afetação   		                           	  | |
+| ECTS 		   		                           	   | |
 
 
 ![figRhAfetos](img/pages/12_1_2_5.jpg)
@@ -176,12 +176,12 @@ Na página de equipamentos de um estabelecimento ([](#figEqpEstabelecimento)), o
 Na página de equipamentos de um estabelecimento([](#figEqpEstabelecimento)), o utilizador pode navegar diretamente para a página de transferência de equipamento após selecionar um equipamento da lista e clicar no botão **TRANSFERIR**.
 Para poder transferir o equipamento, o utilizador deve preencher os campos obrigatórios e clicar em **TRANSFERIR**.
 
-|    | Campos Obrigatórios da ([](#figTransfEquipamento))         |
-|----|----------------------------------------------------|
-| a) | Data de Fim                                        | 
-| b) | Motivo                                             | 
-| c) | Entidade de Destino                                | 
-| d) | Estabelecimento de Destino                         | 
+| Campos Transferir Equipamento ([](#figTransfEquipamento)) |
+|----------------------------------------------------|
+| Data de Fim                                        | 
+| Motivo                                             | 
+| Entidade de Destino                                | 
+| Estabelecimento de Destino                         | 
 
 
 ![figTransfEquipamento](img/pages/12_4_1.jpg)

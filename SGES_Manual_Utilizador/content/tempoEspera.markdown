@@ -38,11 +38,11 @@ selecionar o período que pretende consultar e clicar no botão **CONSULTAR**;
 
 <p class="caption" id="criarTempoEspera"> Tempos de Espera</p>
 
-|    | Campos Obrigatórios da ([](#criarTempoEspera))    |
-|----|---------------------------------------------------|
-| a) | 	Área                                             |
-| b) | 	Exames                                           |
-| b) |  Total dias espera                                |
+| Campos Obrigatórios da ([](#criarTempoEspera))    |
+|---------------------------------------------------|
+| 	Área                                             |
+| 	Exames                                           |
+|  Total dias espera                                |
 
 
 
