@@ -94,7 +94,7 @@ Após selecionar o botão de **EDITAR** os campos não editáveis ficaram preenc
 
 <p class="caption" id="13_1_4">Caracterização do Edifício com os campos preenchíveis</p>
 
-**Separador Projeto** - contém a caracterização do projeto, como os custos e datas chave do projeto. Estes dados devem ser inseridos para cada fase de construção dos edifícios.
+**Separador Projeto** - contém a caracterização do projeto, como os custos e datas chave do projeto. Estes dados devem ser inseridos para cada fase de construção dos edifícios. **relatar dvalores à data do final da construção**
 
 Os painéis deste separador encontram-se apresentados pelas fases de construção, logo os dados terão de ser preenchidos tantas vezes quantas as fases de construção da Instalação.
 
@@ -108,7 +108,7 @@ Para inserir a informação nos devidos campos é necessário o elemento da list
 
 <p class="caption" id="13_1_6"> Caracterização do Projeto - Datas Chaves </p>
 
-**Separador Construção** - contém a caracterização da construção, como os seus custos e custos de equipamentos. Estes dados devem ser inseridos para cada fase de construção dos edifícios. 
+**Separador Construção** - contém a caracterização da construção, como os seus custos e custos de equipamentos. Estes dados devem ser inseridos para cada fase de construção dos edifícios. **relatar dvalores à data do final da construção** 
 
 Aplicam-se aqui as mesmas regras do **Separador Projeto**: é necessário preencher os dados tantas vezes quantas as fases existentes na construção e para que um painel se torne editável é necessário selecionar um dos elementos da lista e carregar no botão **EDITAR**.
 
@@ -143,7 +143,7 @@ Contém informação acerca da energia, águas e gases medicinais utilizados na 
 |                                         | Instalação registada no Infarmed como Dispositivo Médico?| |
 | Produção de Resíduos  ([](#13_2_4)) | Ano                   | |
 |                                   |Quantidade de Resíduos Produzidos |Grupo I e II; |
-|                                   |                                  |Grupo III; |
+|                                   |(fornecido pela ACSS)             |Grupo III; |
 |                                   |                                  |Grupo IV; |
 
 ![img/pages/13_2_1](img/pages/13_2_1.jpg)
@@ -207,14 +207,15 @@ Contém toda a informação relacionada com os serviços que foram realizados na
 
 |             | Campos em Serviços|
 |-----------------------------------------------------------|-|
-| Serviço de Instalação e Equipamento ([](#13_4_1)) | Ano de Alteração (Ano em que acontece a alteração, se estiver a criar o ano de alteração deve ser igual ao ano atual) ||
-|                                     | Equipa de Manutenção Permanente;||
-|                                     | Serviço de Instalações e Equipamentos – Em regime de outsourcing;||
-|                                     | Número de elementos;|
+| Serviço de Instalação e Equipamento ([](#13_4_1)) | Ano de Alteração (Ano em que acontece a alteração, se estiver a criar o ano de alteração deve ser igual ao ano atual, se for uma alteração colocar o ano da mesma) ||
+|                                     | Serviço de Instalações e Equipamentos – Em regime de outsourcing||
+|                                     | Equipa de Manutenção Permanente||
 |                                     | Nome da Empresa (caso Serviço de Instalações e Equipamentos – Em regime de outsourcing = Sim)||
-| Custos do Serviço ([](#13_4_2))| Custos anuais com manutenção;||
-|                                         | Custos anuais com contratos de manutenção;||
-|                                         |Custos anuais com substituição de equipamento;||
+|                                     | Número de recursos humanos do SIE|
+| Custos do Serviço ([](#13_4_2))| Orçamento anual do Serviço de Instalações e Equipamentos|Devem indicar se é referente à entidade ou ao estabelecimento|
+|                                         | Custos anuais com contratos de manutenção|Devem indicar se é referente à entidade ou ao estabelecimento|
+|                                         |Custos anuais com manutenção corretiva (reparações) (€)||
+|                                         |Custos anuais com substituição de equipamento das instalações técnicas (€)||
 | Serviços de Apoio ([](#13_4_3))|Ano (Ano em que acontece a alteração, se estiver a criar o ano de alteração deve ser igual ao ano atual)||
 ||Esterilização | Serviço em Outsourcing|
 ||				|Custos anuais (€)|
@@ -238,9 +239,9 @@ Contém toda a informação relacionada com os serviços que foram realizados na
 
 ### 14.1.5 Contratos de Manutenção
 
-Contém a informação dos contratos de manutenção dos equipamentos das instalações. O utilizador deverá preencher os dados da tabela seguinte e selecionar **SUBMETER**.
+Contém a informação dos contratos de manutenção dos equipamentos das instalações. O utilizador deverá preencher os dados da tabela seguinte e selecionar **SUBMETER**. Apenas é passivel de preenchimento se existiremm equipamentos críticos.
 
-| Campos em Contratos de Manutenção – [](#13_5_1)     | |
+| Campos em Contratos de Manutenção – [](#13-5-1)     | |
 |-----------------------------------------------------------|-|
 | Equipamento com contrato de manutenção | Bomba(s) rede de incêndios |
 |                                           | Bomba(s) circuladoras |
@@ -270,9 +271,9 @@ Contém a informação dos contratos de manutenção dos equipamentos das instal
 |   Contrato contém SLA – Service Level Agreement?    | Sim|
 |                                                        | Não|
 
-![img/pages/13_5_1](img/pages/13_5_1.jpg)
+![img/pages/13-5-1](img/pages/13_5_1.jpg)
 
-<p class="caption" id="13_5_1"> Contratos de Manutenção </p>
+<p class="caption" id="13-5-1"> Contratos de Manutenção </p>
 
 
 ### 14.1.6 Avaliação Pós-Ocupação (Apenas disponivel para o perfil ACSS)
