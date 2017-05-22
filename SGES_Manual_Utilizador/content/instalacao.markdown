@@ -15,11 +15,11 @@ order: 3
 É neste módulo que serão feitas ações sobre as instalações.
 O utilizador pode consultar as instalações de um estabelecimento no separador “Instalações” ([](#13_1) e [](#13_2)), através do ponto [7.3 Consultar Estabelecimento](#consultar-estabelecimento), ou selecionando um estabelecimento e clicando em **Instalações** ([](#figEstEntidade)) na página de consulta de estabelecimentos existentes numa entidade, através do ponto [7. Estabelecimentos](#estabelecimentos).
 
-![img/pages/13_1](img/pages/13_1.jpg)
+![13_1](img/pages/13_1.jpg)
 
 <p class="caption" id="13_1"> Exemplo de Estabelecimento sem Instalações</p>
 
-![img/pages/13_2](img/pages/13_2.jpg)
+![13_2](img/pages/13_2.jpg)
 
 <p class="caption" id="13_2"> Exemplo de Estabelecimento com Instalações</p>
 
@@ -62,7 +62,7 @@ Para poder criar a instalação o utilizador deve preencher, pelo menos, os camp
 |||                                                                   | Não|
 |                                          |Não|||
 
-![img/pages/13_1_1](img/pages/13_1_1.jpg)
+![13_1_1](img/pages/13_1_1.jpg)
 
 <p class="caption" id="13_1_1"> Criar Instalações – Caracterização Geral</p>
 
@@ -78,19 +78,19 @@ Pode inserir informação acerca das áreas e estacionamento, submetendo no fina
 | Estacionamento  |  N.º Lugares de estacionamento em área construída |
 |                     |  N.º Lugares de estacionamento à superfície |
 
-![img/pages/13_1_2](img/pages/13_1_2.jpg)
+![13_1_2](img/pages/13_1_2.jpg)
 
 <p class="caption" id="13_1_2"> Criar Instalação - Áreas Totais e Estacionamento</p>
 
 **Separador Caracterização do Edifício** - no que diz respeito à caracterização do edifício, aparecerá uma lista com o mesmo número de edifícios que os indicados no separador da **Caracterização Geral**. O utilizador deverá proceder a seleção de um (ou do único) edifício, tal como indicado na mensagem no início do painel.
 
-![img/pages/13_1_3](img/pages/13_1_3.jpg)
+![13_1_3](img/pages/13_1_3.jpg)
 
 <p class="caption" id="13_1_3"> Lista de edifícios Caracterização do Edifício</p>
 
 Após selecionar o botão de **EDITAR** os campos não editáveis ficaram preenchíveis.
 
-![img/pages/13_1_4](img/pages/13_1_4.jpg)
+![13_1_4](img/pages/13_1_4.jpg)
 
 <p class="caption" id="13_1_4">Caracterização do Edifício com os campos preenchíveis</p>
 
@@ -98,13 +98,13 @@ Após selecionar o botão de **EDITAR** os campos não editáveis ficaram preenc
 
 Os painéis deste separador encontram-se apresentados pelas fases de construção, logo os dados terão de ser preenchidos tantas vezes quantas as fases de construção da Instalação.
 
-![img/pages/13_1_5](img/pages/13_1_5.jpg)
+![13_1_5](img/pages/13_1_5.jpg)
 
 <p class="caption" id="13_1_5"> Caracterização do Projeto </p>
 
 Para inserir a informação nos devidos campos é necessário o elemento da lista (mesmo que só exista um) e selecionar o botão **EDITAR**. Na figura anterior ([](# 13_1_5)) é possível ver como se apresenta o painel após selecionado o elemento.
 
-![img/pages/13_1_6](img/pages/13_1_6.jpg)
+![13_1_6](img/pages/13_1_6.jpg)
 
 <p class="caption" id="13_1_6"> Caracterização do Projeto - Datas Chaves </p>
 
@@ -112,7 +112,7 @@ Para inserir a informação nos devidos campos é necessário o elemento da list
 
 Aplicam-se aqui as mesmas regras do **Separador Projeto**: é necessário preencher os dados tantas vezes quantas as fases existentes na construção e para que um painel se torne editável é necessário selecionar um dos elementos da lista e carregar no botão **EDITAR**.
 
-![img/pages/13_1_7](img/pages/13_1_7.jpg)
+![13_1_7](img/pages/13_1_7.jpg)
 
 <p class="caption" id="13_1_7"> Caracterização da Construção </p>
 
@@ -146,19 +146,19 @@ Contém informação acerca da energia, águas e gases medicinais utilizados na 
 |                                   |(fornecido pela ACSS)             |Grupo III; |
 |                                   |                                  |Grupo IV; |
 
-![img/pages/13_2_1](img/pages/13_2_1.jpg)
+![13_2_1](img/pages/13_2_1.jpg)
 
 <p class="caption" id="13_2_1"> Detalhe Energia </p>
 
-![img/pages/13_2_2](img/pages/13_2_2.jpg)
+![13_2_2](img/pages/13_2_2.jpg)
 
 <p class="caption" id="13_2_2"> Detalhe Água/Águas Residuais </p>
 
-![img/pages/13_2_3](img/pages/13_2_3.jpg)
+![13_2_3](img/pages/13_2_3.jpg)
 
 <p class="caption" id="13_2_3"> Detalhe Gases Medicinais </p>
 
-![img/pages/13_2_4](img/pages/13_2_4.jpg)
+![13_2_4](img/pages/13_2_4.jpg)
 
 <p class="caption" id="13_2_4"> Detalhe Produção de Resíduos </p>
 
@@ -167,7 +167,7 @@ Contém informação acerca da energia, águas e gases medicinais utilizados na 
 
 Contém a informação de todos os equipamentos críticos para o funcionamento da instalação, como as instalações elétricas, instalações mecânicas e instalações de águas e esgotos.
 
-![img/pages/13_3_1](img/pages/13_3_1.jpg)
+![13_3_1](img/pages/13_3_1.jpg)
 
 <p class="caption" id="13_3_1"> Ecrã principal dos Equipamentos Críticos </p>
 
@@ -189,15 +189,15 @@ Para que o utilizador possa criar um novo equipamento critico, deverá ter em co
 |                                                       | Estado   | |
 |                                                       | Data de Abate (caso Estado=Abatido)   | |
 
-![img/pages/13_3_2](img/pages/13_3_2.jpg)
+![13_3_2](img/pages/13_3_2.jpg)
 
 <p class="caption" id="13_3_2">Equipamentos Críticos - Instalações Elétricas</p>
 
-![img/pages/13_3_3](img/pages/13_3_3.jpg)
+![13_3_3](img/pages/13_3_3.jpg)
 
 <p class="caption" id="13_3_3">Equipamentos Críticos - Instalações Mecânicas</p>
 
-![img/pages/13_3_4](img/pages/13_3_4.jpg)
+![13_3_4](img/pages/13_3_4.jpg)
 
 <p class="caption" id="13_3_4">Equipamentos Críticos - Instalações de Águas e Esgotos</p>
 
@@ -225,15 +225,15 @@ Contém toda a informação relacionada com os serviços que foram realizados na
 ||Resíduos | Serviço em Outsourcing|
 ||				|Custos anuais (€)|
 
-![img/pages/servInstEqui](img/pages/13_4_1.jpg)
+![servInstEqui](img/pages/13_4_1.jpg)
 
 <p class="caption" id="servInstEqui">Serviços - Serviço de Instalação e Equipamento </p>
 
-![img/pages/CustoServiço](img/pages/13_4_2.jpg)
+![CustoServiço](img/pages/13_4_2.jpg)
 
 <p class="caption" id="CustoServiço">Serviços - Custos do Serviço </p>
 
-![img/pages/servicosApoio](img/pages/13_4_3.jpg)
+![servicosApoio](img/pages/13_4_3.jpg)
 
 <p class="caption" id="servicosApoio">Serviços - Serviços de Apoio </p>
 
@@ -271,7 +271,7 @@ Contém a informação dos contratos de manutenção dos equipamentos das instal
 |   Contrato contém SLA – Service Level Agreement?    | Sim|
 |                                                        | Não|
 
-![img/pages/contManu](img/pages/13_5_1.jpg)
+![contManu](img/pages/13_5_1.jpg)
 
 <p class="caption" id="contManu"> Contratos de Manutenção </p>
 
@@ -286,7 +286,7 @@ Contém a informação acerca da avaliação dos edifícios da instalação; út
 | Serviços avaliados?                						||
 | Upload para repositório?            | Ficheiro           |
 
-![img/pages/13_6_1](img/pages/13_6_1.jpg)
+![13_6_1](img/pages/13_6_1.jpg)
 
 <p class="caption" id="13_6_1"> Avaliação Pós-Ocupação </p>
 
@@ -306,7 +306,7 @@ Contém a informação de todas as ações que a ACSS executou naquelas instala�
 | Upload para repositório?              |Ficheiro |
 
 
-![img/pages/13_7_1](img/pages/13_7_1.jpg)
+![13_7_1](img/pages/13_7_1.jpg)
 
 <p class="caption" id="13_7_1"> Ações ACSS </p>
 
