@@ -207,16 +207,16 @@ Contém toda a informação relacionada com os serviços que foram realizados na
 
 |             | Campos em Serviços|
 |-----------------------------------------------------------|-|
-| Serviço de Instalação e Equipamento ([](#13_4_1)) | Ano de Alteração (Ano em que acontece a alteração, se estiver a criar o ano de alteração deve ser igual ao ano atual, se for uma alteração colocar o ano da mesma) ||
+| Serviço de Instalação e Equipamento ([](#servInstEqui)) | Ano de Alteração (Ano em que acontece a alteração, se estiver a criar o ano de alteração deve ser igual ao ano atual, se for uma alteração colocar o ano da mesma) ||
 |                                     | Serviço de Instalações e Equipamentos – Em regime de outsourcing||
 |                                     | Equipa de Manutenção Permanente||
 |                                     | Nome da Empresa (caso Serviço de Instalações e Equipamentos – Em regime de outsourcing = Sim)||
 |                                     | Número de recursos humanos do SIE|
-| Custos do Serviço ([](#13_4_2))| Orçamento anual do Serviço de Instalações e Equipamentos|Devem indicar se é referente à entidade ou ao estabelecimento|
+| Custos do Serviço ([](#CustoServiço))| Orçamento anual do Serviço de Instalações e Equipamentos|Devem indicar se é referente à entidade ou ao estabelecimento|
 |                                         | Custos anuais com contratos de manutenção|Devem indicar se é referente à entidade ou ao estabelecimento|
 |                                         |Custos anuais com manutenção corretiva (reparações) (€)||
 |                                         |Custos anuais com substituição de equipamento das instalações técnicas (€)||
-| Serviços de Apoio ([](#13_4_3))|Ano (Ano em que acontece a alteração, se estiver a criar o ano de alteração deve ser igual ao ano atual)||
+| Serviços de Apoio ([](#servicosApoio))|Ano (Ano em que acontece a alteração, se estiver a criar o ano de alteração deve ser igual ao ano atual)||
 ||Esterilização | Serviço em Outsourcing|
 ||				|Custos anuais (€)|
 ||Lavandaria |Existe Lavandaria?|
@@ -225,23 +225,23 @@ Contém toda a informação relacionada com os serviços que foram realizados na
 ||Resíduos | Serviço em Outsourcing|
 ||				|Custos anuais (€)|
 
-![img/pages/13_4_1](img/pages/13_4_1.jpg)
+![img/pages/servInstEqui](img/pages/13_4_1.jpg)
 
-<p class="caption" id="13_4_1">Serviços - Serviço de Instalação e Equipamento </p>
+<p class="caption" id="servInstEqui">Serviços - Serviço de Instalação e Equipamento </p>
 
-![img/pages/13_4_2](img/pages/13_4_2.jpg)
+![img/pages/CustoServiço](img/pages/13_4_2.jpg)
 
-<p class="caption" id="13_4_2">Serviços - Custos do Serviço </p>
+<p class="caption" id="CustoServiço">Serviços - Custos do Serviço </p>
 
-![img/pages/13_4_3](img/pages/13_4_3.jpg)
+![img/pages/servicosApoio](img/pages/13_4_3.jpg)
 
-<p class="caption" id="13_4_3">Serviços - Serviços de Apoio </p>
+<p class="caption" id="servicosApoio">Serviços - Serviços de Apoio </p>
 
 ### 14.1.5 Contratos de Manutenção
 
 Contém a informação dos contratos de manutenção dos equipamentos das instalações. O utilizador deverá preencher os dados da tabela seguinte e selecionar **SUBMETER**. Apenas é passivel de preenchimento se existiremm equipamentos críticos.
 
-| Campos em Contratos de Manutenção – [](#13-5-1)     | |
+| Campos em Contratos de Manutenção – [](#contManu)     | |
 |-----------------------------------------------------------|-|
 | Equipamento com contrato de manutenção | Bomba(s) rede de incêndios |
 |                                           | Bomba(s) circuladoras |
@@ -271,9 +271,9 @@ Contém a informação dos contratos de manutenção dos equipamentos das instal
 |   Contrato contém SLA – Service Level Agreement?    | Sim|
 |                                                        | Não|
 
-![img/pages/13-5-1](img/pages/13_5_1.jpg)
+![img/pages/contManu](img/pages/13_5_1.jpg)
 
-<p class="caption" id="13-5-1"> Contratos de Manutenção </p>
+<p class="caption" id="contManu"> Contratos de Manutenção </p>
 
 
 ### 14.1.6 Avaliação Pós-Ocupação (Apenas disponivel para o perfil ACSS)
