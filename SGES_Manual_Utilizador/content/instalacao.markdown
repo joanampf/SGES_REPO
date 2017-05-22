@@ -94,7 +94,7 @@ Após selecionar o botão de **EDITAR** os campos não editáveis ficaram preenc
 
 <p class="caption" id="13_1_4">Caracterização do Edifício com os campos preenchíveis</p>
 
-**Separador Projeto** - contém a caracterização do projeto, como os custos e datas chave do projeto. Estes dados devem ser inseridos para cada fase de construção dos edifícios. **relatar dvalores à data do final da construção**
+**Separador Projeto** - contém a caracterização do projeto, como os custos e datas chave do projeto. Estes dados devem ser inseridos para cada fase de construção dos edifícios. Os valores reportados na aplicação devem ser à data do final da construção e não à data actual.
 
 Os painéis deste separador encontram-se apresentados pelas fases de construção, logo os dados terão de ser preenchidos tantas vezes quantas as fases de construção da Instalação.
 
@@ -108,7 +108,7 @@ Para inserir a informação nos devidos campos é necessário o elemento da list
 
 <p class="caption" id="13_1_6"> Caracterização do Projeto - Datas Chaves </p>
 
-**Separador Construção** - contém a caracterização da construção, como os seus custos e custos de equipamentos. Estes dados devem ser inseridos para cada fase de construção dos edifícios. **relatar dvalores à data do final da construção** 
+**Separador Construção** - contém a caracterização da construção, como os seus custos e custos de equipamentos. Estes dados devem ser inseridos para cada fase de construção dos edifícios. Os valores reportados na aplicação devem ser à data do final da construção e não à data actual. 
 
 Aplicam-se aqui as mesmas regras do **Separador Projeto**: é necessário preencher os dados tantas vezes quantas as fases existentes na construção e para que um painel se torne editável é necessário selecionar um dos elementos da lista e carregar no botão **EDITAR**.
 
