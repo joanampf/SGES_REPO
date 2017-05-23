@@ -181,7 +181,7 @@ Para que o utilizador possa criar um novo equipamento critico, deverá ter em co
 | Campos em Equipamentos Críticos | |
 |-----------------------------------------------------------|-|
 | Instalações Elétricas ([](#13_3_2)), Instalações Mecânicas ([](#13_3_3)) ,Instalações de Águas e Esgotos ([](#13_3_4)) | Designação do Equipamento    ||
-|                                                       | Edifício  | |
+|                                                       | Localização do Equipamento  | Possibiita a utilização de "exterior"|
 |                                                       | Marca   | |
 |                                                       | Modelo   | |
 |                                                       | Nº Serie   | |
