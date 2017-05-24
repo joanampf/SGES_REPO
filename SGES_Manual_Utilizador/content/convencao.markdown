@@ -66,8 +66,8 @@ Apos guardar este painel, o utilizador poderá passar aos painéis seguintes.
 
 |     |Campos Áreas Convencionadas     ||
 |-------------------------------------------------------|----------|-----|
-| Identificação do estabelecimento associado |Os valores presentes aqui serão de acordo com os estabelecimentos criados para a entidade, logo se não tem mais estabelecimentos que o próprio não aparecerão valores||
-| Áreas associadas | Os valores presentes aqui serão de acordo as áreas criadas no painel **Áreas Convencionadas**, logo se não existirem no painel anterior não aparecerão valores ||
+| Identificação do estabelecimento associado ||Os valores presentes aqui serão de acordo com os estabelecimentos criados para a entidade, logo se não tem mais estabelecimentos que o próprio não aparecerão valores|
+| Áreas associadas || Os valores presentes aqui serão de acordo as áreas criadas no painel **Áreas Convencionadas**, logo se não existirem no painel anterior não aparecerão valores |
 | Diretor Técnico Principal/Diretores Técnicos Substitutos |Nome||
 || Nº Cédula da Ordem ||
 || Grupo Profissional ||
@@ -83,6 +83,7 @@ Apos guardar este painel, o utilizador poderá passar aos painéis seguintes.
 || Sempre o mesmo horário?||
 
 ### Recursos Humanos Técnicos
+
 |     |Campos Recursos Humanos Técnicos    ||
 |-------------------------------------------------------|----------|-----|
 | Identificação do Recurso Humano | Nome ||
@@ -104,9 +105,7 @@ Apos guardar este painel, o utilizador poderá passar aos painéis seguintes.
 
 ## 15.3.1. Corrige Convenções
 
-## 15.4. Transfere Convenções
-
-## 15.5. Histórico Convenções
+## 15.4. Histórico Convenções
 
 
 
