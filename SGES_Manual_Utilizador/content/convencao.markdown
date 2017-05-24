@@ -8,6 +8,7 @@ translation_priority: 1
 order: 3
 ---
 
+<p id="convencao"></p>
 # 15. Convenções
 
 Este módulo permite a gestão de convenções de cada entidade.
@@ -18,6 +19,7 @@ Este módulo é composto por 3 tipos de contratos entre entidades:
 * Acordos SNS - Apenas para natureza jurídica Pública, celebrado com entidades públicas se for local.
 * Acordos Sociais - Para natureza jurídica IPSS ou Cooperativa.
 
+<p id="criarConvencao"></p>
 ## 15.1. Registar Convenções
 
 Aquando uma entidade convencionada, deve ser preenchido formulário com características da convenção. A funcionalidade está divida por painel, sendo que o utilizador deverá gravar um bloco antes de passar ao preenchimento do seguinte.
@@ -121,14 +123,12 @@ Apos guardar este painel, o utilizador poderá passar aos painéis seguintes.
 || Concelho ||
 || Freguesias ||
 
-## 15.2. Consulta Convenções
+<p id="editarConvencao"></p>
+### 15.2. Altera Convenções
 
-### 15.3. Altera Convenções
+<p id="corrigeConvencao"></p>
+## 15.2.1. Corrige Convenções
 
-## 15.3.1. Corrige Convenções
-
-## 15.4. Histórico Convenções
-
-
-
+<p id="consultarConvencao"></p>
+## 15.3. Consulta Convenções
 
