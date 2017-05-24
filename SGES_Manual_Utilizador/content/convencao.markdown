@@ -58,14 +58,36 @@ Apos guardar este painel, o utilizador poderá passar aos painéis seguintes.
 || Proprietário de uma entidade Convencionada?||
 || Qual entidade é proprietário? ||
 || Responsável Técnico em mais algum estabelecimento?| |
-|| Todos os dias da semana? ||
-|| Sempre o mesmo horário?||
-**preenchimentos dos dias de semana/Horários**
+|| Todos os dias da semana? | Deve ser tida em conta a presença fisica|
+|| Sempre o mesmo horário?|Deve ser tida em conta a presença fisica|
+
+**Preenchimento dos dias de semana/Horários**
+
+* **Dias da Semana** - No caso de trabalhar todos os dias da semana deverá responder que sim à pergunta, sendo que apenas é apresentada uma linha na tabela de horários. Caso a resposta seja não deverá selecionar os dias que trabalha.
+
+* **Horários** - Se a resposta for sim. Na tabela de horários só será apresentada uma linha "Todos os dias", no caso de não trabalhar todos os dias da semana a linha aplica-se aos dias selecionados. Se o horário for rotativo deverá responder que não à pergunta.
+
+![horariosimsim](img/pages/horariosimsim.jpg)
+
+<p class="caption" id="horariosimsim"> Quando a resposta a ambas as perguntas é sim</p>
+
+![horariosimnao](img/pages/horariosimnao.jpg)
+
+<p class="caption" id="horariosimnao"> Quando a resposta à primeira pergunta é sim mas a segunda é não</p>
+
+![horarionaosim](img/pages/horarionaosim.jpg)
+
+<p class="caption" id="horarionaosim"> Quando a resposta à primeira pergunta é não mas a segunda é sim</p>
+
+![horarionaonao](img/pages/horarionaonao.jpg)
+
+<p class="caption" id="horarionaonao"> Quando a resposta a ambas as perguntas é não</p>
+
 
 ### Estabelecimentos
 
-|     |Campos Áreas Convencionadas     ||
-|-------------------------------------------------------|----------|-----|
+||Campos Estabelecimentos||
+|-------------|----------|-----|
 | Identificação do estabelecimento associado ||Os valores presentes aqui serão de acordo com os estabelecimentos criados para a entidade, logo se não tem mais estabelecimentos que o próprio não aparecerão valores|
 | Áreas associadas || Os valores presentes aqui serão de acordo as áreas criadas no painel **Áreas Convencionadas**, logo se não existirem no painel anterior não aparecerão valores |
 | Diretor Técnico Principal/Diretores Técnicos Substitutos |Nome||
