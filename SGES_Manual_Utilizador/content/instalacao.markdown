@@ -314,7 +314,7 @@ Contém a informação de todas as ações que a ACSS executou naquelas instala�
 ## 14.2. Editar Instalações
 
 O utilizador pode navegar para a página de edição de instalação na página de instalações de estabelecimento ([](#13_2)) e clicar no botão **ALTERAR INSTALAÇÃO**.
-A edição deve respeitar o preenchimento dos campos obrigatórios identificados no ponto [13.1 Criar Instalações](#criar-instalaes)
+A edição deve respeitar o preenchimento dos campos obrigatórios identificados no ponto [13.1 Criar Instalações](#criarInstalacao)
 No final da edição o utilizador para gravar as alterações deve clicar no botão **SUBMETER** ou **GUARDAR**, dependendo dos painéis alterados. Após clicar irá ser notificado com o resultado da operação.
 
 <p id="consultarInstalacao"></p>

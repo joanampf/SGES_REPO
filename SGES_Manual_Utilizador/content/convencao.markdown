@@ -124,7 +124,11 @@ Apos guardar este painel, o utilizador poderá passar aos painéis seguintes.
 || Freguesias ||
 
 <p id="editarConvencao"></p>
-### 15.2. Altera Convenções
+## 15.2. Altera Convenções
+
+O utilizador pode navegar para a página de edição de Convenção na página de instalações de estabelecimento ([](#figPaginaEntradaEnt)) e clicar no botão **ALTERAR CONVENÇÃO**.
+A edição deve respeitar o preenchimento dos campos obrigatórios identificados no ponto [15.1 Criar Convenção](#criarConvencao)
+No final da edição o utilizador para gravar as alterações deve clicar no botão **SUBMETER** ou **GUARDAR**, dependendo dos painéis alterados. Após clicar irá ser notificado com o resultado da operação.
 
 <p id="corrigeConvencao"></p>
 ## 15.2.1. Corrige Convenções
@@ -132,3 +136,4 @@ Apos guardar este painel, o utilizador poderá passar aos painéis seguintes.
 <p id="consultarConvencao"></p>
 ## 15.3. Consulta Convenções
 
+O utilizador pode navegar para a página de consulta de convenção na página de convenções da entidade ([](#figPaginaEntradaEnt)) e clicar no botão **CONSULTAR CONVENÇÃO**
