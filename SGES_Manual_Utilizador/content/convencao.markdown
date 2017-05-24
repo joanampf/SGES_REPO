@@ -133,6 +133,10 @@ No final da edição o utilizador para gravar as alterações deve clicar no bot
 <p id="corrigeConvencao"></p>
 ## 15.2.1. Corrige Convenções
 
+Quando realizado processo de alteração de dados de uma entidade convencionada (UC.25 Altera Convenção), pode ainda surgir dados a corrigir antes do término do processo, assim como esclarecimento de dúvidas.
+Caso existam erros a corrigir, estes devem ser corrigidos pela ARS, fazendo-se seguir para a emissão ou não do parecer por parte da ACSS através do UC.25 (Altera Convenção).
+Caso a ARS não consiga corrigir erros, porque possam ainda existir dúvidas por esclarecer, estas devem ser devolvidas à entidade em questão, sendo a ARS responsável pelo esclarecimento das mesmas. 
+
 <p id="consultarConvencao"></p>
 ## 15.3. Consulta Convenções
 
